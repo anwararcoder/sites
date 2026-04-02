@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- :: Required Meta Tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- :: Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo/fav.png" />
+
+    <!-- :: Title -->
+    <title>AstraZeneca Stories</title>
+
+    <!-- :: Description -->
+    <meta name="description" content="AstraZeneca Stories" />
+
+    <!-- :: KeyWords -->
+    <meta name="keywords" content="AstraZeneca Stories" />
+
+    <!-- :: Plyr CSS -->
+    <link rel="stylesheet" href="assets/css/plyr.css" />
+
+    <!-- :: Swiper CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!-- :: Style CSS -->
+    <link rel="stylesheet" href="assets/css/tailwindstyle.css" />
+</head>
+
+<body>
+    <!-- :: Loading -->
+    <div class="loading">
+        <div class="loading-box">
+            <div class="lds-ellipsis">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- :: Navbar -->
+    <div class="guest-nav relative z-10">
+        <div class="container mx-auto px-[15px]">
+            <div class="flex items-start justify-between gap-[10px]">
+                <div class="flex items-center justify-between py-[15px] w-full lg:w-auto">
+                    <a href="#" class=" inline-block">
+                        <img src="assets/images/logo/03_logo.png" alt="Logo" />
+                    </a>
+                    <button class="block bar-btn group lg:hidden lg:ml-0"
+                        onclick="addClassToTarget('newNavbarContent')">
+                        <span
+                            class="w-[10px] h-[3px] rounded-[3px] bg-[#FFF] block group-hover:bg-[#840151] group-hover:w-[30px] ml-auto"></span>
+                        <span
+                            class="w-[20px] h-[3px] rounded-[3px] bg-[#FFF] block group-hover:bg-[#840151] group-hover:w-[30px] my-[5px] ml-auto"></span>
+                        <span
+                            class="w-[30px] h-[3px] rounded-[3px] bg-[#FFF] block group-hover:bg-[#840151] group-hover:w-[30px]"></span>
+                    </button>
+                </div>
+                <div id="newNavbarContent" class="hidden lg:block overflow-hidden">
+                    <div class="hidden lg:inline-flex flex-col justify-center items-center">
+                        <a href="#" class="block pt-[15px]">
+                            <img class="w-[150px]" src="assets/images/logo/01_logo.png" alt="2 Logo" />
+                        </a>
+                        <p class="mt-[50px] capitalize text-[#FFF] text-[18px] leading-[1.25] font-[600]">For Healthcare
+                            Professionals Only</p>
+                        <div class="flex flex-wrap items-center gap-[20px] mt-2">
+                            <a href="http://127.0.0.1:8000/login"
+                                class="flex items-center justify-center min-w-[175px] rounded-[8px] px-[18px] leading-[46px] gap-[10px] text-[16px] font-[700] border-[1px] border-[#840151] hover:border-[#FFF] text-[#FFF] hover:text-[#840151] bg-[#840151] hover:bg-[#FFF]">
+                                Login
+                            </a>
+                            <a href="http://127.0.0.1:8000/register"
+                                class="flex items-center justify-center min-w-[175px]  rounded-[8px] px-[15px] leading-[46px] gap-[10px] text-[16px] font-[700] border-[1px] border-[#FFF]/20 hover:border-[#FFF] text-[#FFF] hover:text-[#840151] bg-transparent hover:bg-[#FFF]">
+                                Register
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lg:hidden px-[30px] py-[60px] max-h-[100%] overflow-y-auto relative">
+                        <button
+                            class=" absolute top-[15px] right-[15px] text-[35px] inline-block leading-[1] text-white hover:text-[#FFF] hover:rotate-[360deg]"
+                            onclick="addClassToTarget('newNavbarContent')">
+                            ✖
+                        </button>
+                        <div class="flex flex-col items-center justify-center">
+                            <a href="#" class="inline-block">
+                                <img class="w-[160px]" src="assets/images/logo/03_logo.png" alt="Logo" />
+                            </a>
+                            <a href="#" class="inline-block mt-[15px]">
+                                <img src="assets/images/logo/01_logo.png" alt="Logo" />
+                            </a>
+                        </div>
+                        <div class="flex flex-col items-center gap-[20px] mt-[30px] w-full">
+                            <a href="http://127.0.0.1:8000/login"
+                                class="flex items-center justify-center w-full rounded-[8px] px-[18px] leading-[46px] gap-[10px] text-[16px] font-[700] border-[1px] border-[#840151] hover:border-[#FFF] text-[#FFF] hover:text-[#840151] bg-[#840151] hover:bg-[#FFF]">
+                                Login
+                            </a>
+                            <a href="http://127.0.0.1:8000/register"
+                                class="flex items-center justify-center w-full  rounded-[8px] px-[15px] leading-[46px] gap-[10px] text-[16px] font-[700] border-[1px] border-[#FFF]/20 hover:border-[#FFF] text-[#FFF] hover:text-[#840151] bg-transparent hover:bg-[#FFF]">
+                                Register
+                            </a>
+                        </div>
+                        <p class="mt-[20px] capitalize text-[#FFF] text-[18px] leading-[1.25] font-[600] text-center">
+                            For Healthcare
+                            Professionals Only</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- :: Header -->
+    <section class="header guest hidden md:block mt-[-115px] lg:mt-[-180px]" id="header">
+        <div class="swiper header-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="relative py-[100px] h-[75svh] bg-cover bg-top flex items-end justify-center" style="
+                background-image: url('assets/images/header/01_header.png');
+              ">
+                        <div class="absolute inset-0 w-full h-full z-10">
+                            <div
+                                class="block absolute top-0 left-0 w-full h-[50%] bg-gradient-to-b from-[#0D0C0F] to-[#0D0C0F]/0">
+                            </div>
+                            <div
+                                class="block absolute bottom-0 left-0 w-full h-[50%] bg-gradient-to-b from-[#0D0C0F]/0 to-[#0D0C0F]">
+                            </div>
+                            <div
+                                class="block absolute bottom-0 left-0 w-full h-full bg-gradient-to-r from-[#0D0C0F]/10 via-[#0D0C0F]/10 via-50% to-[#0D0C0F]/50">
+                            </div>
+                        </div>
+                        <div class="container mx-auto px-[15px] w-full relative z-20">
+                            <div class="max-w-[640px] w-full"><!-- Text Here --></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="relative py-[100px] h-[75svh] bg-cover bg-top flex items-end justify-center" style="
+                background-image: url('assets/images/header/02_header.png');
+              ">
+                        <div class="absolute inset-0 w-full h-full z-10">
+                            <div
+                                class="block absolute top-0 left-0 w-full h-[50%] bg-gradient-to-b from-[#0D0C0F] to-[#0D0C0F]/0">
+                            </div>
+                            <div
+                                class="block absolute bottom-0 left-0 w-full h-[50%] bg-gradient-to-b from-[#0D0C0F]/0 to-[#0D0C0F]">
+                            </div>
+                            <div
+                                class="block absolute bottom-0 left-0 w-full h-full bg-gradient-to-r from-[#0D0C0F]/10 via-[#0D0C0F]/10 via-50% to-[#0D0C0F]/50">
+                            </div>
+                        </div>
+                        <div class="container mx-auto px-[15px] w-full relative z-20">
+                            <div class="max-w-[640px] w-full"><!-- Text Here --></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="relative py-[100px] h-[75svh] bg-cover bg-top flex items-end justify-center" style="
+                background-image: url('assets/images/header/03_header.png');
+              ">
+                        <div class="absolute inset-0 w-full h-full z-10">
+                            <div
+                                class="block absolute top-0 left-0 w-full h-[50%] bg-gradient-to-b from-[#0D0C0F] to-[#0D0C0F]/0">
+                            </div>
+                            <div
+                                class="block absolute bottom-0 left-0 w-full h-[50%] bg-gradient-to-b from-[#0D0C0F]/0 to-[#0D0C0F]">
+                            </div>
+                            <div
+                                class="block absolute bottom-0 left-0 w-full h-full bg-gradient-to-r from-[#0D0C0F]/10 via-[#0D0C0F]/10 via-50% to-[#0D0C0F]/50">
+                            </div>
+                        </div>
+                        <div class="container mx-auto px-[15px] w-full relative z-20">
+                            <div class="max-w-[640px] w-full"><!-- Text Here --></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-swiper-pagination container mx-auto px-[15px] text-right"></div>
+        </div>
+    </section>
+
+    <section class="reels-responsive relative mt-[-115px] md:hidden">
+        <div class="swiper reels-responsive-swiper">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <div class="reel-item relative overflow-hidden h-[100svh] min-h-[800px]">
+                        <div class="absolute inset-0 w-full h-full z-[6] reel-overlay">
+                            <div
+                                class="block absolute top-0 left-0 w-full h-[50%] bg-gradient-to-b from-[#0D0C0F] to-[#0D0C0F]/0">
+                            </div>
+                            <div
+                                class="block absolute bottom-0 left-0 w-full h-[50%] bg-gradient-to-b from-[#0D0C0F]/0 to-[#0D0C0F]">
+                            </div>
+                            <div
+                                class="block absolute bottom-0 left-0 w-full h-full bg-gradient-to-r from-[#0D0C0F]/10 via-[#0D0C0F]/10 via-50% to-[#0D0C0F]/50">
+                            </div>
+                        </div>
+                        <!-- Video -->
+                        <video class="item-video w-full h-full object-cover" muted loop playsinline webkit-playsinline
+                            x5-playsinline>
+                            <source src="assets/videos/01_video.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <img
+                        src="assets/images/header/03_header.png"
+                        class="custom-poster absolute top-0 left-0 w-full h-full object-cover z-[5] transition-opacity duration-500"
+                        alt="Video Poster"
+                    />
+                        <!-- Text Box -->
+                        <div class="absolute bottom-0 left-0 right-0 z-[60] p-[30px] pb-[50px]">
+                            <h3
+                                class="flex items-center gap-[15px] justify-center text-[20px] font-[700] leading-[1.4]">
+                                <div>
+                                    Rare Stories
+                                    <br />
+                                    <p class="text-[#FFF] text-[16px] font-[300]">
+                                        for doctors
+                                    </p>
+                                </div>
+                                <div>-</div>
+                                <div class="font-tajawal">
+                                    حكايات نادرة
+                                    <br />
+                                    <p class="text-[#FFF] text-right text-[16px] font-[300] font-tajawal">
+                                        للدكتور
+                                    </p>
+                                </div>
+                            </h3>
+                            <p class="mt-[20px] text-[#FFF] text-[14px] text-center leading-[1.25]">
+                                Join Egypt's top professors as they explore the world of
+                                rare diseases. "Rare Stories" offers clear insights into how
+                                these diseases occur, how they're diagnosed, and how they're
+                                treated, helps in shedding light on these rare conditions.
+                            </p>
+                            <div class="flex items-center justify-center mt-[30px]">
+                                <button
+                                    class="play-video flex items-center justify-center rounded-[8px] px-[18px] leading-[46px] gap-[10px] text-[16px] font-[700] border-[1px] border-[#840151] hover:border-[#FFF] text-[#FFF] hover:text-[#840151] bg-[#840151] hover:bg-[#FFF]">
+                                    <svg class="fill-current w-[20px] h-[20px]" viewBox="0 0 512 512">
+                                        <path
+                                            d="M256 0C114.617 0 0 114.615 0 256s114.617 256 256 256 256-114.615 256-256S397.383 0 256 0zm88.48 269.57-128 80a16.008 16.008 0 0 1-16.238.422A15.994 15.994 0 0 1 192 336V176c0-5.82 3.156-11.172 8.242-13.992a15.957 15.957 0 0 1 16.238.422l128 80c4.676 2.93 7.52 8.055 7.52 13.57s-2.844 10.641-7.52 13.57z">
+                                        </path>
+                                    </svg>
+                                    <svg class="fill-current w-[20px] h-[20px] hidden" viewBox="0 0 32 32">
+                                        <path
+                                            d="M14 5v22a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3zm10-3h-3a3 3 0 0 0-3 3v22a3 3 0 0 0 3 3h3a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3z">
+                                        </path>
+                                    </svg>
+                                    <span>Play Story</span>
+                                    <span class="hidden">Pause</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Progress Bar -->
+                        <div class="progress-container absolute bottom-0 left-0 right-0 h-[4px] z-20">
+                            <div class="progress-bar h-full bg-[#840151] w-0 transition-all duration-75"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <div class="reel-item relative overflow-hidden h-[100svh] min-h-[800px]">
+                        <div class="absolute inset-0 w-full h-full z-0">
+                            <div
+                                class="block absolute top-0 left-0 w-full h-[50%] bg-gradient-to-b from-[#0D0C0F] to-[#0D0C0F]/0">
+                            </div>
+                            <div
+                                class="block absolute bottom-0 left-0 w-full h-[50%] bg-gradient-to-b from-[#0D0C0F]/0 to-[#0D0C0F]">
+                            </div>
+                            <div
+                                class="block absolute bottom-0 left-0 w-full h-full bg-gradient-to-r from-[#0D0C0F]/10 via-[#0D0C0F]/10 via-50% to-[#0D0C0F]/50">
+                            </div>
+                        </div>
+                        <!-- Video -->
+                        <video class="item-video w-full h-full object-cover" muted loop playsinline webkit-playsinline
+                            x5-playsinline>
+                            <source src="assets/videos/02_video.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <!-- Text Box -->
+                        <div class="absolute bottom-0 left-0 right-0 z-[60] p-[30px] pb-[50px]">
+                            <h3
+                                class="flex items-center gap-[15px] justify-center text-[20px] font-[700] leading-[1.4]">
+                                HCC Expert Series
+                            </h3>
+                            <p class="mt-[20px] text-[#FFF] text-[14px] text-center leading-[1.25]">
+                                Discover cutting-edge discussions led by Associate Professor Lorenza Rimassa, a leading
+                                figure on Hepatocellular Carcinoma (HCC). In "HCC Expert Series," prof. Lorenza is
+                                discussing the most debated HCC topics in a quick short series of videos.
+                            </p>
+                            <div class="flex items-center justify-center mt-[30px]">
+                                <button
+                                    class="play-video flex items-center justify-center rounded-[8px] px-[18px] leading-[46px] gap-[10px] text-[16px] font-[700] border-[1px] border-[#840151] hover:border-[#FFF] text-[#FFF] hover:text-[#840151] bg-[#840151] hover:bg-[#FFF]">
+                                    <svg class="fill-current w-[20px] h-[20px]" viewBox="0 0 512 512">
+                                        <path
+                                            d="M256 0C114.617 0 0 114.615 0 256s114.617 256 256 256 256-114.615 256-256S397.383 0 256 0zm88.48 269.57-128 80a16.008 16.008 0 0 1-16.238.422A15.994 15.994 0 0 1 192 336V176c0-5.82 3.156-11.172 8.242-13.992a15.957 15.957 0 0 1 16.238.422l128 80c4.676 2.93 7.52 8.055 7.52 13.57s-2.844 10.641-7.52 13.57z">
+                                        </path>
+                                    </svg>
+                                    <svg class="fill-current w-[20px] h-[20px] hidden" viewBox="0 0 32 32">
+                                        <path
+                                            d="M14 5v22a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3zm10-3h-3a3 3 0 0 0-3 3v22a3 3 0 0 0 3 3h3a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3z">
+                                        </path>
+                                    </svg>
+                                    <span>Play Story</span>
+                                    <span class="hidden">Pause</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Progress Bar -->
+                        <div class="progress-container absolute bottom-0 left-0 right-0 h-[4px] z-20">
+                            <div class="progress-bar h-full bg-[#840151] w-0 transition-all duration-75"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                    <div class="reel-item relative overflow-hidden h-[100svh] min-h-[800px]">
+                        <div class="absolute inset-0 w-full h-full z-0">
+                            <div
+                                class="block absolute top-0 left-0 w-full h-[50%] bg-gradient-to-b from-[#0D0C0F] to-[#0D0C0F]/0">
+                            </div>
+                            <div
+                                class="block absolute bottom-0 left-0 w-full h-[50%] bg-gradient-to-b from-[#0D0C0F]/0 to-[#0D0C0F]">
+                            </div>
+                            <div
+                                class="block absolute bottom-0 left-0 w-full h-full bg-gradient-to-r from-[#0D0C0F]/10 via-[#0D0C0F]/10 via-50% to-[#0D0C0F]/50">
+                            </div>
+                        </div>
+                        <!-- Video -->
+                        <video class="item-video w-full h-full object-cover" muted loop playsinline webkit-playsinline
+                            x5-playsinline>
+                            <source src="assets/videos/03_video.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <!-- Text Box -->
+                        <div class="absolute bottom-0 left-0 right-0 z-[60] p-[30px] pb-[50px]">
+                            <h3
+                                class="flex flex-col items-center gap-[5px] justify-center text-[20px] font-[700] leading-[1.4]">
+                                Not Her Journey Alone
+                                <div class="font-tajawal">
+                                    مش رحلتها لوحدها
+                                </div>
+                            </h3>
+                            <p class="mt-[20px] text-[#FFF] text-[14px] text-center leading-[1.25]">
+                                Join Egypt's leading oncologists and guest professors, including pathologists and
+                                radiologists, as they discuss the multifaceted journey of breast cancer care in "Not Her
+                                Journey Alone.
+                            </p>
+                            <div class="flex items-center justify-center mt-[30px]">
+                                <button
+                                    class="play-video flex items-center justify-center rounded-[8px] px-[18px] leading-[46px] gap-[10px] text-[16px] font-[700] border-[1px] border-[#840151] hover:border-[#FFF] text-[#FFF] hover:text-[#840151] bg-[#840151] hover:bg-[#FFF]">
+                                    <svg class="fill-current w-[20px] h-[20px]" viewBox="0 0 512 512">
+                                        <path
+                                            d="M256 0C114.617 0 0 114.615 0 256s114.617 256 256 256 256-114.615 256-256S397.383 0 256 0zm88.48 269.57-128 80a16.008 16.008 0 0 1-16.238.422A15.994 15.994 0 0 1 192 336V176c0-5.82 3.156-11.172 8.242-13.992a15.957 15.957 0 0 1 16.238.422l128 80c4.676 2.93 7.52 8.055 7.52 13.57s-2.844 10.641-7.52 13.57z">
+                                        </path>
+                                    </svg>
+                                    <svg class="fill-current w-[20px] h-[20px] hidden" viewBox="0 0 32 32">
+                                        <path
+                                            d="M14 5v22a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3zm10-3h-3a3 3 0 0 0-3 3v22a3 3 0 0 0 3 3h3a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3z">
+                                        </path>
+                                    </svg>
+                                    <span>Play Story</span>
+                                    <span class="hidden">Pause</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Progress Bar -->
+                        <div class="progress-container absolute bottom-0 left-0 right-0 h-[4px] z-20">
+                            <div class="progress-bar h-full bg-[#840151] w-0 transition-all duration-75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="reels-responsive-swiper-pagination container mx-auto px-[15px] text-center"></div>
+        </div>
+    </section>
+
+    <!-- :: Reels -->
+    <section class="reels pt-[100px] hidden md:block" id="reels">
+        <div class="container mx-auto px-[15px]">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] reels-box">
+                <div class="reel-item group relative overflow-hidden rounded-[10px]">
+                    <video class="item-video w-full h-full object-cover" muted loop playsinline>
+                        <source src="assets/videos/01_video.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                    <img
+                        src="assets/images/header/03_header.png"
+                        class="custom-poster absolute top-0 left-0 w-full h-full object-cover z-[5] transition-opacity duration-500"
+                        alt="Video Poster"
+                    />
+
+                    <!-- Info overlay -->
+                    <div class="item-text-box absolute left-0 right-0 z-10 p-[30px] pt-0 transition-all duration-500"
+                        style="
+                backdrop-filter: blur(1.5px);
+                background-image: linear-gradient(
+                  rgb(255 255 255 / 0%),
+                  rgb(255 255 255 / 50%)
+                );
+              ">
+                        <div class="relative z-[50]">
+                            <h4 class="flex items-center gap-[15px] text-[20px] font-[700] leading-[1.4]">
+                                <div>
+                                    Rare Stories
+                                    <br />
+                                    <p class="text-[#FFF] text-[16px] font-[300]">
+                                        for doctors
+                                    </p>
+                                </div>
+                                <div>-</div>
+                                <div class="font-tajawal">
+                                    حكايات نادرة
+                                    <br />
+                                    <p class="text-[#FFF] text-right text-[16px] font-[300] font-tajawal">
+                                        للدكتور
+                                    </p>
+                                </div>
+                            </h4>
+                            <p class="mt-[20px] text-[#FFF] text-[12px] leading-[1.25]">
+                                Join Egypt's top professors as they explore the world of rare
+                                diseases. "Rare Stories" offers clear insights into how these
+                                diseases occur, how they're diagnosed, and how they're
+                                treated, helping to shed light on these rare conditions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Play button -->
+                    <div
+                        class="item-btn-box absolute left-0 right-0 z-10 p-[30px] flex items-center justify-center transition-all duration-500">
+                        <button
+                            class="play-video text-[16px] font-[700] leading-[1] inline-flex items-center justify-center gap-[5px] bg-white border-[3px] border-[#D8D8D8] rounded-[200px] text-[#840151] hover:text-[#840151] focus:text-[#840151] py-[15px] px-[25px]">
+                            <svg class="fill-current w-[25px] h-[25px]" viewBox="0 0 512 512">
+                                <path
+                                    d="M256 0C114.617 0 0 114.615 0 256s114.617 256 256 256 256-114.615 256-256S397.383 0 256 0zm88.48 269.57-128 80a16.008 16.008 0 0 1-16.238.422A15.994 15.994 0 0 1 192 336V176c0-5.82 3.156-11.172 8.242-13.992a15.957 15.957 0 0 1 16.238.422l128 80c4.676 2.93 7.52 8.055 7.52 13.57s-2.844 10.641-7.52 13.57z">
+                                </path>
+                            </svg>
+                            <svg class="fill-current w-[22px] h-[22px] hidden" viewBox="0 0 32 32">
+                                <path
+                                    d="M14 5v22a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3zm10-3h-3a3 3 0 0 0-3 3v22a3 3 0 0 0 3 3h3a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3z">
+                                </path>
+                            </svg>
+                            <span>Play Story</span>
+                            <span class="hidden">Pause</span>
+                        </button>
+                    </div>
+
+                    <div class="progress-container absolute bottom-0 left-0 right-0 h-[4px] bg-white/30 z-20">
+                        <div class="progress-bar h-full bg-[#840151] w-0 transition-all duration-75"></div>
+                    </div>
+                </div>
+                <div class="reel-item group relative overflow-hidden rounded-[10px]">
+                    <video class="item-video w-full h-full object-cover" muted loop playsinline>
+                        <source src="assets/videos/02_video.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <!-- Info overlay -->
+                    <div class="item-text-box absolute left-0 right-0 z-10 p-[30px] pt-0 transition-all duration-500"
+                        style="
+                backdrop-filter: blur(1.5px);
+                background-image: linear-gradient(
+                  rgb(255 255 255 / 0%),
+                  rgb(255 255 255 / 50%)
+                );
+              ">
+                        <div class="relative z-[50]">
+                            <h4 class="flex items-center gap-[15px] text-[20px] font-[700] leading-[1.4]">
+                                HCC Expert Series
+                            </h4>
+                            <p class="mt-[20px] text-[#FFF] text-[12px] leading-[1.25]">
+                                Discover cutting-edge discussions led by Associate Professor
+                                Lorenza Rimassa, a leading figure on Hepatocellular Carcinoma
+                                (HCC). In "HCC Expert Series," prof. Lorenza is discussing the
+                                most debated HCC topics in a quick short series of videos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Play button -->
+                    <div
+                        class="item-btn-box absolute left-0 right-0 z-10 p-[30px] flex items-center justify-center transition-all duration-500">
+                        <button
+                            class="play-video text-[16px] font-[700] leading-[1] inline-flex items-center justify-center gap-[5px] bg-white border-[3px] border-[#D8D8D8] rounded-[200px] text-[#840151] hover:text-[#840151] focus:text-[#840151] py-[15px] px-[25px]">
+                            <svg class="fill-current w-[25px] h-[25px]" viewBox="0 0 512 512">
+                                <path
+                                    d="M256 0C114.617 0 0 114.615 0 256s114.617 256 256 256 256-114.615 256-256S397.383 0 256 0zm88.48 269.57-128 80a16.008 16.008 0 0 1-16.238.422A15.994 15.994 0 0 1 192 336V176c0-5.82 3.156-11.172 8.242-13.992a15.957 15.957 0 0 1 16.238.422l128 80c4.676 2.93 7.52 8.055 7.52 13.57s-2.844 10.641-7.52 13.57z">
+                                </path>
+                            </svg>
+                            <svg class="fill-current w-[22px] h-[22px] hidden" viewBox="0 0 32 32">
+                                <path
+                                    d="M14 5v22a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3zm10-3h-3a3 3 0 0 0-3 3v22a3 3 0 0 0 3 3h3a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3z">
+                                </path>
+                            </svg>
+                            <span>Play Story</span>
+                            <span class="hidden">Pause</span>
+                        </button>
+                    </div>
+
+                    <div class="progress-container absolute bottom-0 left-0 right-0 h-[4px] bg-white/30 z-20">
+                        <div class="progress-bar h-full bg-[#840151] w-0 transition-all duration-75"></div>
+                    </div>
+                </div>
+                <div class="reel-item group relative overflow-hidden rounded-[10px]">
+                    <video class="item-video w-full h-full object-cover" muted loop playsinline>
+                        <source src="assets/videos/03_video.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <!-- Info overlay -->
+                    <div class="item-text-box absolute left-0 right-0 z-10 p-[30px] pt-0 transition-all duration-500"
+                        style="
+                backdrop-filter: blur(1.5px);
+                background-image: linear-gradient(
+                  rgb(255 255 255 / 0%),
+                  rgb(255 255 255 / 50%)
+                );
+              ">
+                        <div class="relative z-[50]">
+                            <h4 class="flex items-start flex-col gap-[5px] text-[20px] font-[700] leading-[1.4]">
+                                Not Her Journey Alone
+                                <div class="font-tajawal">مش رحلتها لوحدها</div>
+                            </h4>
+                            <p class="mt-[20px] text-[#FFF] text-[12px] leading-[1.25]">
+                                Join Egypt's leading oncologists and guest professors,
+                                including pathologists and radiologists, as they discuss the
+                                multifaceted journey of breast cancer care in "Not Her Journey
+                                Alone.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Play button -->
+                    <div
+                        class="item-btn-box absolute left-0 right-0 z-10 p-[30px] flex items-center justify-center transition-all duration-500">
+                        <button
+                            class="play-video text-[16px] font-[700] leading-[1] inline-flex items-center justify-center gap-[5px] bg-white border-[3px] border-[#D8D8D8] rounded-[200px] text-[#840151] hover:text-[#840151] focus:text-[#840151] py-[15px] px-[25px]">
+                            <svg class="fill-current w-[25px] h-[25px]" viewBox="0 0 512 512">
+                                <path
+                                    d="M256 0C114.617 0 0 114.615 0 256s114.617 256 256 256 256-114.615 256-256S397.383 0 256 0zm88.48 269.57-128 80a16.008 16.008 0 0 1-16.238.422A15.994 15.994 0 0 1 192 336V176c0-5.82 3.156-11.172 8.242-13.992a15.957 15.957 0 0 1 16.238.422l128 80c4.676 2.93 7.52 8.055 7.52 13.57s-2.844 10.641-7.52 13.57z">
+                                </path>
+                            </svg>
+                            <svg class="fill-current w-[22px] h-[22px] hidden" viewBox="0 0 32 32">
+                                <path
+                                    d="M14 5v22a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3zm10-3h-3a3 3 0 0 0-3 3v22a3 3 0 0 0 3 3h3a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3z">
+                                </path>
+                            </svg>
+                            <span>Play Story</span>
+                            <span class="hidden">Pause</span>
+                        </button>
+                    </div>
+
+                    <div class="progress-container absolute bottom-0 left-0 right-0 h-[4px] bg-white/30 z-20">
+                        <div class="progress-bar h-full bg-[#840151] w-0 transition-all duration-75"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- :: Medical Experts -->
+    <section class="reels pt-[100px]" id="reels">
+        <div class="container mx-auto px-[15px]">
+            <h2
+                class="text-[36px] text-center md:text-start md:text-[48px] font-[700] capitalize leading-[1.25] mb-[30px]">
+                Step Inside the Minds of Medical Experts
+            </h2>
+            <ul class="flex flex-col items-center md:items-start gap-[10px]">
+                <li class="flex items-start gap-[5px]">
+                    <span class="w-full max-w-[max-content]">
+                        <i
+                            class="inline-flex items-center justify-center gap-[5px] bg-[#840151] w-[20px] h-[20px] rounded-full text-[#0D0C0F]">
+                            <svg class="w-[10px] h-[10px] fill-current" viewBox="0 0 511.985 511.985">
+                                <path
+                                    d="M500.088 83.681c-15.841-15.862-41.564-15.852-57.426 0L184.205 342.148 69.332 227.276c-15.862-15.862-41.574-15.862-57.436 0-15.862 15.862-15.862 41.574 0 57.436l143.585 143.585c7.926 7.926 18.319 11.899 28.713 11.899 10.394 0 20.797-3.963 28.723-11.899l287.171-287.181c15.862-15.851 15.862-41.574 0-57.435z">
+                                </path>
+                            </svg>
+                        </i>
+                    </span>
+                    <span class="w-full capitalize text-[16px] md:text-[20px]">Watch Leading Experts Solve Real
+                        Cases.</span>
+                </li>
+                <li class="flex items-start gap-[5px]">
+                    <span class="w-full max-w-[max-content]">
+                        <i
+                            class="inline-flex items-center justify-center gap-[5px] bg-[#840151] w-[20px] h-[20px] rounded-full text-[#0D0C0F]">
+                            <svg class="w-[10px] h-[10px] fill-current" viewBox="0 0 511.985 511.985">
+                                <path
+                                    d="M500.088 83.681c-15.841-15.862-41.564-15.852-57.426 0L184.205 342.148 69.332 227.276c-15.862-15.862-41.574-15.862-57.436 0-15.862 15.862-15.862 41.574 0 57.436l143.585 143.585c7.926 7.926 18.319 11.899 28.713 11.899 10.394 0 20.797-3.963 28.723-11.899l287.171-287.181c15.862-15.851 15.862-41.574 0-57.435z">
+                                </path>
+                            </svg>
+                        </i>
+                    </span>
+                    <span class="w-full capitalize text-[16px] md:text-[20px]">Expert Knowledge, Real-World
+                        Impact.</span>
+                </li>
+                <li class="flex items-start gap-[5px]">
+                    <span class="w-full max-w-[max-content]">
+                        <i
+                            class="inline-flex items-center justify-center gap-[5px] bg-[#840151] w-[20px] h-[20px] rounded-full text-[#0D0C0F]">
+                            <svg class="w-[10px] h-[10px] fill-current" viewBox="0 0 511.985 511.985">
+                                <path
+                                    d="M500.088 83.681c-15.841-15.862-41.564-15.852-57.426 0L184.205 342.148 69.332 227.276c-15.862-15.862-41.574-15.862-57.436 0-15.862 15.862-15.862 41.574 0 57.436l143.585 143.585c7.926 7.926 18.319 11.899 28.713 11.899 10.394 0 20.797-3.963 28.723-11.899l287.171-287.181c15.862-15.851 15.862-41.574 0-57.435z">
+                                </path>
+                            </svg>
+                        </i>
+                    </span>
+                    <span class="w-full capitalize text-[16px] md:text-[20px]">Gain exclusive access to expert
+                        debates.</span>
+                </li>
+            </ul>
+            <div class="flex items-center justify-center flex-col md:flex-row gap-[25px] mt-[30px]">
+                <button onclick="togglePopupVideo('loginBoxPopup')"
+                    class="flex items-center justify-center w-full md:w-auto md:min-w-[175px] rounded-[8px] px-[18px] leading-[46px] gap-[10px] text-[16px] font-[700] border-[1px] border-[#840151] hover:border-[#FFF] text-[#FFF] hover:text-[#840151] bg-[#840151] hover:bg-[#FFF]">
+                    Login
+                </button>
+                <button onclick="togglePopupVideo('registerBoxPopup')"
+                    class="flex items-center justify-center w-full md:w-auto md:min-w-[175px] rounded-[8px] px-[18px] leading-[46px] gap-[10px] text-[16px] font-[700] border-[1px] border-[#FFF] hover:border-[#840151] text-[#FFF] bg-transparent hover:bg-[#840151]">
+                    Register
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- :: Login Box Popup -->
+    <div id="loginBoxPopup"
+        class="popup-video-container fixed inset-0 bg-[#0D0C0F]/75 z-[9999] flex items-center justify-center"
+        onclick="closePopupVideo('loginBoxPopup')">
+        <div class="relative mx-[15px] max-h-[80svh] overflow-y-auto max-w-[950px]" onclick="event.stopPropagation()">
+            <div>dfgdfgd</div>
+        </div>
+        <span class="group absolute top-[30px] right-[30px] hover:rotate-180"
+            onclick="closePopupVideo('loginBoxPopup')">
+            <svg class="fill-[#FFF] group-hover:fill-[#840151] cursor-pointer" width="16" height="16"
+                viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M15.2806 14.2193C15.3502 14.289 15.4055 14.3717 15.4432 14.4628C15.4809 14.5538 15.5003 14.6514 15.5003 14.7499C15.5003 14.8485 15.4809 14.9461 15.4432 15.0371C15.4055 15.1281 15.3502 15.2109 15.2806 15.2806C15.2109 15.3502 15.1281 15.4055 15.0371 15.4432C14.9461 15.4809 14.8485 15.5003 14.7499 15.5003C14.6514 15.5003 14.5538 15.4809 14.4628 15.4432C14.3717 15.4055 14.289 15.3502 14.2193 15.2806L7.99993 9.06024L1.78055 15.2806C1.63982 15.4213 1.44895 15.5003 1.24993 15.5003C1.05091 15.5003 0.860034 15.4213 0.719304 15.2806C0.578573 15.1398 0.499512 14.949 0.499512 14.7499C0.499512 14.5509 0.578573 14.36 0.719304 14.2193L6.93962 7.99993L0.719304 1.78055C0.578573 1.63982 0.499512 1.44895 0.499512 1.24993C0.499512 1.05091 0.578573 0.860034 0.719304 0.719304C0.860034 0.578573 1.05091 0.499512 1.24993 0.499512C1.44895 0.499512 1.63982 0.578573 1.78055 0.719304L7.99993 6.93962L14.2193 0.719304C14.36 0.578573 14.5509 0.499512 14.7499 0.499512C14.949 0.499512 15.1398 0.578573 15.2806 0.719304C15.4213 0.860034 15.5003 1.05091 15.5003 1.24993C15.5003 1.44895 15.4213 1.63982 15.2806 1.78055L9.06024 7.99993L15.2806 14.2193Z">
+                </path>
+            </svg>
+        </span>
+    </div>
+
+    <!-- :: Register Box Popup -->
+    <div id="registerBoxPopup"
+        class="popup-video-container fixed inset-0 bg-[#0D0C0F]/75 z-[9999] flex items-center justify-center"
+        onclick="closePopupVideo('registerBoxPopup')">
+        <div class="relative mx-[15px] max-h-[80svh] overflow-y-auto max-w-[950px]" onclick="event.stopPropagation()">
+            <div>dfgdfgd</div>
+        </div>
+        <span class="group absolute top-[30px] right-[30px] hover:rotate-180"
+            onclick="closePopupVideo('registerBoxPopup')">
+            <svg class="fill-[#FFF] group-hover:fill-[#840151] cursor-pointer" width="16" height="16"
+                viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M15.2806 14.2193C15.3502 14.289 15.4055 14.3717 15.4432 14.4628C15.4809 14.5538 15.5003 14.6514 15.5003 14.7499C15.5003 14.8485 15.4809 14.9461 15.4432 15.0371C15.4055 15.1281 15.3502 15.2109 15.2806 15.2806C15.2109 15.3502 15.1281 15.4055 15.0371 15.4432C14.9461 15.4809 14.8485 15.5003 14.7499 15.5003C14.6514 15.5003 14.5538 15.4809 14.4628 15.4432C14.3717 15.4055 14.289 15.3502 14.2193 15.2806L7.99993 9.06024L1.78055 15.2806C1.63982 15.4213 1.44895 15.5003 1.24993 15.5003C1.05091 15.5003 0.860034 15.4213 0.719304 15.2806C0.578573 15.1398 0.499512 14.949 0.499512 14.7499C0.499512 14.5509 0.578573 14.36 0.719304 14.2193L6.93962 7.99993L0.719304 1.78055C0.578573 1.63982 0.499512 1.44895 0.499512 1.24993C0.499512 1.05091 0.578573 0.860034 0.719304 0.719304C0.860034 0.578573 1.05091 0.499512 1.24993 0.499512C1.44895 0.499512 1.63982 0.578573 1.78055 0.719304L7.99993 6.93962L14.2193 0.719304C14.36 0.578573 14.5509 0.499512 14.7499 0.499512C14.949 0.499512 15.1398 0.578573 15.2806 0.719304C15.4213 0.860034 15.5003 1.05091 15.5003 1.24993C15.5003 1.44895 15.4213 1.63982 15.2806 1.78055L9.06024 7.99993L15.2806 14.2193Z">
+                </path>
+            </svg>
+        </span>
+    </div>
+
+    <!-- :: Footer -->
+    <footer class="py-[100px] mt-[100px] border-t-[1px] border-[#FFF]/20">
+        <div class="container mx-auto px-[15px]">
+            <div class="inline-block mb-[30px]">
+                <a href="index.html" class="block">
+                    <img loading="lazy" class="" src="assets/images/logo/01_logo.png" alt="01 Logo" />
+                </a>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] lg:gap-[50px]">
+                <div>
+                    <p>Promomat code: EG-12127</p>
+                </div>
+                <div>
+                    <ul class="flex flex-col gap-[20px]">
+                        <li>
+                            <a class="block transition-all duration-200 text-[#9B9B9B] hover:text-[#840151] hover:pl-[5px] leading-[1.25]"
+                                href="#">Legal Notice</a>
+                        </li>
+                        <li>
+                            <a class="block transition-all duration-200 text-[#9B9B9B] hover:text-[#840151] hover:pl-[5px] leading-[1.25]"
+                                href="#">Privacy Notice</a>
+                        </li>
+                        <li>
+                            <a class="block transition-all duration-200 text-[#9B9B9B] hover:text-[#840151] hover:pl-[5px] leading-[1.25]"
+                                href="#">Contact us</a>
+                        </li>
+                        <li>
+                            <a class="block transition-all duration-200 text-[#9B9B9B] hover:text-[#840151] hover:pl-[5px] leading-[1.25]"
+                                href="#">Cookie Notice</a>
+                        </li>
+                        <li>
+                            <a class="block transition-all duration-200 text-[#9B9B9B] hover:text-[#840151] hover:pl-[5px] leading-[1.25]"
+                                href="#">Sitemap</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="flex flex-col gap-[20px] capitalize">
+                        <li>
+                            <p>
+                                Bureau 58, Building B, Floor 2, Plot No. 58, 4th Sector, Fifth
+                                settlement, New Cairo, Egypt.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                For Drug safety and adverse event safety please report
+                                <br />to:
+                                <a href="mailto:patient.safetyegypt@astrazeneca.com"
+                                    class="transition-all duration-200 text-[#9B9B9B] hover:text-[#840151]">patient.safetyegypt@astrazeneca.com</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                For Medical information please contact:<br /><a
+                                    href="mailto:medinfo-egypt@astrazeneca.com"
+                                    class="transition-all duration-200 text-[#9B9B9B] hover:text-[#840151]">medinfo-egypt@astrazeneca.com</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- :: Plyr JS -->
+    <script src="assets/js/plyr.polyfilled.min.js"></script>
+
+    <!-- :: Swiper JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- :: Main JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

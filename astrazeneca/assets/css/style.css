@@ -1,0 +1,371 @@
+/*
+::
+:: Theme Name: AstraZeneca
+:: Email: Nourramadan144@gmail.com
+:: Author URI: https://themeforest.net/user/ar-coder
+:: Author: ar-coder
+:: Version: 1.0
+::
+*/
+
+/* :: Google Almarai Font & Google Almarai Font */
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :: All Transition */
+* {
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    outline: none;
+}
+
+/* :: Body */
+body {
+    font-family: "Almarai", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #831A54;
+    font-weight: 400;
+}
+
+.row>* {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container,
+.container-fluid {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Almarai", sans-serif;
+}
+
+::-moz-selection {
+    background-color: #831A54;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::selection {
+    background-color: #831A54;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::-webkit-input-placeholder {
+    color: #831A54;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    text-transform: capitalize;
+    position: relative;
+}
+
+::-moz-placeholder {
+    color: #831A54;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    text-transform: capitalize;
+    position: relative;
+}
+
+:-ms-input-placeholder {
+    color: #831A54;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    text-transform: capitalize;
+    position: relative;
+}
+
+::-ms-input-placeholder {
+    color: #831A54;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    text-transform: capitalize;
+    position: relative;
+}
+
+::placeholder {
+    color: #831A54;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    text-transform: capitalize;
+    position: relative;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+button:focus {
+    text-decoration: none;
+    color: #9B9B9B;
+}
+
+/* :: Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Almarai", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+
+p {
+    color: #831A54;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Almarai", sans-serif;
+    line-height: 25px;
+    margin: 0;
+}
+
+/* :: Loading */
+.loading {
+    position: fixed;
+    background-color: #FBF4EC;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: unset;
+    -o-transition: unset;
+    transition: unset;
+}
+
+.loading .loading-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) scale(0.8);
+    -ms-transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -50%) scale(0.8);
+}
+
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #831A54;
+    -webkit-animation-timing-function: cubic-bezier(0, 1, 1, 0);
+            animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    -webkit-animation: lds-ellipsis1 0.6s infinite;
+            animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    -webkit-animation: lds-ellipsis2 0.6s infinite;
+            animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    -webkit-animation: lds-ellipsis2 0.6s infinite;
+            animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    -webkit-animation: lds-ellipsis3 0.6s infinite;
+            animation: lds-ellipsis3 0.6s infinite;
+}
+
+@-webkit-keyframes lds-ellipsis1 {
+    0% {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+}
+
+@keyframes lds-ellipsis1 {
+    0% {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+}
+
+@-webkit-keyframes lds-ellipsis3 {
+    0% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+}
+
+@keyframes lds-ellipsis3 {
+    0% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+}
+
+@-webkit-keyframes lds-ellipsis2 {
+    0% {
+        -webkit-transform: translate(0, 0);
+                transform: translate(0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate(24px, 0);
+                transform: translate(24px, 0);
+    }
+}
+
+@keyframes lds-ellipsis2 {
+    0% {
+        -webkit-transform: translate(0, 0);
+                transform: translate(0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate(24px, 0);
+                transform: translate(24px, 0);
+    }
+}
+
+/* :: Navbar */
+.nav-bar{
+    z-index: 1030;
+    border-bottom: 1px solid #EAECF0;
+}
+.nav-bar.active{
+    box-shadow: 0 5px 40px rgb(9 29 62 / 11%);
+}
+.nav-bar .nav-bar-links .level-1 .item-level-1 .link-level-1.active{
+    color: #7D287F;
+}
+.nav-bar .nav-bar-links .level-1 .item-level-1:last-of-type .link-level-1{
+    margin-right: 0;
+}
+.nav-bar .nav-bar-links .level-2 .item-level-2 .link-level-2.active{
+    color: #7D287F;
+    background-color: #F9F9F9;
+}
+.nav-bar .nav-bar-links .level-2 .item-level-2:last-of-type .link-level-2{
+    border: none;
+}
+/* :: Large devices */
+@media (max-width: 1024px){
+    .nav-bar .nav-bar-links .level-1{
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .nav-bar .content .nav-bar-links.active{
+        left: 0;
+    }
+    .nav-bar .content .nav-bar-links.active .content-responsive{
+        box-shadow: 0px 3px 7px 0px rgb(9 29 62 / 10%);
+    }
+    .nav-bar .nav-bar-links .level-2.active {
+        display: block;
+    }
+    .nav-bar .content .nav-bar-links.active .close-bg{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #000;
+        opacity: 0.1;
+        z-index: -1;
+        cursor: pointer;
+        -webkit-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+}
+
+.choices{
+    max-width: 400px;
+}
+.choices__inner{
+    background: #D9D9D9;
+    direction: rtl;
+    border-color: #D9D9D9;
+    color: #191919;
+}
+.choices__item{
+    color: #191919;
+    font-size: 24px;
+    opacity: 1;
+    line-height: 44px;
+}
+.choices__list--dropdown .choices__item, .choices__list[aria-expanded] .choices__item{
+    font-size: 18px;
+}
+.choices[data-type*=select-one]::after{
+    left: 15px !important;
+    right: auto;
+    border-width: 10px;
+}
+.choices[data-type*=select-one] .choices__button{
+    right: auto;
+    left: 50px;
+}
+.choices__list--single .choices__item {
+    width: 85%;
+}
+.choices[data-type*=select-one].is-open::after {
+    border-color: transparent transparent #191919 !important;
+    margin-top: -12.5px !important;
+}
