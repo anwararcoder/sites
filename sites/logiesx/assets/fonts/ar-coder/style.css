@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'ar-coder';
+    src: url('fonts/ar-coder.eot?ro913q');
+    src: url('fonts/ar-coder.eot?ro913q#iefix') format('embedded-opentype'),
+        url('fonts/ar-coder.ttf?ro913q') format('truetype'),
+        url('fonts/ar-coder.woff?ro913q') format('woff'),
+        url('fonts/ar-coder.svg?ro913q#ar-coder') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="ar-icons-"],
+[class*=" ar-icons-"] {
+    font-family: 'ar-coder' !important;
+    font-style: normal;
+    line-height: 1;
+}
+
+.ar-icons-email:before {
+  content: "\e92a";
+}
+.ar-icons-phone:before {
+  content: "\e92b";
+}
+.ar-icons-arrow-right:before {
+  content: "\e900";
+}
+.ar-icons-Asset-1:before {
+  content: "\e901";
+}
+.ar-icons-Asset-2:before {
+  content: "\e902";
+}
+.ar-icons-Asset-3:before {
+  content: "\e903";
+}
+.ar-icons-Asset-4:before {
+  content: "\e904";
+}
+.ar-icons-Asset-5:before {
+  content: "\e905";
+}
+.ar-icons-Asset-6:before {
+  content: "\e906";
+}
+.ar-icons-Asset-7:before {
+  content: "\e907";
+}
+.ar-icons-Asset-8:before {
+  content: "\e908";
+}
+.ar-icons-Asset-9:before {
+  content: "\e909";
+}
+.ar-icons-Asset-10:before {
+  content: "\e90a";
+}
+.ar-icons-Asset-11:before {
+  content: "\e90b";
+}
+.ar-icons-Asset-12:before {
+  content: "\e90c";
+}
+.ar-icons-Asset-13:before {
+  content: "\e90d";
+}
+.ar-icons-Asset-14:before {
+  content: "\e90e";
+}
+.ar-icons-Asset-15:before {
+  content: "\e90f";
+}
+.ar-icons-Asset-16:before {
+  content: "\e910";
+}
+.ar-icons-Asset-17:before {
+  content: "\e911";
+}
+.ar-icons-Asset-18:before {
+  content: "\e912";
+}
+.ar-icons-Asset-19:before {
+  content: "\e913";
+}
+.ar-icons-Asset-20:before {
+  content: "\e914";
+}
+.ar-icons-Asset-21:before {
+  content: "\e915";
+}
+.ar-icons-Asset-22:before {
+  content: "\e916";
+}
+.ar-icons-Asset-23:before {
+  content: "\e917";
+}
+.ar-icons-Asset-24:before {
+  content: "\e918";
+}
+.ar-icons-Asset-25:before {
+  content: "\e919";
+}
+.ar-icons-Asset-26:before {
+  content: "\e91a";
+}
+.ar-icons-Asset-27:before {
+  content: "\e91b";
+}
+.ar-icons-Asset-28:before {
+  content: "\e91c";
+}
+.ar-icons-Asset-29:before {
+  content: "\e91d";
+}
+.ar-icons-Asset-30:before {
+  content: "\e91e";
+}
+.ar-icons-Asset-31:before {
+  content: "\e91f";
+}
+.ar-icons-Asset-32:before {
+  content: "\e920";
+}
+.ar-icons-Asset-33:before {
+  content: "\e921";
+}
+.ar-icons-Asset-34:before {
+  content: "\e922";
+}
+.ar-icons-Asset-35:before {
+  content: "\e923";
+}
+.ar-icons-Asset-36:before {
+  content: "\e924";
+}
+.ar-icons-Asset-37:before {
+  content: "\e925";
+}
+.ar-icons-Asset-38:before {
+  content: "\e926";
+}
+.ar-icons-Asset-39:before {
+  content: "\e927";
+}
+.ar-icons-Asset-40:before {
+  content: "\e928";
+}
+.ar-icons-check:before {
+  content: "\e929";
+}
+.ar-icons-quote-1:before {
+  content: "\e92c";
+}
+.ar-icons-quote-2:before {
+  content: "\e92d";
+}
+.ar-icons-quote:before {
+  content: "\e92e";
+}
+.ar-icons-arrow-left:before {
+  content: "\e92f";
+}

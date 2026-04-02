@@ -1,0 +1,417 @@
+/*
+::
+:: Theme Name: LogiesX - Logistics & Transportation HTML Template
+:: Email: arcoder14@gmail.com
+:: Author URI: https://themeforest.net/user/ar-coder
+:: Author: ar-coder
+:: Version: 1.0
+:: 
+*/
+
+/* :: XX-Large devices */
+@media (max-width: 1399px){
+    /* :: Header */
+    .header .banner .headline{
+        font-size: 75px;
+    }
+}
+
+/* :: X-Large devices */
+@media (max-width: 1199px){
+    /* :: Header */
+    .header .banner .headline{
+        font-size: 65px;
+    }
+}
+
+/* :: Large devices */
+@media (max-width: 991px){
+    /* :: Sec Title */
+    .sec-title .sec-explain{
+        margin-top: 25px
+    }
+    
+    /* :: Navbar */
+    .nav-bar .content-box{
+        display: block !important;
+    }
+    .nav-bar .logo{
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 20px 0;
+    }
+    .nav-bar .logo .open-nav-bar{
+        display: inline-block;
+    }
+    .nav-bar .logo .open-nav-bar span{
+        width: 30px;
+        height: 3px;
+/*        border-radius: 3px;*/
+        background-color: var(--whiteColor);
+        display: block;
+    }
+    .nav-bar.active .logo .open-nav-bar span{
+        background-color: var(--secColor);
+    }
+    .nav-bar .logo .open-nav-bar:hover span{
+        background-color: var(--mainColor);
+    }
+    .nav-bar .logo .open-nav-bar span:nth-of-type(2){
+        margin: 5px 0;
+        width: 20px;
+        position: relative;
+        right: -10px;
+    }
+    .nav-bar .nav-bar-links{
+        display: none;
+    }
+    .nav-bar .nav-bar-links.active{
+        display: block;
+        max-height: 300px;
+        overflow: hidden;
+        overflow-y: scroll;
+        -webkit-box-shadow: 0 3px 4px rgb(0 0 0 / 7%);
+                box-shadow: 0 3px 4px rgb(0 0 0 / 7%);
+        background-color: var(--secColor);
+    }
+    .nav-bar .nav-bar-links .level-1 .item-level-1{
+        display: block;
+    }
+    .nav-bar .nav-bar-links .level-1 .item-level-1 .link-level-1{
+        padding: 12px 0 12px 12px;
+        margin-right: 12px;
+    }
+    .nav-bar.active .nav-bar-links .level-1 .item-level-1 .link-level-1{
+        color: var(--whiteColor);
+    }
+    .nav-bar.active .nav-bar-links .level-1 .item-level-1 .link-level-1:hover,
+    .nav-bar.active .nav-bar-links .level-1 .item-level-1 .link-level-1.color-active,
+    .nav-bar.active .nav-bar-links .level-2 .item-level-2 .link-level-2:hover{
+        color: var(--mainColor);
+    }
+    .nav-bar .nav-bar-links .level-1 .item-level-1 .link-level-1:before{
+        display: none;
+    }
+    .nav-bar .nav-bar-links .level-1 .item-level-1.has-menu .link-level-1:after{
+        content: '\f107';
+        font-family: 'Font Awesome 5 Free';
+        position: absolute;
+        right: 10px;
+        font-size: 12px;
+        width: 25px;
+        height: 25px;
+        background-color: var(--mainColor);
+        color: var(--whiteColor);
+        text-align: center;
+        font-weight: 900;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    .nav-bar .nav-bar-links .level-1 .item-level-1.has-menu .link-level-1.active:after{
+        -webkit-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+                transform: rotate(180deg);
+    }
+    .nav-bar .nav-bar-links .level-1 .item-level-1:last-of-type .link-level-1{
+        margin-right: 12px;
+    }
+    .nav-bar .nav-bar-links .level-2{
+        -webkit-transform: unset;
+        -ms-transform: unset;
+        transform: unset;
+        opacity: unset;
+        visibility: unset;
+        position: unset;
+        padding: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        background-color: var(--secColor);
+        display: none;
+    }
+    .nav-bar .nav-bar-links .level-2.active{
+        display: block;
+    }
+    .nav-bar .nav-bar-links .level-2.active .item-level-2{
+        margin: 0 40px;
+    }
+    .nav-bar .nav-bar-links .level-2 .item-level-2 .link-level-2{
+        color: var(--whiteColor2);
+        border-bottom: 1px solid rgb(248 246 247 / 10%);
+        padding-left: 0;
+    }
+    .nav-bar .nav-bar-links .level-2 .item-level-2 .link-level-2:hover {
+        border-left: 0;
+    }
+    .nav-bar .nav-bar-tools {
+        display: none !important;
+    }
+    
+    
+    /* :: Navbar Home 2 */
+    .nav-bar.home-2 .logo .open-nav-bar span{
+        background-color: var(--secColor);
+    }
+    .nav-bar.home-2 .logo .open-nav-bar:hover span {
+        background-color: var(--mainColor);
+    }
+    .nav-bar.home-2 .nav-bar-links .level-1 .item-level-1 .link-level-1{
+        color: var(--whiteColor)
+    }
+    
+    /* :: About */
+    .about .about-img-box{
+        margin: 0 30px 0 0;
+    }
+    .about .text-box{
+        margin-top: 50px;
+    }
+    
+    /* :: About Home 2 */
+    .about.home-2 .about-img-box {
+        margin: 0 0px 0 30px;
+    }
+    
+    /* :: Video Pulse */
+    .video-pulse{
+        margin-top: 50px
+    }
+    
+    /* :: Case Studies */
+    .case-studies-item .text-box{
+        width: 95%;
+    }
+    
+    /* :: Testimonial */
+    .testimonial,
+    .provide-features{
+        margin: 0 0 50px 0;
+    }
+    
+    .bg-section-left{
+        float: none;
+        width: 100%;
+        height: calc( 100% - 230px );
+    }
+    .bg-section-right{
+        float: none;
+        width: 100%;
+        height: 230px;
+    }
+    
+    /* :: Statistics & Why Choose Us */
+    .provide-statistics .text-box,
+    .quote-box{
+        margin: 0 0 50px 0
+    }
+    .why-choose-us .img-box{
+        margin: 0 30px 0 0;
+    }
+    .why-choose-us .text-box{
+        margin: 50px 0 0 0;
+    }
+    
+    /* :: Testimonial */
+    .testimonial .img-box{
+        margin: 0;
+    }
+    .testimonial.home-2 .testimonial-ar-carousel{
+        margin-top: 50px;
+    }
+    
+    /* :: Newsletter */
+    .newsletter-box .sec-title{
+        margin-bottom: 30px
+    }
+
+    /* :: Sidebar */
+    .sidebar.right {
+        margin-left: 0px;
+    }
+    .sidebar.left {
+        margin-right: 0px;
+    }
+
+    .contact-us-page .map-box-2{
+        padding-bottom: 50px;
+    }
+}
+
+/* :: Medium devices */
+@media (max-width: 767px){
+    
+    .provide .sec-title h3 {
+        font-size: 40px;
+    }
+    
+    /* :: Top Navbar */
+    .top-navbar{
+        display: none
+    }
+    
+    /* :: Header */
+    .header .banner .headline{
+        font-size: 55px;
+    }
+    
+    /* :: Case Studies */
+    .case-studies-item .text-box{
+        width: 85%;
+    }
+    
+    .copyright p,
+    .copyright ul {
+        text-align: center;
+        float: none;
+        margin-bottom: 30px;
+    }
+    .copyright ul {
+        margin-bottom: 0;
+    }
+
+    /* :: Single Blog Nav */
+    .single-blog-nav {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .single-blog-nav .blog-nav-prev, .single-blog-nav .blog-nav-next {
+        float: none;
+        width: 100%;
+    }
+    .single-blog-nav .blog-nav-next{
+        margin-top: 60px;
+    }
+    .single-blog-nav:before{
+        top: 50%;
+        left: 20%;
+        right: 20%;
+        -webkit-transform: translateX(0%) translateY(-50%);
+            -ms-transform: translateX(0%) translateY(-50%);
+                transform: translateX(0%) translateY(-50%);
+        width: auto;
+        height: 1px;
+    }
+
+    /* :: Products Details */
+    .products-details-content .img-box {
+        margin-bottom: 50px;
+    }
+    
+}
+
+/* :: Small devices */
+@media (max-width: 575px){
+    /* :: Header */
+    .header .banner .headline{
+        font-size: 35px;
+    }
+    .header .banner .about-website{
+        margin: 0 0 30px 0
+    }
+    .header .banner .btn-box .btn-1{
+        margin: 0;
+        display: block;
+        width: 180px;
+    }
+    .header .banner .btn-box .btn-1:first-of-type{
+        margin: 0 0 30px 0
+    }
+    
+    /* :: About */
+    .about-sign{
+        margin-top: 25px
+    }
+    
+    /* :: About Hime 2 */
+    .img-person img.person{
+        width: 75px;
+        padding: 6px;
+        margin-right: 10px;
+    }
+    .img-person img.signature{
+        max-width: 180px;
+    }
+    
+    /* :: Services */
+    .services .services-item,
+    .features .features-item{
+        padding: 40px;
+    }
+    
+    /* :: Quote */
+    .quote-content,
+    .quote-box,
+    .subscribe{
+        padding: 30px;
+    }
+    .quote-tabs .nav-item .nav-link i{
+        display: none
+    }
+    .quote-content .tab-pane .box-content .img-box .text-logo{
+        font-size: 55px
+    }
+    
+    /* :: Case Studies */
+    .case-studies-item .text-box{
+        width: 95%;
+    }
+    
+    /* :: Testimonial */
+    .testimonial .testimonial-dots li{
+        margin-right: 18px;
+    }
+    .testimonial .testimonial-dots li a h4{
+        font-size: 14px;
+    }
+    
+    
+    /* :: Statistics & Why Choose Us */
+    .provide-statistics .experience-box{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+    .provide-statistics .experience-box .experience-text-box{
+        margin: 25px 0 0 0;
+    }
+    .why-choose-us .experience-box{
+        padding: 15px;
+        max-width: 250px;
+    }
+    .why-choose-us .img-box{
+        padding: 10px;
+    }
+    
+    /* :: Breadcrumb Header */
+    .breadcrumb-header .banner h1 {
+        font-size: 45px;
+    }
+
+    /* :: Add Comment Post */
+    .item-comments .inner-comments .comments-box.reply{
+        margin-left: 40px;
+    }
+
+    /* :: 404 Error Page */
+    .page-404-area{
+        padding: 100px 0;
+    }
+    .page-404-area h2{
+        font-size: 125px;
+    }
+    
+}

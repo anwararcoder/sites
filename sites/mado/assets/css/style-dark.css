@@ -1,0 +1,156 @@
+/*
+::
+:: Theme Name: Mado - CV/Resume & Portfolio HTML Template
+:: Email: arcoder14@gmail.com
+:: Author URI: https://themeforest.net/user/ar-coder
+:: Author: ar-coder
+:: Version: 1.1
+::
+*/
+
+/* :: My Classes */
+.btn-1:hover{
+    color: #0CB4CE;
+}
+.btn-1:after{
+    background-color: #FFF;
+}
+.btn-2{
+    background-color: #FFF;
+    color: #0CB4CE;
+}
+.btn-2:hover{
+    color: #FFF;
+}
+.btn-2:after{
+    background-color: #0CB4CE;
+}
+.btn-3 {
+    color: #FFF;
+    border: 2px solid #FFF;
+}
+.sec-title .sec-title-left h3{
+    color: #FFF;
+}
+
+/* :: Loading */
+.loading{
+    background-color: #343434;
+}
+
+/* :: Navbar */
+nav.active{
+    background-color: #343434;
+}
+nav .nav-content .open-menu span{
+    background-color: #FFF;
+}
+nav .nav-content .open-search i{
+    color: #FFF;
+}
+.menu .nav-top .close-menu span{
+    background-color: #FFF;
+}
+.menu .nav-content .sub-menu li a{
+    color: #FFF;
+}
+
+/* :: Menu */
+.menu{
+    background-color: rgba(52, 52, 52, 0.8);
+}
+.menu .inner-menu{
+    background-color: #343434;
+}
+
+/* :: Search */
+.search{
+    background-color: rgba(52, 52, 52, 0.8);
+}
+.search .inner-search{
+    background-color: #343434;
+}
+
+/* :: Left Nav */
+.left-nav.active{
+    background-color: #343434;
+}
+.left-nav .left-nav-content a{
+    color: #FFF;
+}
+
+/* :: PagePilingMado */
+section.section{
+    background-color: #343434;
+}
+#pp-nav ul li a span{
+    background-color: #F9F9F9;
+}
+
+/* :: Home */
+.section.home{
+    background-image: url(../images/header/02_header.jpg)
+}
+.section.home .banner .headline{
+    color: #FFF;
+}
+.section.home .banner .about-headline{
+    color: #9B9B9B;
+}
+
+/* :: About */
+.section.about .text-box .info-about:before{
+    background: #0CB4CE url(../images/about/about-pattern.png)
+}
+
+/* :: Rusume */
+.section.rusume .rusume-experience-box .rusume-experience-box-title h4,
+.section.rusume .item-details .name-company,
+.section.rusume .item-details .details-company .details-title{
+    color: #F9F9F9;
+}
+
+/* :: Services */
+.section.services .services-box{
+    background-color: #444;
+}
+.section.services .services-box h5{
+    color: #F9F9F9;
+}
+
+/* :: Project */
+.section.project .list-name-work li{
+    color: #F9F9F9;
+}
+
+/* :: Testimonials */
+.section.testimonials .testimonials-box .item p.text{
+    color: #9B9B9B;
+    background-color: #444;
+}
+.section.testimonials .testimonials-box .item p.text:before{
+    border-color: #444 transparent transparent transparent;
+}
+.section.testimonials .testimonials-box .clients-talk .info h5{
+    color: #F9F9F9;
+}
+
+/* :: Blog */
+.section.blog .item-blog .text-box{
+    background-color: #343434;
+}
+.section.blog .item-blog .text-box .title-blog,
+.section.blog .item-blog .text-box .title-blog a,
+.section.blog .item-blog a.read-more{
+    color: #F9F9F9;
+}
+
+/* :: Contact */
+.section.contact .contact-box .info-box h5{
+    color: #F9F9F9;
+}
+.section.contact .contact-box form .message-box input,
+.section.contact .contact-box form .message-box textarea{
+    color: #F9F9F9;
+    background-color: #444;
+}

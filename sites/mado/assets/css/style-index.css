@@ -1,0 +1,110 @@
+/*
+::
+:: Theme Name: Mado - CV/Resume & Portfolio HTML Template
+:: Email: arcoder14@gmail.com
+:: Author URI: https://themeforest.net/user/ar-coder
+:: Author: ar-coder
+:: Version: 1.1
+::
+*/
+/*
+html{
+    overflow-y: scroll;
+}
+*/
+body{
+    background-color: #343434;
+}
+
+/* :: Loading */
+.loading {
+    background-color: #343434;
+}
+
+/* :: Header */
+.header{
+    padding: 100px 0 60px 0;
+}
+.header .head-demos h2{
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    color: #0CB4CE;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.header .head-demos h3{
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.header .head-demos p{
+    font-size: 18px;
+    color: #B5B5B5;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+/* :: Demos */
+.demos{
+    background-color: #343434;
+    padding-bottom: 70px;
+}
+.demos .demo-box{
+    display: block;
+    margin-bottom: 30px;
+    position: relative;
+    text-decoration: none;
+}
+.demos .demo-box .img-box{
+    position: relative;
+    -webkit-box-shadow: 0 2px 40px rgba(0, 0, 0, .08);
+            box-shadow: 0 2px 40px rgba(0, 0, 0, .08);
+}
+.demos .demo-box .img-box .name{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #0CB4CE;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    padding: 25px;
+    -webkit-transform: rotateX(90deg);
+            transform: rotateX(90deg);
+    opacity: 0;
+    visibility: hidden;
+    font-family: 'DM Sans', sans-serif;
+}
+.demos .demo-box:hover .name{
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    opacity: 1;
+    visibility: visible;
+}
+.demos .demo-box span{
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    padding-top: 20px;
+    text-align: center;
+    color: #F9F9F9;
+    font-family: 'DM Sans', sans-serif;
+}
+.demos .demo-box span:hover{
+    color: #0CB4CE;
+}

@@ -1,0 +1,44 @@
+header .carousel .carousel-inner .carousel-item .overlay .water-filter img:nth-of-type(1) {
+    left: 115px;
+}
+header .carousel .carousel-inner .carousel-item .overlay .water-filter img:nth-of-type(2){
+    right: 0;
+}
+header .carousel .carousel-inner .carousel-item .overlay .water-filter img:nth-of-type(3){
+    left: -75px;
+}
+@media (max-width: 991px){
+    header .carousel .carousel-inner .carousel-item .overlay .water-filter img:nth-of-type(2) {
+        right: -50px;
+    }
+}
+
+header .carousel .carousel-inner .carousel-item .overlay .slider-text h1 {
+    text-align: right;
+    font-size: 50px;
+}
+.about .text-box .text .head-text h2 {
+    text-align: right;
+}
+.about .text-box .text p {
+    text-align: right;
+}
+.footer .box h4 {
+    text-align: right;
+}
+.footer .link .links {
+    text-align: right;
+}
+.footer .box .info p {
+    text-align: right;
+}
+.footer .box img {
+    float: right;
+}
+.info-about .text-box .text,
+.info-services .text-box .text {
+    text-align: right;
+}
+.text-info {
+    text-align: right;
+}

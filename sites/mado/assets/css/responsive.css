@@ -1,0 +1,118 @@
+/*
+::
+:: Theme Name: Mado - CV/Resume & Portfolio HTML Template
+:: Email: arcoder14@gmail.com
+:: Author URI: https://themeforest.net/user/ar-coder
+:: Author: ar-coder
+:: Version: 1.1
+::
+*/
+
+/* :: Medium devices */
+@media (max-width: 991px) {
+    
+    /* :: Section Title */
+    .sec-title .sec-title-left,
+    .sec-title .sec-title-center,
+    .sec-title .sec-title-right{
+        display: block;
+    }
+    .sec-title .sec-title-left h3{
+        margin-bottom: 20px;
+    }
+    
+    /* :: About */
+    .section.about .text-box {
+        margin-top: 50px;
+    }
+    .section.about .text-box .info-about{
+        margin-bottom: 25px;
+    }
+    .section.about .statistic{
+        margin: 100px 0 0 0;
+        width: auto;
+    }
+    
+    /* :: Project */
+    .section.project .work-box img.two{
+        height: 493px;
+        width: 100%;
+    }
+}
+
+/* :: Small devices */
+@media (max-width: 768px) {
+    /* :: Section Title */
+    .sec-title .sec-title-right {
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: end;
+    }
+    .sec-title .sec-title-right a{
+        margin-top: 20px;
+    }
+    
+    /* :: Home */
+    .section.home .banner .headline{
+        font-size: 45px
+    }
+    /* :: Rusume */
+    .section.rusume .item-details .details-company{
+        margin: 20px 0;
+    }
+    .section.rusume .item-details .button-company {
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: end;
+    }
+    
+    /* :: Project */
+    .section.project .work-box img.one,
+    .section.project .work-box img.two{
+        height: 365px;
+        width: 100%;
+    }
+    
+    /* :: Testimonials */
+    .section.testimonials .scroll-section{
+        display: block
+    }
+    
+    /* :: Contact */
+    .section.contact .contact-box .info-box:last-of-type{
+        margin-bottom: 30px;
+    }
+    
+}
+
+/* :: Extra small devices */
+@media (max-width: 575px) {
+    /* :: Left Nav */
+    .left-nav{
+        display: none;
+    }
+    
+    /* :: Menu */
+    .menu.active .inner-menu {
+        width: 100%;
+    }
+    
+    /* :: Scrollable */
+    .pp-scrollable{
+        padding: 0px 30px 0px 0px !important;
+    }
+    #pp-nav{
+        right: 15px !important;
+    }
+    .pp-scrollable .container{
+        width: 100vw;
+    }
+    
+    /* :: About */
+    .section.about .statistic .item {
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        margin: 0 auto 30px auto;
+    }
+}

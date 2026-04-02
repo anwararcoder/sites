@@ -1,0 +1,117 @@
+/*
+::
+:: Theme Name: Kernel - Personal Portfolio Responsive HTML5 Template
+:: Email: arcoder14@gmail.com
+:: Author URI: https://themeforest.net/user/ar-coder
+:: Author: ar-coder
+:: Version: 1.1
+::
+*/
+
+/* :: Medium devices */
+@media (max-width: 991px) {
+    
+    /* :: Navbar */
+    .navbar{
+        background-color: #FFF;
+        border-bottom: 1px solid #F1F1F1;
+        padding: 0px 16px;
+    }
+    .navbar .navbar-brand{
+        padding: 30px 0;
+        color: var(--maincolor);
+    }
+    .navbar .navbar-toggler{
+        outline: none;
+        padding: 0;
+    }
+    .navbar .navbar-toggler i{
+        font-size: 30px;
+        color: #17223E;
+    }
+    .navbar .navbar-toggler i:hover{
+        color: var(--maincolor);
+    }
+    .navbar .navbar-nav{
+        margin-top: 10px;
+    }
+    .navbar .navbar-nav .nav-link{
+        color: #17223E;
+        margin: 0;
+        padding: 0 0 15px 0;
+    }
+    .navbar .navbar-nav .nav-link:before{
+        position: unset;
+    }
+    
+    /* :: Header */
+    .header .banner .handline{
+        font-size: 38px;
+    }
+    
+    /* :: About */
+    .about .about-img-box{
+        margin: 50px 0;
+    }
+    
+    /* :: Rusume */
+    .rusume .education-content{
+        margin-bottom: 50px
+    }
+    
+    /* :: Skills */
+    .skills .skills-box .skill-item{
+        float: left;
+        width: 50%;
+    }
+    .skills .skills-img-box{
+        margin: 50px 0;
+    }
+    .skills .features-box .core-features li {
+        float: left;
+        width: 50%;
+    }
+    .skills .features-box .core-features li:nth-of-type(11){
+        margin-bottom: 0;
+    }
+    
+    /* :: Contact */
+    .contact .info{
+        margin-top: 50px;
+    }
+}
+
+/* :: Small devices */
+@media (max-width: 768px) {
+    
+    /* :: Header */
+    .header .banner .handline {
+        font-size: 32px;
+    }
+}
+
+/* :: Extra small devices */
+@media (max-width: 575px) {
+    
+    /* :: Header */
+    .header .banner .handline {
+        font-size: 28px;
+    }
+    .header .banner p{
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    
+    /* :: Skills */
+    .skills .skills-box .skill-item {
+        float: none;
+        width: auto;
+    }
+    .skills .features-box .core-features li {
+        float: none;
+        width: auto;
+    }
+    .skills .features-box .core-features li:nth-of-type(11){
+        margin-bottom: 12px;
+    }
+}
