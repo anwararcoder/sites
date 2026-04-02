@@ -1,0 +1,94 @@
+*{
+    font-family: 'Kavivanar', cursive;
+}
+.navbar {
+    margin-bottom: 0;
+    border: none;
+    min-height: 0;
+    height: 0;
+    z-index: 2;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+    color: #2ecc71;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: #2ecc71;
+}
+.navbar-default .navbar-nav > li:hover > a {
+    color: #2ecc71;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+@media (max-width: 767px){
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent;
+        background-color: #2ecc71;
+    }
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+/*---------------------------------------------------------------------------------------------*/
+.header{
+    background-image: url(../img/Header.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.header .header-text {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-80%);
+    float: right;
+    color: #fff;
+    text-align: center;
+}
+.header .header-text h2{
+    font-size: 60px;
+}
+.header .header-text h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #2ecc71;
+}
+.header .header-text button {
+    border-radius: 0;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+@media (max-width: 767px){
+    .header .header-text button {
+        width: 150px;
+    }
+}
+.header .header-text button a{
+    color: #fff;
+    text-decoration: none;
+}

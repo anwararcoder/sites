@@ -1,0 +1,124 @@
+*{
+    font-family: 'Kavivanar', cursive;
+}
+body{
+    background-color: #e7e7e7;
+}
+.navbar {
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+    z-index: 2;
+    background-color: #24243c;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+    color: #2ecc71;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: #2ecc71;
+}
+.navbar-default .navbar-nav > li:hover > a {
+    color: #2ecc71;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+@media (max-width: 767px){
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent;
+        background-color: #2ecc71;
+    }
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+/*--------------------------------------------------------------------------------------------------*/
+.winner{
+    position: relative;
+}
+.winner .winner-mosab2at,.winner .slid{
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #FFF;
+    height: 575px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: .4;
+    transition: all .3s linear;
+}
+.winner .winner-mosab2at:hover,
+.winner .slid:hover{opacity: 1;}
+.winner .winner-mosab2at h3{
+    text-align: center;
+    color: #24243c;
+    padding: 5px;
+    padding-right: 20px;
+    background-color: #e7e7e7;
+}
+.winner .winner-mosab2at .user-win{
+    text-align: center;
+    margin-top: 20px;
+}
+.winner .winner-mosab2at .user-win img{
+    width: 300px;
+    height: 300px;
+}
+.winner .winner-mosab2at .user-win h2{
+    color: #2ecc71;
+}
+
+.winner .winner-mosab2at .copyright{
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,850%);
+}
+.winner .winner-mosab2at .copyright a {
+    text-decoration: none;
+    color: #2ecc71;
+}
+@media (max-width: 991px){
+    .winner .winner-mosab2at .copyright {
+        transform: translate(-50%,490%);
+    }
+}
+@media (max-width: 767px){
+    .winner .winner-mosab2at .copyright {
+        transform: translate(-50%,850%);
+    }
+}
+@media (max-width: 492px){
+    .winner .winner-mosab2at .copyright {
+        top: 20%;
+    }
+}
+.winner .slid h3{
+    text-align: right;
+    color: #24243c;
+    padding: 5px;
+    padding-right: 20px;
+    background-color: #e7e7e7;
+}
+.winner .slid .one{
+    overflow: hidden;
+    height: 255px;
+}
