@@ -1,0 +1,189 @@
+/*
+::
+:: Theme Name: Petrol - Factory and Manufacturing HTML5 Template
+:: Email: Nourramadan144@gmail.com
+:: Author URI: https://themeforest.net/user/ar-coder
+:: Author: ar-coder
+:: Version: 1.0
+::
+*/
+
+/* :: Medium devices */
+@media (max-width: 991px){
+    /* :: Navbar */
+    .nav-bar .nav-bar-link,
+    .nav-bar .nav-more{
+        display: none;
+    }
+    .nav-bar .box-content{
+        display: block !important;
+    }
+    .nav-bar .logo{
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .nav-bar .logo .open-nav-bar span{
+        width: 30px;
+        height: 3px;
+        border-radius: 3px;
+        background-color: #FFF;
+        display: block;
+    }
+    .nav-bar.active .logo .open-nav-bar span{
+        background-color: #222;
+    }
+    .nav-bar .logo .open-nav-bar:hover span,
+    .nav-bar .logo .open-nav-bar.active span{
+        background-color: #FE5A0E;
+    }
+    .nav-bar .logo .open-nav-bar span:nth-of-type(2){
+        margin: 5px 0;
+    }
+    .nav-bar .nav-bar-link.active{
+        display: block;
+        border-top: 1px solid rgb(34, 34, 34, 0.1);
+        max-height: 300px;
+        overflow: hidden;
+        overflow-y: scroll;
+        -webkit-box-shadow: 0 3px 4px rgba(0,0,0,.07);
+                box-shadow: 0 3px 4px rgba(0,0,0,.07);
+        background-color: #FFF;
+    }
+    .nav-bar .nav-bar-link > ul > li{
+        display: block;
+    }
+    .nav-bar .nav-bar-link ul li a{
+        color: #222;
+        margin: 0;
+        padding: 10px;
+    }
+    .nav-bar .nav-bar-link > ul ul li a{
+        font-weight: 500;
+    }
+    .nav-bar .nav-bar-link ul li.has-menu > a:after{
+        content: '\f107';
+        font-family: 'Font Awesome 5 Free';
+        position: absolute;
+        right: 10px;
+        font-size: 12px;
+        width: 25px;
+        height: 25px;
+        background-color: #FE5A0E;
+        color: #FFF;
+        text-align: center;
+        border-radius: 3px;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    .nav-bar .nav-bar-link ul li.has-menu > a.active:after{
+        -webkit-transform: rotate(-180deg);
+            -ms-transform: rotate(-180deg);
+                transform: rotate(-180deg);
+    }
+    .nav-bar .nav-bar-link > ul ul{
+        -webkit-transform: unset;
+            -ms-transform: unset;
+                transform: unset;
+        opacity: unset;
+        visibility: unset;
+        position: unset;
+        padding: 0;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        display: none;
+    }
+    .nav-bar .nav-bar-link > ul ul.active{
+        display: block;
+    }
+    
+    /* :: Header */
+    .header .banner .handline{
+        font-size: 65px;
+    }
+    
+    /* :: About */
+    .about .img-box{
+        padding: 0;
+    }
+    .about .img-box img{
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .about .text-box{
+        margin-top: 50px;
+    }
+    
+    /* :: Testimonials */
+    .testimonials .carousel .carousel-inner{
+        margin-top: 50px;
+    }
+    .testimonials .carousel .carousel-inner .btn-control {
+        right: 15px;
+    }
+}
+
+/* :: Small devices */
+@media (max-width: 768px){
+    /* :: Header */
+    .header .banner .handline {
+        font-size: 55px;
+    }
+    .header .banner .info{
+        display: block !important;
+    }
+    .header .banner .info .about-website{
+        width: 100%;
+        margin: 0 0 30px 0;
+        font-size: 16px;
+    }
+    .header-owl.owl-theme .owl-nav{
+        display: none;
+    }
+    
+    /* :: Provide */
+    .provide .provide-box a:first-of-type{
+        margin: 0 30px 18px 0;
+    }
+    
+    /* :: Copyright */
+    .copyright{
+        text-align: center;
+    }
+    .copyright p {
+        float: none;
+        margin-bottom: 10px;
+    }
+    .copyright ul {
+        float: none;
+    }
+}
+
+/* :: Extra small devices */
+@media (max-width: 575px){
+    .header .banner .handline {
+        font-size: 40px;
+    }
+    
+    /* :: About */
+    .about .text-box img{
+        margin-bottom: 30px;
+    }
+    
+    /* :: Provide */
+    .provide .provide-box{
+        padding: 50px 15px;
+    }
+    .provide .provide-box a:first-of-type{
+        margin-right: 0;
+    }
+}
