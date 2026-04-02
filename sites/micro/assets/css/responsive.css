@@ -1,0 +1,113 @@
+/*
+::
+:: Theme Name: Micro - HTML5 Responsive Multi-Purpose Template
+:: Email: arcoder14@gmail.com
+:: Author URI: http://themeforest.net/user/AnwarRamadan
+:: Author: AnwarRamadan
+:: Version: 1.0
+::
+*/
+
+/* :: Medium devices */
+@media (max-width: 991px) {
+    /* :: Section Title */
+    .sec-title .sec-title-headline{
+        padding-right: 0;
+        margin-bottom: 26px;
+    }
+    
+    /* :: Navbar */
+    .navbar{
+        background-color: #FFF;
+        border-bottom: 1px solid #F1F1F1;
+        padding: 0px 16px;
+    }
+    .navbar .navbar-brand{
+        padding: 30px 0;
+        color: #F39C12;
+    }
+    .navbar .navbar-toggler{
+        outline: none;
+        padding: 0;
+    }
+    .navbar .navbar-toggler i{
+        font-size: 30px;
+        color: #17223E;
+    }
+    .navbar .navbar-toggler i:hover{
+        color: #F39C12;
+    }
+    .navbar .navbar-nav{
+        margin-top: 10px;
+    }
+    .navbar .navbar-nav .nav-link{
+        color: #17223E;
+        margin: 0;
+        padding: 0 0 15px 0;
+    }
+    .navbar .navbar-nav .nav-link:before{
+        position: unset;
+    }
+    
+    /* :: Header */
+    .header .banner .handline{
+        font-size: 50px;
+    }
+    
+    /* :: About One */
+    .about-one .about-box-img {
+        margin-bottom: 100px;
+    }
+    
+    /* :: About Two */
+    .about-two .about-box-img {
+        margin-top: 50px;
+    }
+    
+    /* :: Skills */
+    .skills{
+        margin-top: 50px;
+    }
+    
+    /* :: Blog Page */
+    /* :: Area Blog Pagination */
+    .area-blog-pagination{
+        margin-bottom: 50px;
+    }
+}
+
+/* :: Small devices */
+@media (max-width: 768px) {
+    /* :: Header */
+    .header .banner .handline {
+        font-size: 42px;
+    }
+}
+
+/* :: Extra small devices */
+@media (max-width: 575px) {
+    /* :: Header */
+    .header .banner .handline {
+        font-size: 22px;
+    }
+    .header .banner .bio-website{
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .header .banner .buttons a:first-of-type{
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+    
+    /* :: About Two */
+    .about-two .core-features li{
+        float: none;
+        width: auto;
+    }
+    
+    /* :: Single Blog Page */
+    /* :: Line Box Replay */
+    .author-comment .author-comment-box .line-box.replay{
+        margin: 0;
+    }
+}

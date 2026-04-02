@@ -1,0 +1,121 @@
+/*
+::
+:: Theme Name: Micro - HTML5 Responsive Multi-Purpose Template
+:: Email: arcoder14@gmail.com
+:: Author URI: http://themeforest.net/user/AnwarRamadan
+:: Author: AnwarRamadan
+:: Version: 1.0
+::
+*/
+
+/* :: Demos Page */
+
+/* :: Header */
+.header-demo-page{
+    height: 100vh;
+    background-image: url(../images/demo/header-demo.jpg);
+    color: #FFF;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header-demo-page .banner .handline-demo{
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.banner .bio-website{
+    text-transform: capitalize;
+    font-size: 24px;
+    color: #f8f8f8;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* :: Demos */
+.demos{
+    padding: 100px 0 60px 0;
+}
+.demos .demo-img-box{
+    position: relative;
+    margin-bottom: 40px;
+}
+.demos .demo-img-box a .content-box img{
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 0px 40px 4px rgba(222, 226, 230, 0.5);
+            box-shadow: 0px 0px 40px 4px rgba(222, 226, 230, 0.5);
+    position: relative;
+}
+.demos .demo-img-box:hover a .content-box img{
+    -webkit-box-shadow: 0px 0px 40px 4px #dee2e6;
+            box-shadow: 0px 0px 40px 4px #dee2e6;
+    -webkit-transform: translateY(-8px);
+        -ms-transform: translateY(-8px);
+            transform: translateY(-8px);
+}
+.demos .demo-img-box a .content-box .title-demo-page{
+    color: #17223E;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.demos .demo-img-box a .content-box .title-demo-page:hover{
+    color: #F39C12;
+}
+.footer-demo-page{
+    text-align: center;
+    padding: 50px 0;
+    background-color: #181D2F;
+}
+.footer-demo-page .footer-title{
+    margin-bottom: 25px;
+    color: #FFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 0.5px;
+}
+.footer-demo-page .icon-social-media{
+    margin-bottom: 25px;
+}
+.footer-demo-page .icon-social-media li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.footer-demo-page .icon-social-media li:last-of-type{
+    margin-right: 0;
+}
+.footer-demo-page .icon-social-media li a{
+    display: inline-block;
+    text-align: center;
+    background-color: #FFF;
+    color: #F39C12;
+    border-radius: 50%;
+    font-size: 15px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+}
+.footer-demo-page .icon-social-media li:hover a{
+    background-color: #F39C12;
+    color: #FFF;
+}
+.footer-demo-page .copyright{
+    font-weight: 600;
+    font-size: 14px;
+    color: #CCC;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
