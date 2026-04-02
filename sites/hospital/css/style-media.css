@@ -1,0 +1,64 @@
+@media (max-width: 991px) {
+	
+}
+@media (max-width: 767px) {
+	.navigationbar{
+		padding: 25px 10px;
+	}
+	.header .carousel-inner .carousel-item .overlay .box {
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		    -ms-transform: translate(-50%, -50%);
+		        transform: translate(-50%, -50%);
+		right: auto;
+		width: 80%;
+	}
+	.header .carousel-inner .carousel-item .overlay .box h1{
+		font-size: 40px;
+	}
+	.header .carousel-inner .carousel-item .overlay .box p {
+		width: auto;
+	}
+	.feature {
+		margin-top: 25px;
+	}
+	.feature .box{
+		margin-bottom: 20px;
+	}
+	.feature .box:hover{
+		margin-top: 0;
+	}
+	.information .slid-show .owl-carousel .item .text-box,
+	.page-doctors .list-doctors .item-doctor .text-box,
+	.page-news .list-doctors .item-doctor .text-box,
+	.doctors .slid-show .owl-carousel .item .text-box,
+	.information .slid-show .owl-carousel .item .text-box{
+		bottom: 0;
+	}
+	.page-doctors .list-doctors .item-doctor .img-box .overlay,
+	.page-news .list-doctors .item-doctor .img-box .overlay,
+	.doctors .slid-show .owl-carousel .item .img-box .overlay,
+	.information .slid-show .owl-carousel .item .img-box .overlay{
+		background-color: rgba(0, 0, 0, 0.3)
+	}
+	.footer .one {
+		margin-bottom: 35px;
+	}
+	.footer .two p {
+	    text-align: center;
+    	margin-bottom: 25px;
+	}
+	.footer .two ul{
+		text-align: center;
+	}
+	.page-doctors .list-doctors .one,.page-news .list-doctors .one {
+		margin: 30px auto;
+	}
+	.page-news-now .contain{
+		width: 95%;
+	}
+}
+@media (max-width: 575px) {
+
+}
