@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>AR Coder Sites</title>
+    <meta name="description" content="Portfolio of Anwar Ramadan — Frontend Developer specializing in React.js, Next.js, Vue.js, Nuxt.js, TailwindCSS, and WordPress.">
+    <style>
+        :root {
+            --bg: #fff;
+            --text: #111;
+            --muted: #666;
+            --link: #0a66c2;
+            --card: #f7f7f8;
+            --border: #e5e7eb;
+            --chip: #eef2ff;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0b0c0f;
+                --text: #e6e6e6;
+                --muted: #9aa0a6;
+                --link: #60a5fa;
+                --card: #111319;
+                --border: #1f2430;
+                --chip: #1e293b;
+            }
+        }
+
+        html, body {
+            background: var(--bg);
+            color: var(--text);
+        }
+
+        body {
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 24px;
+        }
+
+        .container {
+            max-width: 980px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 20px;
+            margin: 0 0 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0 0 6px;
+        }
+
+        .subtitle {
+            margin: 0 0 10px;
+            color: var(--muted);
+        }
+
+        .meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 10px 0 0;
+        }
+
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--chip);
+            color: var(--text);
+            border: 1px solid var(--border);
+            padding: 6px 10px;
+            border-radius: 999px;
+            font-size: 12px;
+            text-decoration: none;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin: 22px 0 12px;
+        }
+
+        section {
+            padding: 16px;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+
+        /* Grid lists for links */
+        .grid-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+            gap: 10px;
+        }
+
+        @media (min-width: 640px) {
+            .grid-list {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (min-width: 960px) {
+            .grid-list {
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+            }
+        }
+
+        .link-card {
+            display: block;
+            padding: 10px 12px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            background: #fff0;
+            transition: transform .05s ease, background-color .2s ease, border-color .2s ease;
+            word-break: break-word;
+        }
+
+        .link-card:hover {
+            transform: translateY(-1px);
+            border-color: #b4b9c3;
+            background: rgba(0,0,0,.02);
+        }
+
+        a {
+            color: var(--link);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        small {
+            color: var(--muted);
+        }
+
+        .lead {
+            margin: 10px 0 0;
+        }
+
+        .divider {
+            height: 1px;
+            background: var(--border);
+            border: 0;
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            color: var(--muted);
+            margin-top: 18px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>AR Coder Sites</h1>
+            <p class="subtitle">Anwar Ramadan — Frontend Developer</p>
+            <p class="lead">
+                I am a Frontend Developer with 4+ years of experience in React.js, Next.js, Vue.js, Nuxt.js, and WordPress.
+                I build high‑performance, scalable web apps focused on UI/UX, accessibility, and responsive design.
+            </p>
+            <p class="lead">
+                <small>Tech Stack:</small> React.js, Next.js, Vue.js, Nuxt.js, Redux Toolkit, React Query, TypeScript, TailwindCSS, Firebase, Git, WordPress, Shopify.
+            </p>
+            <div class="meta">
+                <a class="chip" href="mailto:Nourramadan144@gmail.com" rel="noopener">📧 Nourramadan144@gmail.com</a>
+                <a class="chip" href="https://wa.me/201029134630" target="_blank" rel="noopener">💬 WhatsApp: (+2) 1029134630</a>
+                <a class="chip" href="https://www.linkedin.com/in/anwararcoder" target="_blank" rel="noopener">in LinkedIn</a>
+                <span class="chip">🎯 Open to opportunities</span>
+            </div>
+        </header>
+
+        <section>
+            <h2>Next.js/React.js Projects</h2>
+            <ul class="grid-list">
+                <li><a class="link-card" href="https://atlbha.sa/" target="_blank" rel="noopener">https://atlbha.sa/</a></li>
+                <li><a class="link-card" href="https://eskan.keyframe-eg.net/" target="_blank" rel="noopener">https://eskan.keyframe-eg.net/</a></li>
+                <li><a class="link-card" href="https://gazolin-next.vercel.app/" target="_blank" rel="noopener">https://gazolin-next.vercel.app/</a></li>
+                <li><a class="link-card" href="https://meddoctors-pwa.vercel.app/" target="_blank" rel="noopener">https://meddoctors-pwa.vercel.app/</a></li>
+                <li><a class="link-card" href="https://ghaym.vercel.app/" target="_blank" rel="noopener">https://ghaym.vercel.app/</a></li>
+                <li><a class="link-card" href="https://ghaym-dashboard.vercel.app" target="_blank" rel="noopener">https://ghaym-dashboard.vercel.app</a></li>
+                <li><a class="link-card" href="https://aya-frontend-pied.vercel.app/" target="_blank" rel="noopener">https://aya-frontend-pied.vercel.app/</a></li>
+                <li><a class="link-card" href="https://cloudx-nextjs.vercel.app/" target="_blank" rel="noopener">https://cloudx-nextjs.vercel.app/</a></li>
+                <li><a class="link-card" href="https://ar-authentication-system.netlify.app/" target="_blank" rel="noopener">https://ar-authentication-system.netlify.app/</a></li>
+                <li><a class="link-card" href="https://ecopays.netlify.app/" target="_blank" rel="noopener">https://ecopays.netlify.app/</a></li>
+                <li><a class="link-card" href="https://frontend-authentication-task.vercel.app/" target="_blank" rel="noopener">https://frontend-authentication-task.vercel.app/</a></li>
+                <li><a class="link-card" href="https://orient-cv.vercel.app/" target="_blank" rel="noopener">https://orient-cv.vercel.app/</a></li>
+                <li><a class="link-card" href="https://mbat-task.vercel.app/" target="_blank" rel="noopener">https://mbat-task.vercel.app/</a></li>
+                <li><a class="link-card" href="https://product-task-raqmee.vercel.app/" target="_blank" rel="noopener">https://product-task-raqmee.vercel.app/</a></li>
+                <li><a class="link-card" href="https://lms-frontend-hazel.vercel.app/" target="_blank" rel="noopener">https://lms-frontend-hazel.vercel.app/</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Nuxt.js/Vue.js Projects</h2>
+            <ul class="grid-list">
+                <li><a class="link-card" href="https://demo-testing.instakit.app/web/" target="_blank" rel="noopener">https://demo-testing.instakit.app/web/</a></li>
+                <li><a class="link-card" href="https://grandizar-delta.vercel.app/" target="_blank" rel="noopener">https://grandizar-delta.vercel.app/</a></li>
+                <li><a class="link-card" href="https://ibaax.vercel.app/" target="_blank" rel="noopener">https://ibaax.vercel.app/</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>WordPress Projects</h2>
+            <ul class="grid-list">
+                <li><a class="link-card" href="http://ahl-masr.org/en" target="_blank" rel="noopener">http://ahl-masr.org/en</a></li>
+                <li><a class="link-card" href="https://inetwork-me.com/" target="_blank" rel="noopener">https://inetwork-me.com/</a></li>
+                <li><a class="link-card" href="https://360.inetwork-hub.com/" target="_blank" rel="noopener">https://360.inetwork-hub.com/</a></li>
+                <li><a class="link-card" href="https://bravoeyeacademy.com/" target="_blank" rel="noopener">https://bravoeyeacademy.com/</a></li>
+                <li><a class="link-card" href="https://gaby-interiors.com/" target="_blank" rel="noopener">https://gaby-interiors.com/</a></li>
+                <li><a class="link-card" href="https://convertxmedia.co.uk/" target="_blank" rel="noopener">https://convertxmedia.co.uk/</a></li>
+                <li><a class="link-card" href="https://zele.bold-themes.com/rough/home/gym/" target="_blank" rel="noopener">https://zele.bold-themes.com/rough/home/gym/</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Shopify Projects</h2>
+            <ul class="grid-list">
+                <li><a class="link-card" href="https://ctrlcairo.com/" target="_blank" rel="noopener">https://ctrlcairo.com/</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>HTML/CSS Projects</h2>
+            <ul class="grid-list">
+                <li><a class="link-card" href="http://ar-coder.com/sites/alanwar" target="_blank" rel="noopener">ar-coder.com/sites/alanwar</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/cloudx" target="_blank" rel="noopener">ar-coder.com/sites/cloudx</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/consulto" target="_blank" rel="noopener">ar-coder.com/sites/consulto</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/decision" target="_blank" rel="noopener">ar-coder.com/sites/decision</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/gatedata" target="_blank" rel="noopener">ar-coder.com/sites/gatedata</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/gazolin" target="_blank" rel="noopener">ar-coder.com/sites/gazolin</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/kernel" target="_blank" rel="noopener">ar-coder.com/sites/kernel</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/logiesx" target="_blank" rel="noopener">ar-coder.com/sites/logiesx</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/mado" target="_blank" rel="noopener">ar-coder.com/sites/mado</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/meddoctors" target="_blank" rel="noopener">ar-coder.com/sites/meddoctors</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/medhealth" target="_blank" rel="noopener">ar-coder.com/sites/medhealth</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/micro" target="_blank" rel="noopener">ar-coder.com/sites/micro</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/petrol" target="_blank" rel="noopener">ar-coder.com/sites/petrol</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/postup" target="_blank" rel="noopener">ar-coder.com/sites/postup</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/rule" target="_blank" rel="noopener">ar-coder.com/sites/rule</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/supreme" target="_blank" rel="noopener">ar-coder.com/sites/supreme</a></li>
+                <li><a class="link-card" href="https://tms-ui-developer.vercel.app/" target="_blank" rel="noopener">https://tms-ui-developer.vercel.app</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>TailwindCSS Projects</h2>
+            <ul class="grid-list">
+                <li><a class="link-card" href="https://padel-frontend.netlify.app/" target="_blank" rel="noopener">https://padel-frontend.netlify.app/</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/astrazeneca" target="_blank" rel="noopener">ar-coder.com/sites/astrazeneca</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/tadween_ecommerce" target="_blank" rel="noopener">ar-coder.com/sites/tadween_ecommerce</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/astrazeneca-stories" target="_blank" rel="noopener">ar-coder.com/sites/astrazeneca-stories</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/instakit-old" target="_blank" rel="noopener">ar-coder.com/sites/instakit-old</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/shehab-ui" target="_blank" rel="noopener">ar-coder.com/sites/shehab-ui</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/tadween-website" target="_blank" rel="noopener">ar-coder.com/sites/tadween-website</a></li>
+                <li><a class="link-card" href="https://frontend-task-daftra.vercel.app/" target="_blank" rel="noopener">https://frontend-task-daftra.vercel.app/</a></li>
+                <li><a class="link-card" href="https://landingpage-ui-task-raqmee.vercel.app/" target="_blank" rel="noopener">https://landingpage-ui-task-raqmee.vercel.app/</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Other Projects</h2>
+            <ul class="grid-list">
+                <li><a class="link-card" href="http://ar-coder.com/sites/affix" target="_blank" rel="noopener">ar-coder.com/sites/affix</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/documentation" target="_blank" rel="noopener">ar-coder.com/sites/documentation</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/feah" target="_blank" rel="noopener">ar-coder.com/sites/feah</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/handx" target="_blank" rel="noopener">ar-coder.com/sites/handx</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/hospital" target="_blank" rel="noopener">ar-coder.com/sites/hospital</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/instakit" target="_blank" rel="noopener">ar-coder.com/sites/instakit</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/makkah" target="_blank" rel="noopener">ar-coder.com/sites/makkah</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/marketing" target="_blank" rel="noopener">ar-coder.com/sites/marketing</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/maxis" target="_blank" rel="noopener">ar-coder.com/sites/maxis</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/mosab2at" target="_blank" rel="noopener">ar-coder.com/sites/mosab2at</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/nebrasfilms" target="_blank" rel="noopener">ar-coder.com/sites/nebrasfilms</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/news" target="_blank" rel="noopener">ar-coder.com/sites/news</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/relax" target="_blank" rel="noopener">ar-coder.com/sites/relax</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/petrol-v2" target="_blank" rel="noopener">ar-coder.com/sites/petrol-v2</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/ar-esamco" target="_blank" rel="noopener">ar-coder.com/sites/ar-esamco</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/ar-landingpage" target="_blank" rel="noopener">ar-coder.com/sites/ar-landingpage</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/the-lost" target="_blank" rel="noopener">ar-coder.com/sites/the-lost</a></li>
+                <li><a class="link-card" href="http://ar-coder.com/sites/we-yes" target="_blank" rel="noopener">ar-coder.com/sites/we-yes</a></li>
+            </ul>
+        </section>
+
+        <hr class="divider">
+
+        <footer>
+            © <span id="year"></span> Anwar Ramadan — Frontend Developer
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
