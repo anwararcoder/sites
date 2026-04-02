@@ -1,0 +1,64 @@
+.main-menu-wrapper__logo-3 a img{
+    width: 225px;
+}
+.main-menu-wrapper-three__social {
+    padding: 47px 0 47px 60px;
+}
+.main-menu .main-menu__list>li, .stricky-header .main-menu__list>li{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.main-header-three .main-menu .main-menu__list>li+li, .main-menu-three.stricky-header .main-menu__list>li+li{
+    margin-left: 40px;
+}
+.main-menu-three--dark .main-menu-wrapper-three__social a.cta-one__btn{
+    padding: 8px 20px;
+    font-size: 12px;
+}
+.main-menu-three--dark .main-menu-wrapper-three__social a.cta-one__btn i{
+    margin: 0 8px 0 0;
+}
+.main-menu-three--dark .main-menu-wrapper-three__social a.cta-one__btn:hover{
+    background: var(--thm-primary);
+
+}
+.main-menu-wrapper-three__social a+a{
+    margin-left: 30px;
+}
+.main-menu-wrapper-three__main-menu-inner{
+    padding-right: 60px;
+}
+.welcome-one__title{
+    font-size: 40px;
+}
+.welcome-one__call{
+    padding-top: 0
+}
+.counters-one{
+    padding: 100px 0 200px 0;
+}
+.two-section__left-title {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.contact-expert__input input[type="email"], .contact-expert__input input[type="text"], .contact-expert__input textarea{
+    margin-bottom: 30px;
+}
+.team-one{
+    padding-top: 0
+}
+.team-one__name{
+    font-size: 20px;
+}
+.footer-widget__newsletter-btn{
+    position: unset;
+    transform: none;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+@media (max-width: 767px){
+    .main-menu-wrapper-three__main-menu-inner {
+        padding: 0;
+    }
+}

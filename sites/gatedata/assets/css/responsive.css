@@ -1,0 +1,519 @@
+/*
+::
+:: Theme Name: GateData - IT Solutions & Technology HTML5 Template
+:: Email: arcoder14@gmail.com
+:: Author URI: https://themeforest.net/user/ar-coder
+:: Author: ar-coder
+:: Version: 1.0
+:: 
+*/
+
+/*
+    01 :: Reset Page Css
+    02 :: Style Page Css
+        01-  :: Loading
+        02-  :: Navbar
+            01- :: Top Navbar
+            02- :: Navbar
+                01- :: Navbar 1
+                02- :: Navbar 2
+                03- :: Navbar 3
+        03-  :: Search Box
+        04-  :: Menu Box
+        05-  :: login Box Modal
+        06-  :: Regestar Box Modal
+        07-  :: Header
+            01- :: Header 1
+            02- :: Header 2
+            03- :: Header 3
+        08-  :: Features
+            01- :: Features 1
+            02- :: Features 2
+            03- :: Features 3
+        09-  :: About Us
+            01- :: About Us 1
+            02- :: About Us 2
+            03- :: About Us 3
+        10-  :: Services
+            01- :: Services 1
+            02- :: Services 2
+            03- :: Services 3
+        11-  :: Provide
+            01- :: Provide 1
+            02- :: Provide 2
+            03- :: Provide 3
+        12-  :: Pricing
+        13-  :: Work
+            01- :: Work 1
+            02- :: Work 2
+            03- :: Work 3
+        14-  :: Video Presentation
+        15-  :: Call US
+        16-  :: Why Choose Us
+        17-  :: Quote
+        18-  :: Statistic
+        19-  :: Team
+            01- :: Team 1
+            02- :: Team 2
+        20-  :: Testimonial
+        21-  :: Blog
+        22-  :: Newsletter
+        23-  :: Footer
+        24-  :: Scroll UP
+*/
+
+/* :: Large devices */
+@media (min-width: 1400px){
+    .provide .provide-text-box{
+        padding: 0 25% 0 9%;
+    }
+}
+@media (min-width: 991px) and (max-width: 1199px){
+    
+    /* :: Header */
+    .header .banner .handline,
+    .breadcrumb-header .banner h1{
+        font-size: 80px;
+    }
+    
+    /* :: Provide 3 */
+    .provide-3 .text-box{
+        padding: 100px 50px;
+    }
+    
+    /* :: Testimonial */
+    .testimonial-carousel .testimonial-carousel-item{
+        padding-right: 100px;
+    }
+    
+    /* :: ---------- All CSS Home 2 ---------- */
+    /* :: Header 3 */
+    .header.home-2 .banner .handline{
+        font-size: 65px;
+    }
+}
+
+/* :: Medium devices */
+@media (max-width: 991px){
+    
+    /* :: Sec Title */
+    .sec-title h3{
+        margin-bottom: 20px;
+    }
+    
+    /* :: Navbar */
+    .nav-bar .content-box{
+        display: block !important;
+    }
+    .nav-bar .logo{
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 16px 0;
+    }
+    .nav-bar .logo .open-nav-bar span{
+        width: 30px;
+        height: 3px;
+        border-radius: 3px;
+        background-color: #FFF;
+        display: block;
+    }
+    .nav-bar.active .logo .open-nav-bar span{
+        background-color: #091D3E;
+    }
+    .nav-bar .logo .open-nav-bar:hover span{
+        background-color: #0092FF;
+    }
+    .nav-bar .logo .open-nav-bar span:nth-of-type(2){
+        margin: 5px 0;
+        width: 20px;
+        position: relative;
+        right: -10px;
+    }
+    .nav-bar .nav-bar-links{
+        display: none
+    }
+    .nav-bar .nav-bar-links.active{
+        display: block;
+        border-top: 1px solid rgb(34, 34, 34, 0.1);
+        max-height: 300px;
+        overflow: hidden;
+        overflow-y: scroll;
+        -webkit-box-shadow: 0 3px 4px rgb(0 0 0 / 7%);
+                box-shadow: 0 3px 4px rgb(0 0 0 / 7%);
+        background-color: #FFF;
+    }
+    .nav-bar .nav-bar-links .level-1 .item-level-1{
+        display: block;
+    }
+    .nav-bar .nav-bar-links .level-1 .item-level-1 .link-level-1{
+        padding: 12px 0 12px 12px;
+        margin-right: 12px;
+        color: #091D3E;
+    }
+    .nav-bar .nav-bar-links .level-1 .item-level-1:last-of-type .link-level-1{
+        margin-right: 12px;
+    }
+    .nav-bar .nav-bar-links .level-1 .item-level-1.has-menu .link-level-1:after{
+        background-color: #0092FF;
+        color: #FFF;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 25px;
+        font-size: 12px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+        -webkit-transition: all 0.8s cubic-bezier(0.38, 0.17, 0.09, 0.99);
+        -o-transition: all 0.8s cubic-bezier(0.38, 0.17, 0.09, 0.99);
+        transition: all 0.8s cubic-bezier(0.38, 0.17, 0.09, 0.99);
+    }
+    .nav-bar .nav-bar-links .level-1 .item-level-1.has-menu .link-level-1.active:after{
+        -webkit-transform: translateY(-50%) rotate(180deg);
+            -ms-transform: translateY(-50%) rotate(180deg);
+                transform: translateY(-50%) rotate(180deg);
+    }
+    .nav-bar .nav-bar-links .level-2{
+        -webkit-transform: unset;
+        -ms-transform: unset;
+        transform: unset;
+        opacity: unset;
+        visibility: unset;
+        position: unset;
+        padding: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        display: none;
+    }
+    .nav-bar .nav-bar-links .level-2.active{
+        display: block;
+    }
+    .nav-bar .nav-bar-links .level-2 .item-level-2 .link-level-2{
+        color: #9B9B9B;
+        border-bottom: 1px solid rgb(155 155 155 / 30%);
+    }
+    .nav-bar .nav-bar-tools {
+        display: none !important;
+    }
+    
+    /* :: Header */
+    .header .banner .handline,
+    .breadcrumb-header .banner h1{
+        font-size: 65px;
+    }
+    
+    /* :: About US */
+    .about-us .about-text-box{
+        margin-top: 50px;
+    }
+    
+    /* :: Call US */
+    .call-us .sec-title h3 {
+        font-size: 45px;
+        line-height: 1.1;
+    }
+    
+    /* :: Provide */
+    .provide .provide-text-box{
+        padding: 0 50px 0 20px;
+    }
+    
+    /* :: Provide 3 */
+    .provide-3 .text-box{
+        padding: 100px 50px;
+    }
+    .provide-3 .text-box .provide-features-box{
+        margin-top: 30px;
+    }
+    
+    /* :: Why Choose */
+    .why-choose{
+        padding: 50px;
+    }
+    .why-choose .list-choose-us .list-item{
+        width: 50%;
+        float: left;
+    }
+    
+    /* :: Testimonial */
+    .testimonial .bg-section{
+        width: calc(100% - ( 355.83px / 2 ) );
+    }
+    .testimonial-carousel .testimonial-carousel-item{
+        padding-right: 100px;
+    }
+    .testimonial-carousel .testimonial-carousel-item .content-text-box{
+        font-size: 28px;
+        line-height: 1.3;
+    }
+    
+    /* :: ---------- All CSS Home 2 ---------- */
+    /* :: Header */
+    .header.home-2 .banner .handline {
+        font-size: 65px;
+    }
+    
+    /* :: Features */
+    .features.home-2 .features-item.one {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 5px;
+    }
+    .features.home-2 .features-item.three {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 5px;
+    }
+    
+    /* :: About US */
+    .about-us.home-2 .about-text-box {
+        margin: 0 0 50px 0;
+    }
+    .about-us.home-2 .about-img-box {
+        margin: 0;
+    }
+    
+    /* :: ---------- All CSS Home 3 ---------- */
+    /* :: About US */
+    .about-us.home-3 .about-img-box{
+        margin: 0
+    }
+    
+    /* :: ---------- Blog Page ---------- */
+    .sidebar-blog.ml-20{
+        margin-left: 0;
+    }
+}
+
+/* :: Small devices */
+@media (max-width: 768px){
+    /* :: Top Navbar */
+    .nav-top{
+        display: none
+    }
+    
+    /* :: Header */
+    .header .banner .handline,
+    .breadcrumb-header .banner h1{
+        font-size: 55px;
+    }
+    .header .banner .about-website{
+        margin-right: 30px;
+    }
+    
+    /* :: Provide */
+    .provide .container-fluid{
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+    }
+    .provide .provide-img-box{
+        height: 450px;
+        margin-bottom: 50px;
+    }
+    .provide .provide-img-box .img-box{
+        background-position: top;
+        border-radius: 5px;
+    }
+    .provide .provide-text-box{
+        padding: 0 40px;
+    }
+    .features-provide-list .item-features-provide-list {
+        padding: 40px;
+    }
+    
+    /* :: Provide 3 */
+    .provide-3 .text-box{
+        padding: 100px;
+    }
+    .provide-3 .text-box .provide-features-box{
+        margin-top: 0;
+    }
+    .provide-3 .img-box{
+        height: 400px;
+    }
+    
+    /* :: Call US */
+    .call-us .phone-box{
+        display: none;
+    }
+    
+    /* :: Testimonial */
+    .testimonial .container-fluid{
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 540px;
+    }
+    .testimonial .container-fluid .col-md-5.padding-0,
+    .testimonial .container-fluid .col-md-7.padding-0{
+        padding-right: calc(var(--bs-gutter-x)/ 2);
+        padding-left: calc(var(--bs-gutter-x)/ 2);
+    }
+    .testimonial .bg-section{
+        width: 100%;
+    }
+    .testimonial-carousel .testimonial-carousel-item {
+        padding-right: 0px;
+    }
+    .testimonial-img-box .img-box {
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    .testimonial-img-box .img-box img{
+        border-radius: 5px;
+    }
+    
+    /* :: Newsletter */
+    .newsletter .sec-title{
+        margin-bottom: 50px;
+    }
+    
+    /* :: Copyright */
+    .copyright p{
+        float: none;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .copyright ul{
+        float: none;
+        text-align: center;
+    }
+    
+    /* :: ---------- All CSS Home 2 ---------- */
+    /* :: Header */
+    .header.home-2 .banner .handline {
+        font-size: 55px;
+    }
+    
+    /* :: Quote */
+    .provide.home-2 .quote-box .contact-info .contact-box.last {
+        margin-bottom: 30px;
+    }
+    .provide.home-2 .quote-box form {
+        margin: 0;
+    }
+    .provide.home-2 .quote-box form .col-lg-6,
+    .provide.home-2 .quote-box form .col-lg-12 {
+        padding: 0;
+    }
+    
+    /* :: ---------- All CSS Home 3 ---------- */
+    /* :: Testimonial */
+    .testimonial.home-3 .testimonial-carousel .testimonial-carousel-item .item-img{
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .testimonial.home-3 .testimonial-carousel .testimonial-carousel-item i.quote{
+        display: none;
+    }
+    .testimonial.home-3 .testimonial-carousel .testimonial-carousel-item .content-text-box,
+    .testimonial.home-3 .testimonial-carousel .testimonial-carousel-item .testimonial-name{
+        text-align: center
+    }
+    
+    /* :: ---------- Team Details Page ---------- */
+    .single-team-sidebar.mr-20{
+        margin-right: 0;
+    }
+    
+    /* :: ---------- Services Details Page ---------- */
+    .sidebar-services.mr-20{
+        margin-right: 0;
+    }
+    
+    /* :: Products Details Page */
+    .products-details-content .img-box{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    /* :: Map */
+    .map-box{
+        height: 400px;
+        margin: 0 0 50px 0
+    }
+}
+
+/* :: Extra small devices */
+@media (max-width: 575px){
+    
+    /* :: Header */
+    .header .banner .handline,
+    .breadcrumb-header .banner h1{
+        font-size: 45px;
+    }
+    .header .banner .btn-1:last-of-type{
+        margin: 20px 0 0 0;
+    }
+    .header .banner .about-website{
+        margin-right: 0;
+    }
+    
+    /* :: About US */
+    .core-about-list li{
+        width: auto;
+        float: none;
+    }
+    
+    /* :: Provide */
+    .provide .provide-text-box {
+        padding: 0 25px;
+    }
+    .working-progress .working-progress-item{
+        margin-bottom: 30px;
+    }
+    .working-progress .working-progress-item.last{
+        margin-bottom: 0px;
+    }
+    
+    /* :: Provide 3 */
+    .provide-3 .text-box{
+        padding: 100px 50px;
+    }
+    .provide-3 .text-box .provide-features-box{
+        margin-top: 30px;
+    }
+    .provide-3 .text-box .profile img:last-of-type{
+        margin: 30px 0 0 0;
+        display: block;
+    }
+    
+    /* :: Why Choose */
+    .why-choose .list-choose-us .list-item{
+        width: 100%;
+        float: left;
+    }
+    
+    /* :: Quote */
+    .quote-box .quote-item .submit{
+        display: block;
+        width: 100%;
+    }
+    
+    /* :: ---------- All CSS Home 2 ---------- */
+    /* :: Header */
+    .header.home-2 .banner .handline {
+        font-size: 45px;
+    }
+
+    /* :: About US */
+    .about-us.home-2 .sign-about {
+        margin-top: 30px;
+    }
+    
+    /* :: 404 Error Page */
+    .page-404-area h2{
+        font-size: 150px;
+
+    }
+}
