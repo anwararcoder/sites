@@ -1,0 +1,146 @@
+/*
+* Template Name: Agic One Page Parallax Template
+* Author: codetheme144
+* Email: codetheme144@gmail.com
+* Developed By: codetheme144
+* Version: 1.0
+*/
+/*Medium devices*/
+@media (max-width: 991px) {
+	.navbar {
+		background-color: #fff !important;
+		border-bottom: 1px solid #e9e9e9;
+	}
+    .navbar .navbar-brand{
+        color: #009aff;
+    }
+	.navbar-light .navbar-toggler {
+		border-color: transparent;
+        padding: 0;
+	}
+
+	.navbar-light .navbar-toggler span {
+		width: 25px;
+		height: 3px;
+		background-color: #009aff;
+		display: block;
+	}
+
+	.navbar-light .navbar-toggler span:nth-of-type(2) {
+		margin: 5px 0;
+	}
+
+	.navbar .navbar-nav .nav-link {
+		color: #181d2f;
+        padding: 8px 0;
+        margin-left: 0
+	}
+
+	.header .header-info h1 {
+		font-size: 55px;
+	}
+
+	.about .features .features-box {
+		margin-bottom: 30px
+	}
+
+	.about .features .features-box:last-of-type {
+		margin-bottom: 0;
+	}
+	.about .info .img-box .info-img div {
+		margin-right: 0;
+	}
+	.about .info .text-box {
+		margin-top: 50px;
+	}
+
+	.about .statistics .statistics-box:nth-of-type(1),
+	.about .statistics .statistics-box:nth-of-type(2) {
+		margin-bottom: 30px;
+	}
+
+	.play {
+		margin-bottom: 30px;
+	}
+
+	.service .service-box:nth-of-type(4) {
+		margin-bottom: 30px;
+	}
+
+	.portfolio .portfolio-box:nth-of-type(4) {
+		margin-bottom: 30px;
+	}
+
+	.price .price-package:nth-of-type(1),
+	.price .price-package:nth-of-type(2) {
+		margin-bottom: 30px;
+	}
+
+	.price .item ul.center li {
+		text-align: center;
+	}
+
+	.price .item .down .btn-design {
+		width: 100%
+	}
+
+	.blog .blog-box:nth-of-type(1),
+	.blog .blog-box:nth-of-type(2) {
+		margin-bottom: 30px;
+	}
+}
+
+/*Small devices*/
+@media (max-width: 768px) {
+	.header .header-info h1 {
+		font-size: 50px;
+	}
+
+	.about .statistics .statistics-box:nth-of-type(3) {
+		margin-bottom: 30px;
+	}
+
+	.service .service-box:nth-of-type(5) {
+		margin-bottom: 30px;
+	}
+
+	.team .team-box:nth-of-type(1),
+	.team .team-box:nth-of-type(2) {
+		margin-bottom: 30px
+	}
+
+	.portfolio .portfolio-box:nth-of-type(5) {
+		margin-bottom: 30px;
+	}
+
+	.portfolio .link-list li {
+		display: block;
+		margin: 10px 5px;
+		text-align: center;
+	}
+}
+
+/*Extra small devices*/
+@media (max-width: 575px) {
+	.header .header-info h1 {
+		font-size: 40px;
+	}
+
+	.header .header-info .list-job li {
+		font-size: 14px;
+		margin: 0 0 8px 0;
+		display: block;
+	}
+
+	.header .header-info .list-job li:last-of-type {
+		margin: 0;
+	}
+
+	.header .header-info .list-job li:after {
+		position: static;
+	}
+
+	.sec-title p {
+		width: auto;
+	}
+}
