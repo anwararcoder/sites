@@ -1,0 +1,68 @@
+/*
+::
+:: Theme Name: Al-Anwar | Medical and Doctor HTML Template
+:: Email: arcoder14@gmail.com
+:: Author URI: https://themeforest.net/user/ar-coder
+:: Author: ar-coder
+:: Version: 1.0
+::
+*/
+
+/* :: Header Index */
+.header-index{
+    background: #F9F9F9 url(../images/01_bg.png);
+    padding: 100px 0 0 0;
+}
+.header-index .index-box h1{
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #222;
+}
+@media (max-width: 768px){
+    .header-index .index-box h1{
+        font-size: 35px;
+    }
+}
+@media (max-width: 575px){
+    .header-index .index-box h1{
+        font-size: 25px;
+    }
+}
+.header-index .index-box p{
+    font-size: 18px;
+    margin: 30px 0;
+    color: #343434;
+}
+
+/* :: Demos */
+.demos{
+    background: #F9F9F9 url(../images/01_bg.png);
+    position: relative;
+    background-position: center;
+}
+.demos .box-demo{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.demos .box-demo{
+    display: inline-block;
+}
+.demos .box-demo img{
+    box-shadow: 0 8px 20px rgba(40, 40, 40, 0.08);
+}
+.demos .box-demo:hover img{
+    transform: translateY(-20px);
+    box-shadow: 0 8px 40px rgba(40, 40, 40, 0.08);
+}
+.demos .box-demo .box-name{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #222;
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.demos .box-demo:hover .box-name{
+    color: #3EB7E9;
+}

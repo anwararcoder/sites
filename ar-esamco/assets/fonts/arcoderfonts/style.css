@@ -1,0 +1,81 @@
+@font-face {
+	font-family: 'arcoderfonts';
+	src: url('fonts/arcoderfonts.eot?8m49vp');
+	src: url('fonts/arcoderfonts.eot?8m49vp#iefix') format('embedded-opentype'),
+		url('fonts/arcoderfonts.ttf?8m49vp') format('truetype'),
+		url('fonts/arcoderfonts.woff?8m49vp') format('woff'),
+		url('fonts/arcoderfonts.svg?8m49vp#arcoderfonts') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+[class^="aricon-"],
+[class*=" aricon-"] {
+	font-family: 'arcoderfonts' !important;
+	font-style: normal;
+	line-height: 1;
+	display: inline-block;
+}
+.aricon-1:before {
+  content: "\e900";
+}
+.aricon-2:before {
+  content: "\e901";
+}
+.aricon-3:before {
+  content: "\e902";
+}
+.aricon-4:before {
+  content: "\e903";
+}
+.aricon-5:before {
+  content: "\e904";
+}
+.aricon-6:before {
+  content: "\e905";
+}
+.aricon-7:before {
+  content: "\e906";
+}
+.aricon-8:before {
+  content: "\e907";
+}
+.aricon-9:before {
+  content: "\e908";
+}
+.aricon-10:before {
+  content: "\e909";
+}
+.aricon-11:before {
+  content: "\e90b";
+}
+.aricon-12:before {
+  content: "\e90c";
+}
+.aricon-13:before {
+  content: "\e90d";
+}
+.aricon-14:before {
+  content: "\e90e";
+}
+.aricon-15:before {
+  content: "\e90f";
+}
+.aricon-16:before {
+  content: "\e910";
+}
+.aricon-17:before {
+  content: "\e911";
+}
+.aricon-18:before {
+  content: "\e912";
+}
+.aricon-19:before {
+  content: "\e913";
+}
+.aricon-20:before {
+  content: "\e914";
+}
+.aricon-21:before {
+  content: "\e915";
+}
