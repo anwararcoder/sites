@@ -1,0 +1,33 @@
+@media (max-width: 991px) {
+    .box-one .one .overlay-box .text {padding: 65px 10px 40px 10px;}
+    .box-one .one .overlay-box .text h5 {font-size: 40px;}
+    .box-seven .img-box {width: 25%;}
+}
+@media (max-width: 767px) {
+    .navbarr .open-menu .container .navbarr-branding h4 {color: #fff;}
+    .headder h1 {font-size: 80px;}
+    .headder h1 span:last-of-type:after {bottom: 45px;}
+    .headder .anchor {display: none;}
+    .website-info p {
+        float: none;
+        width: auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .box-two .one .text-box {width: 90%;}
+    .box-two .overlay-box .text {width: auto;}
+    .box-seven .img-box {width: 33.333333333%;}
+    .clients-info .box {width: 100%;}
+    .new {margin-top: 0;}
+    .new .text-box {width: 100%;}
+    .foooter .sec-three .cpy-right {margin-bottom: 25px;}
+}
+@media (max-width: 575px) {
+    .headder h1 {font-size: 38px;top: 40%;}
+    .headder h1 span:nth-of-type(2) {margin: 35px 0;}
+    .headder h1 span:last-of-type:after {bottom: 20px;}
+    .box-three p {font-size: 25px;}
+    .box-seven .img-box {width: 50%;}
+    .foooter .sec-two .sec-1{display: none;}
+    .foooter .sec-two .sec-2{flex: auto;max-width: initial;}
+}
