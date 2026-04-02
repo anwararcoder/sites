@@ -1,0 +1,195 @@
+@media (max-width: 991px) {
+	.talk-about button {
+		height: 46px;
+	}
+
+	.pricing-plans .box .down button {
+		padding: 10px 0;
+		width: 130px;
+	}
+}
+
+@media (max-width: 768px) {
+	.navigationbar .box .head-navv {
+		display: block;
+		height: 60px;
+	}
+
+	.navigationbar .box .menu-toggle {
+		display: block;
+		width: 40px;
+		height: 40px;
+		margin: 22px 10px;
+		float: right;
+		cursor: pointer;
+		text-align: center;
+		font-size: 30px;
+	}
+
+	.navigationbar.active .box .menu-toggle {
+		color: #1abc9c;
+	}
+
+	.navigationbar .box .navbars {
+		display: none;
+	}
+
+	.navigationbar .box .navbars.active {
+		display: block;
+		width: 100%;
+		background-color: #fff;
+	}
+
+	.navigationbar .box .navbars.active ul {
+		display: block;
+	}
+
+	.navigationbar .box .navbars ul li:hover a {
+		padding-left: 30px;
+	}
+
+	.navigationbar .box .navbars.active ul li a.active,
+	.navigationbar .box .navbars.active ul li a:hover {
+		background-color: #1abc9c;
+		color: #fff;
+	}
+
+	.navigationbar .box .navbars ul li ul.two {
+		position: static;
+		width: auto;
+		transform: scale(1);
+		display: none;
+	}
+
+	.navigationbar .box .navbars ul li:hover ul.two {
+		display: block;
+	}
+
+	.header .carousel .carousel-inner .carousel-item .overlay .header-info {
+		width: auto;
+	}
+
+	.header .carousel .carousel-inner .carousel-item .img-right {
+		display: none;
+	}
+
+	.project-gallary .filter {
+		height: 350px;
+	}
+
+	.testimonials .box .owl-carousel .item .content {
+		width: 95%;
+	}
+
+	.pricing-plans .box .down p {
+		margin: 30px 65px;
+	}
+
+	.pricing-plans .box .down button {
+		padding: 10px 0;
+		width: 170px;
+	}
+
+}
+
+
+@media (max-width: 575px) {
+	.header .carousel .carousel-inner .carousel-item .imging-box {
+		display: none;
+	}
+
+	.header .carousel .carousel-inner .carousel-item .container .header-info {
+		width: 80%;
+		padding: 0 20px;
+	}
+
+	.header .carousel .carousel-inner .carousel-item .container .header-info h1 {
+		font-size: 35px;
+		line-height: 35px;
+	}
+
+	.header .carousel-control-next span,
+	.header .carousel-control-prev span {
+		width: 30px;
+		height: 30px;
+	}
+
+	.header .carousel-control-next span i {
+		font-size: 20px;
+		line-height: 20px;
+		padding-left: 4px;
+		padding-top: 5px;
+	}
+
+	.header .carousel-control-prev span i {
+		font-size: 20px;
+		line-height: 20px;
+		padding-right: 4px;
+		padding-top: 5px;
+	}
+	.testimonials .box .owl-carousel .item .text-box p{
+		font-size: 14px
+	}
+	.blog .box-blog .down .one h4 a{
+		font-size: 18px
+	}
+	.blog .box-blog .down .one button {
+		float: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+@media (max-width: 768px){
+	.navigationbar{
+	}
+	.navigationbar .links{
+		display: none;
+	}
+	.navigationbar .links ul.one li{
+		display: block;
+	}
+	.navigationbar .list{
+		display: block;
+		position: absolute;
+		top: 8px;
+		right: 0;
+	}
+	.navigationbar .list:hover{
+		cursor: pointer;
+	}
+	.navigationbar .list img{
+		width: 50px;
+	}
+}
+@media (max-width: 575px){
+	
+}*/

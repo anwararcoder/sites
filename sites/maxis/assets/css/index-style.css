@@ -1,0 +1,43 @@
+/* =: Index Page */
+.header {
+	height: auto;
+	padding: 120px 0px 120px 0px;
+	background-image: url(../images/demos/demo.jpg);
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+}
+
+.demos {
+	background-color: #F8F9FA;
+}
+
+.demos .demo {
+	padding: 25px 15px;
+	-webkit-box-shadow: 0px 18px 35px -8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 18px 35px -8px rgba(0, 0, 0, 0.3);
+	margin-bottom: 30px;
+	background-color: #FFF;
+	display: block;
+}
+
+.demos .demo img {
+	-webkit-box-shadow: 0px 12px 35px -4px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 12px 35px -4px rgba(0, 0, 0, 0.1);
+}
+
+.demos .demo .text-box {
+	padding-top: 25px;
+	text-align: center;
+	color: #444;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.demos .demo:hover .text-box {
+	color: #20BAE6;
+}

@@ -1,0 +1,97 @@
+/* =: Medium devices*/
+@media (max-width: 991px) {
+	.navbar {
+		background-color: #FFF !important;
+	}
+
+	.navbar .navbar-brand {
+		color: #20BAE6;
+	}
+
+	.navbar .navbar-nav .nav-item .nav-link {
+		color: #444;
+		margin: 0;
+		display: inline-block;
+	}
+
+	.banner .box-banner h1 {
+		font-size: 55px;
+	}
+
+	.banner .box-banner p {
+		font-size: 20px;
+	}
+
+	.about .about-img {
+		margin-bottom: 40px;
+	}
+
+	.statistic .box-statistic {
+		-webkit-box-pack: center !important;
+		-ms-flex-pack: center !important;
+		justify-content: center !important;
+	}
+}
+
+/* =: Small devices*/
+@media (max-width: 768px) {
+	.sec-title p {
+		width: auto;
+	}
+
+	.navbar .navbar-brand {
+		margin-left: 20px;
+	}
+
+	.navbar .navbar-toggler {
+		margin-right: 20px;
+	}
+
+	.navbar .navbar-nav .nav-item .nav-link {
+		margin-left: 20px;
+	}
+
+	.banner .box-banner h1 {
+		font-size: 45px;
+	}
+
+	.banner .box-banner p {
+		font-size: 18px;
+	}
+
+	.statistic .box-statistic {
+		display: block !important;
+		text-align: center;
+	}
+
+	.statistic .box-statistic .icon {
+		display: inline-block !important;
+		margin-bottom: 10px;
+	}
+
+	.statistic .box-statistic .text {
+		margin-left: 0;
+	}
+
+	.pricing .box-pricing .down a {
+		width: 90%;
+	}
+
+	.testimonials .box-testimonials .item .box {
+		width: auto;
+	}
+
+}
+
+/* =: Extra small devices*/
+@media (max-width: 575px) {
+	.banner .box-banner h1 {
+		font-size: 30px;
+	}
+
+	.banner .box-banner .btn-one,
+	.banner .box-banner .btn-two {
+		margin: 0;
+		width: 125px;
+	}
+}
