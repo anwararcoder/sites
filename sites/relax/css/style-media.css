@@ -1,0 +1,76 @@
+@media (max-width: 991px) {
+    .count .count-top > div:nth-of-type(1){
+        border-bottom: 1px solid #e9ecef;
+        border-right: 1px solid #e9ecef;
+    }
+    .count .count-top > div:nth-of-type(2){
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #e9ecef;
+    }
+    .count .count-top > div:nth-of-type(3){
+        border-right: 1px solid #e9ecef;
+    }
+    .work .work-margin:after {
+        left: 125px;
+    }
+}
+@media (max-width: 767px) {
+	.navigation-bar .navbar {
+		position: static;
+		background-color: #fff !important;
+	}
+	.navigation-bar-top{
+		position: fixed !important;
+	}
+	.navigation-bar .navbar-light .navbar-brand {
+		color: #2c3e50 !important;
+	}
+	.navigation-bar .navbar .toggler-span span {
+		background: #2c3e50;
+	}
+    .navigation-bar .navbar .navbar-collapse{
+        border-top: 2px solid #1abc9c;
+    }
+	.navigation-bar .navbar-light .navbar-nav .nav-link{
+		color: #2c3e50 !important;
+        text-align: center;
+	}
+    .navigation-bar .navbar-light .navbar-nav .nav-link button {
+        border: 1px solid #2c3e50 !important;
+        color: #2c3e50 !important;
+        width: 100%;
+    }
+    .count .count-top > div:nth-of-type(1){
+        border-bottom: 1px solid #e9ecef;
+        border-right: none;
+    }
+    .count .count-top > div:nth-of-type(2){
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #e9ecef;
+    }
+    .count .count-top > div:nth-of-type(3){
+        border-right: none;
+        border-bottom: 1px solid #e9ecef;
+    }
+    .work .work-margin:after {
+        position: static;
+        width: 0;
+        height: 0;
+    }
+    .footer .links {
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+@media (max-width: 575px) {
+    .headder .overlay .header-text .header-input input,
+    .search .overlay .search-input input{
+        width: 70%;
+    }
+    .testimonials .click-button button:nth-of-type(1),
+    .testimonials .click-button button:nth-of-type(2){
+        width: 50%;
+    }
+}
