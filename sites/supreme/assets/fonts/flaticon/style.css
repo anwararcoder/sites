@@ -1,0 +1,183 @@
+@font-face {
+	font-family: 'AR-CoderFonts';
+	src: url('fonts/AR-CoderFonts.eot?5r8ypq');
+	src: url('fonts/AR-CoderFonts.eot?5r8ypq#iefix') format('embedded-opentype'),
+		url('fonts/AR-CoderFonts.ttf?5r8ypq') format('truetype'),
+		url('fonts/AR-CoderFonts.woff?5r8ypq') format('woff'),
+		url('fonts/AR-CoderFonts.svg?5r8ypq#AR-CoderFonts') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+[class^="aricons-"],
+[class*=" aricons-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'AR-CoderFonts' !important;
+	font-style: normal;
+	line-height: 1;
+}
+.aricons-ad-blocker:before {
+  content: "\e900";
+}
+.aricons-affiliate-marketing:before {
+  content: "\e901";
+}
+.aricons-analysis:before {
+  content: "\e902";
+}
+.aricons-b2b:before {
+  content: "\e903";
+}
+.aricons-banner:before {
+  content: "\e904";
+}
+.aricons-blogging:before {
+  content: "\e905";
+}
+.aricons-broadcast:before {
+  content: "\e906";
+}
+.aricons-commission:before {
+  content: "\e907";
+}
+.aricons-consumer-behavior:before {
+  content: "\e908";
+}
+.aricons-content:before {
+  content: "\e909";
+}
+.aricons-conversion:before {
+  content: "\e90a";
+}
+.aricons-copywriter:before {
+  content: "\e90b";
+}
+.aricons-cost-per-click:before {
+  content: "\e90c";
+}
+.aricons-customer-review:before {
+  content: "\e90d";
+}
+.aricons-ecommerce:before {
+  content: "\e90e";
+}
+.aricons-email:before {
+  content: "\e90f";
+}
+.aricons-email-marketing:before {
+  content: "\e910";
+}
+.aricons-growth:before {
+  content: "\e911";
+}
+.aricons-impression-rate:before {
+  content: "\e912";
+}
+.aricons-insight:before {
+  content: "\e913";
+}
+.aricons-keywords:before {
+  content: "\e914";
+}
+.aricons-live-stream:before {
+  content: "\e915";
+}
+.aricons-location:before {
+  content: "\e916";
+}
+.aricons-location-marker:before {
+  content: "\e917";
+}
+.aricons-market-research:before {
+  content: "\e918";
+}
+.aricons-mobile-marketing-1:before {
+  content: "\e919";
+}
+.aricons-mobile-marketing:before {
+  content: "\e91a";
+}
+.aricons-online-business:before {
+  content: "\e91b";
+}
+.aricons-online-survey:before {
+  content: "\e91c";
+}
+.aricons-organic-content:before {
+  content: "\e91d";
+}
+.aricons-paid-content:before {
+  content: "\e91e";
+}
+.aricons-phone:before {
+  content: "\e91f";
+}
+.aricons-promote:before {
+  content: "\e920";
+}
+.aricons-quote:before {
+  content: "\e921";
+}
+.aricons-remarketing:before {
+  content: "\e922";
+}
+.aricons-report:before {
+  content: "\e924";
+}
+.aricons-returning-visitor:before {
+  content: "\e925";
+}
+.aricons-sales-funnel:before {
+  content: "\e927";
+}
+.aricons-social-media:before {
+  content: "\e92a";
+}
+.aricons-solution:before {
+  content: "\e92b";
+}
+.aricons-storytelling:before {
+  content: "\e92c";
+}
+.aricons-straight-quotes:before {
+  content: "\e92e";
+}
+.aricons-subscription:before {
+  content: "\e92f";
+}
+.aricons-success:before {
+  content: "\e930";
+}
+.aricons-target-audience:before {
+  content: "\e931";
+}
+.aricons-user-engagement:before {
+  content: "\e932";
+}
+.aricons-viral-marketing:before {
+  content: "\e933";
+}
+.aricons-web-optimization:before {
+  content: "\e934";
+}
+.aricons-web-promotion:before {
+  content: "\e935";
+}
+.aricons-left-arrow:before {
+  content: "\e923";
+}
+.aricons-play:before {
+  content: "\e926";
+}
+.aricons-right-arrow .path1:before {
+  content: "\e928";
+  color: rgb(244, 67, 54);
+}
+.aricons-right-arrow .path2:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.aricons-seen:before {
+  content: "\e92d";
+}

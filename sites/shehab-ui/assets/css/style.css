@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+/* :: Body */
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #161616;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+::-moz-selection {
+    background-color: #9E7940;
+    color: #FFF;
+    text-shadow: none;
+}
+::selection {
+    background-color: #9E7940;
+    color: #FFF;
+    text-shadow: none;
+}
+a,
+a:hover,
+a:focus,
+button:focus {
+    text-decoration: none;
+    color: #333;
+}
+.container,
+.container-fluid{
+    position: relative
+}
+
+/* :: Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 28px;
+}
+.swiper-pagination{
+
+}
+.swiper-pagination .swiper-pagination-bullet{
+    width: 14px;
+    height: 14px;
+    background-color: #DFAA5A;
+}
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    
+}
