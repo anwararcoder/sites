@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- :: Required Meta Tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- :: Favicon -->
+        <link rel="icon" type="image/png" href="assets/images/logo/fav.png">
+
+        <!-- :: Title -->
+        <title>Padel</title>
+
+        <!-- :: Description -->
+        <meta name="description" content="padel">
+
+        <!-- :: KeyWords -->
+        <meta name="keywords" content="padel">
+
+        <!-- :: Style CSS -->
+        <link rel="stylesheet" href="assets/css/tailwindstyle.css">
+    </head>
+
+    <body>
+        <!-- :: Navbar -->
+        <nav class="nav-bar border-b-[1px] border-[#EAECF0] lg:border-[0px]">
+            <div class="container px-[15px] mx-auto">
+                <div class="block lg:flex lg:items-center lg:justify-between content">
+                    <div class="flex items-center justify-between logo lg:block">
+                        <button class="block bar-btn open-nav-bar group lg:hidden lg:ml-0">
+                            <span class="w-[10px] h-[3px] rounded-[3px] bg-[#000] block group-hover:bg-[#7D287F] group-hover:w-[30px] mr-auto"></span>
+                            <span class="w-[20px] h-[3px] rounded-[3px] bg-[#000] block group-hover:bg-[#7D287F] group-hover:w-[30px] my-[5px] mr-auto"></span>
+                            <span class="w-[30px] h-[3px] rounded-[3px] bg-[#000] block group-hover:bg-[#7D287F] group-hover:w-[30px]"></span>
+                        </button>
+                        <a href="index.html" class="logo-nav block py-[20px]">
+                            <img loading="lazy" class="" src="assets/images/logo/01_logo.png" alt="01 Logo">
+                        </a>
+                        <ul class="lg:hidden">
+                            <li class="relative dropdown py-[18px]">
+                                <button class="flex items-center gap-[12px] py-[20px] bg-[#F9FAFB] border-[#DDD] border-[1px] w-[40px] h-[40px] justify-center">
+                                    <svg width="25" height="137" viewBox="0 0 120 137" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.7">
+                                            <path d="M119.612 23.7527C119.093 23.3847 116.626 22.8405 115.165 23.0534C113.703 23.2663 113.248 24.0854 112.241 24.4534C111.236 24.8172 111.209 24.6663 109.747 24.6663C108.285 24.6663 107.524 26.0085 106.792 26.3976C106.062 26.7868 105.725 27.0095 103.926 26.7966C102.132 26.5838 98.8403 25.5207 96.8918 24.6663C94.9433 23.8161 91.6244 22.8095 88.9442 22.8095C86.264 22.8095 80.3861 23.0844 80.537 22.9293C80.6921 22.7784 80.537 22.23 80.537 22.23C80.537 22.23 78.1627 22.1369 76.7627 21.5617C75.3627 20.9808 74.4195 20.1617 72.6825 19.1254C70.9455 18.0891 68.1736 17.4815 65.7979 16.6581C63.4237 15.8347 60.8012 15.6838 60.1329 15.6838C59.4646 15.6838 57.2398 15.227 57.1214 15.0466C56.9973 14.8605 56.329 14.1301 55.8412 13.9172C55.3534 13.7043 55.1109 13.1869 54.6231 12.2733C54.1353 11.3611 53.6178 10.7492 53.4359 10.7492C53.2541 10.7492 52.8861 11.1172 52.8861 11.1172C52.8861 11.1172 52.4914 10.6294 52.3673 10.5053C52.2474 10.3855 52.1543 10.0485 51.8794 9.53106C51.6045 9.01222 51.2111 8.03798 50.9672 6.91288C50.7233 5.78778 50.3779 4.94607 50.3779 4.94607C50.0099 3.8393 49.8506 2.52246 49.4305 2.52246C49.0103 2.52246 46.9589 1.99516 46.9589 1.99516C46.9589 1.99516 46.2187 0.839045 45.1655 0.258168C44.1152 -0.32271 42.0074 0.258168 42.0074 0.258168C42.0074 0.258168 42.5347 0.626153 42.1667 0.785472C41.7987 0.94056 40.111 0.785472 40.111 0.785472L40.2703 1.15345H38.8478L39.0071 1.5736H38.2669L37.3195 2.15448H36.7921L36.2648 3.15551H35.6896L35.0565 4.25804H34.6364L34.1627 5.41839L34.0034 5.09975C34.0034 5.09975 33.5296 5.31264 33.476 7.57553C33.4267 9.83982 35.2173 8.94454 35.058 10.4193C34.8987 11.894 35.5317 13.5775 35.8461 14.5249C36.1647 15.4724 37.3744 17.7902 37.6888 19.3707C38.0074 20.9526 40.3239 22.2145 40.5862 22.7418C40.8526 23.2691 43.4299 24.1644 43.1155 24.5309C42.8011 24.8989 42.7475 27.5298 42.6939 28.6901C42.6404 29.8505 42.5347 32.4813 42.1667 33.3231C41.7987 34.1648 41.1656 35.3251 40.9527 36.2726C40.744 37.22 40.3775 38.1153 40.0575 38.4833C39.7431 38.8513 38.2147 39.9059 36.6906 41.0521C35.1623 42.1955 31.4233 44.6445 31.0553 45.0661C30.6831 45.4876 29.1068 45.9614 29.1068 45.9614C29.1068 45.9614 28.6867 45.802 28.4202 46.0149C28.1593 46.2236 25.5228 47.4897 25.1027 47.8041C24.6825 48.1185 23.7872 48.8587 23.7872 48.8587L21.3862 49.6468C19.8663 50.356 18.0419 52.7923 18.0419 52.7923C18.0419 52.7923 15.9116 50.559 14.2902 48.9391C12.6688 47.3177 6.68376 40.2217 2.42728 41.1339C0.0346891 41.6485 -0.182374 44.8546 0.0925553 47.5616C0.29699 49.6172 0.83269 51.6235 1.61659 53.5367C2.24541 55.0778 2.83476 56.6413 3.42832 57.3731C4.46037 58.6533 7.02077 60.1731 9.06371 60.4156C11.101 60.6595 13.5105 59.1975 14.3931 58.1654C15.2743 57.1292 16.9492 54.8747 16.9492 54.8747C16.9492 54.8747 17.1663 54.7549 17.1663 55.4866C17.1663 56.2184 17.1931 56.5497 17.5921 56.7048C17.9869 56.8556 18.3535 56.5497 18.5664 56.7048C18.7793 56.8556 19.9974 57.0685 19.9974 57.0685L20.1173 57.2814C20.2414 57.4943 21.0647 57.1926 21.1225 57.4633C21.1846 57.7382 21.7034 57.7072 21.9769 57.7072C22.2504 57.7072 22.4647 57.1009 22.4647 57.1009C22.4647 57.1009 22.7975 57.0389 23.0146 57.3449C23.2275 57.6508 24.1087 57.163 24.6586 56.733C25.2084 56.3072 25.1154 55.6079 25.1154 55.6079L27.0949 53.7524C27.0949 53.7524 27.7941 53.4465 27.8872 53.4155C27.976 53.3845 28.6754 53.1406 28.9813 52.8092C29.2873 52.4723 29.4691 52.3792 29.7426 52.2594C30.0176 52.1353 30.7479 52.2594 30.8988 52.1663C31.0539 52.0775 31.1737 51.405 31.1737 51.405C31.1737 51.405 31.811 51.1033 32.3918 51.0412C32.9727 50.9792 36.0153 50.2799 37.2645 49.761C38.5136 49.2422 40.1265 48.299 41.9862 46.8369C43.8416 45.3748 46.5528 43.1825 46.5528 43.1825C46.5528 43.1825 46.7658 44.0636 46.8278 44.3696C46.8898 44.6755 47.0097 45.5257 47.3156 46.655C47.6216 47.7801 48.9906 50.0035 49.202 51.0102C49.4149 52.0155 49.202 52.3482 49.202 52.8966C49.202 53.4451 50.0832 54.4518 50.2383 54.9072C50.3892 55.364 50.2693 58.4996 50.2693 59.2609C50.2693 60.0223 50.2073 61.0599 49.9324 62.185C49.6575 63.3101 47.6469 64.8652 47.1591 65.5646C46.6712 66.2639 44.1151 68.7932 44.1151 68.7932L39.9108 74.4596C39.9108 74.4596 36.8993 78.8712 36.5933 79.6339C36.2874 80.3953 36.2874 80.6392 36.2253 81.0071C36.1675 81.3709 33.8821 85.2072 33.8201 85.3313C33.758 85.4511 31.6587 88.4049 31.3218 89.96C30.989 91.5151 30.7465 92.3963 31.7207 94.9835C32.6949 97.5748 36.7132 100.042 37.9313 100.892C39.1495 101.747 41.9227 103.754 42.928 104.485C43.9333 105.215 46.065 107.682 46.065 107.682C46.065 107.682 46.003 112.404 45.9142 113.043C45.8211 113.686 45.3333 116.271 45.3333 116.271L45.1824 118.127C45.1824 118.127 44.7524 118.919 44.297 119.407C43.8402 119.895 42.1356 120.807 40.5227 121.599C38.9056 122.392 38.4502 123.336 39.1185 124.218C39.7924 125.103 42.4091 124.648 42.4091 124.648C42.4091 124.648 41.4349 125.378 40.3676 126.261C39.3045 127.142 38.9366 128.116 37.8115 129.52C36.6822 130.92 32.5709 132.382 32.2382 132.776C31.9012 133.175 31.1398 133.994 32.5399 135.305C33.9441 136.612 37.1418 136.124 39.9418 136.066C42.7461 136.004 44.8764 135.15 45.8197 134.693C46.7629 134.236 49.9 133.812 50.8432 133.812C51.7864 133.812 53.4656 133.386 53.7983 132.319C54.1353 131.252 52.9792 131.283 53.161 131.008C53.3429 130.737 52.762 129.333 52.5181 128.633C52.2742 127.934 51.73 125.678 51.5439 125.161C51.362 124.648 50.9686 124.648 50.9686 124.648L50.8446 123.886C50.8446 123.886 51.2125 123.642 51.8498 123.212C52.4927 122.787 54.7119 121.781 55.9921 121.537C57.2723 121.294 59.2518 121.081 60.7449 120.381C62.238 119.682 63.3941 118.038 63.301 117.215C63.2122 116.391 62.5397 116.515 62.5397 116.515C62.5397 116.515 61.9954 115.297 61.5076 114.474C61.0198 113.655 59.373 111.55 59.0981 111.276C58.8274 111.006 58.4919 111.582 58.4919 111.582C58.4919 111.582 58.004 110.945 57.3668 109.758C56.7239 108.571 54.8995 106.103 54.8995 106.103C54.8995 106.103 54.8994 103.423 55.5677 101.748C56.236 100.069 56.5109 97.5128 56.3601 95.9591C56.205 94.4082 55.8102 93.1901 55.4746 91.3614C55.1419 89.537 55.6876 90.2053 56.4799 88.9561C57.2723 87.707 59.4661 84.5714 59.4661 84.5714C59.4661 84.5714 61.2651 86.8878 62.0532 87.3446C62.8456 87.8014 63.5153 87.3446 64.1258 87.0077C64.7321 86.6707 67.6872 82.441 68.175 81.2229C68.6628 80.0047 69.943 77.0186 70.005 76.2572C70.0628 75.517 70.4971 74.609 70.5239 74.5555C70.5239 74.5738 70.6169 74.5823 72.2552 73.6701C74.1163 72.6338 76.3087 68.2476 76.8262 65.9043C77.345 63.5569 77.6143 55.1849 77.3704 53.266C77.1265 51.3486 76.6132 47.9634 76.6132 47.9634L76.4272 46.7763C76.2453 45.5891 75.4219 41.234 75.271 39.5914C75.1202 37.9475 73.9908 32.4334 73.9908 32.4334L74.1459 32.3714C74.1459 32.3714 76.4582 32.6463 77.7694 32.4024C79.0764 32.1585 79.8687 29.8462 79.8687 29.8462C79.8687 29.8462 82.5179 30.4215 84.8654 30.8825C87.2086 31.3393 92.6311 31.7637 95.1294 31.6707C97.6235 31.5818 103.015 31.6129 104.538 31.6129C106.06 31.6129 106.699 32.1275 107.311 32.3122C107.917 32.494 109.348 32.37 109.929 32.3432C110.504 32.3122 110.504 32.1571 110.721 32.0062C110.934 31.8554 111.328 31.4253 111.541 31.094C111.753 30.757 112.697 30.695 112.697 30.695C112.697 30.695 112.79 31.001 112.79 31.2138C112.79 31.4267 112.484 31.6707 112.426 32.0062C112.364 32.3432 112.484 32.463 112.728 32.7055C112.972 32.9494 113.34 32.9804 113.613 32.7365C113.884 32.4926 114.281 31.6382 114.281 31.6382C114.281 31.6382 114.463 31.7933 114.463 32.1881C114.463 32.5829 114.769 32.2501 115.013 32.1881C115.257 32.1261 115.987 31.2449 116.382 30.8191C116.781 30.3933 117.449 28.4138 117.48 27.3465C117.511 26.2792 116.293 26.4033 116.049 26.3991C115.806 26.3906 115.894 25.305 116.262 25.0033C116.626 24.6973 116.838 24.9412 117.662 25.0343C118.486 25.1231 119.093 25.4911 119.611 25.1851C120.13 24.8792 120.13 24.1178 119.611 23.7541L119.612 23.7527ZM14.2986 53.7017C14.2803 53.7553 14.2493 53.768 14.2098 53.799C14.1746 53.83 14.1393 53.861 14.0984 53.892C14.0547 53.9273 14.0011 53.9498 13.956 53.9851C13.894 54.0288 13.8193 54.0288 13.7573 54.0739C13.7305 54.0965 13.6825 54.1007 13.6416 54.0922C13.5838 54.0795 13.6064 53.9949 13.6064 53.9456V53.8173C13.6064 53.7863 13.6191 53.768 13.6247 53.7426V53.2421C13.6247 53.1716 13.6332 53.0954 13.6205 53.0292C13.612 52.9629 13.5937 52.9051 13.5937 52.8346C13.6783 52.9234 13.674 52.9544 13.691 52.9812C13.7093 53.0038 13.7304 53.0123 13.7445 53.0348C13.7713 53.0743 13.7629 53.1236 13.7939 53.1547C13.8122 53.173 13.8334 53.1941 13.8517 53.2082C13.8785 53.2209 13.9011 53.2266 13.9222 53.2435C13.98 53.2787 14.0505 53.283 14.1168 53.3013C14.152 53.3097 14.2183 53.314 14.2451 53.3408C14.2634 53.3591 14.2634 53.3802 14.2719 53.3986C14.2944 53.4606 14.2986 53.5001 14.2986 53.5621C14.2986 53.6058 14.3071 53.6594 14.2986 53.7045V53.7017ZM46.4273 95.8858C46.4273 95.8858 46.2187 95.5009 45.6519 94.7254C45.0851 93.9458 44.1899 93.5299 44.1588 92.4259C44.1278 91.3234 45.6519 89.5018 45.6519 89.5018C45.6209 90.0375 46.0368 91.2599 46.2765 92.5147C46.5162 93.7681 46.4273 95.8858 46.4273 95.8858Z" fill="#7D287F" />
+                                            <path d="M14.2236 99.2871C15.8267 99.1602 17.1167 97.9308 17.3339 96.3545C16.9165 97.0933 15.869 98.6639 14.2236 99.2871Z" fill="#7D287F" />
+                                            <path d="M13.9523 92.4668C13.7592 92.4668 13.5702 92.4823 13.3855 92.5147C13.3898 92.5317 13.3911 92.55 13.3897 92.5697C13.3799 92.6656 13.1416 94.9468 10.8956 96.3764C10.8632 96.3976 10.8294 96.406 10.7955 96.406C10.7307 96.406 10.6715 96.3736 10.6349 96.3172C10.5785 96.2298 10.6052 96.1128 10.6941 96.0564C12.5692 94.8636 12.9442 92.9842 13.0048 92.6022C11.578 93.0124 10.5361 94.325 10.5361 95.8844C10.5361 97.5847 11.7796 98.9974 13.4067 99.2583C13.4165 99.1807 13.4716 99.1145 13.5519 99.0975C15.8881 98.5942 17.1838 95.8336 17.1979 95.8054C17.2303 95.7378 17.2938 95.6983 17.3643 95.6955C17.2656 93.8964 15.7753 92.4682 13.9537 92.4682L13.9523 92.4668Z" fill="#7D287F" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <ul class="dropdown-menu hidden absolute top-[100%] right-0 z-[900] border-[1px] border-[#EAECF0] bg-white rounded shadow-2xl min-w-[270px]">
+                                    <li class="relative item-level-2">
+                                        <button onclick="togglePopup('loginPopupContainer')" class="group w-full hover:bg-[#fcf5fe] text-[#64748B] hover:text-[#7D287F] text-[18px] font-[500] leading-[21px] relative flex items-center gap-[12px] capitalize py-[18px] px-[20px] border-b-[1px] border-[#EAECF0]" href="#">
+                                            Login
+                                        </button>
+                                    </li>
+                                    <li class="relative item-level-2">
+                                        <button onclick="togglePopup('signupPopupContainer')" class="group w-full hover:bg-[#fcf5fe] text-[#64748B] hover:text-[#7D287F] text-[18px] font-[500] leading-[21px] relative flex items-center gap-[12px] capitalize py-[18px] px-[20px] border-b-[1px] border-[#EAECF0]" href="#">
+                                            signup
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="fixed nav-bar-links lg:static top-0 lg:top-auto left-[-105%] sm:left-[-360px] lg:left-auto h-[100vh] lg:h-auto w-full sm:w-[350px] lg:w-auto" id="open-nav-bar-menu">
+                        <div class="content-responsive bg-white lg:bg-transparent py-[50px] lg:py-0 px-[40px] lg:px-0 h-full lg:h-auto">
+                            <div class="logo-menu flex justify-between items-center mb-[40px] lg:hidden">
+                                <a href="index.html" class="logo-nav">
+                                    <img loading="lazy" class="" src="assets/images/logo/01_logo.png" alt="01 Logo">
+                                </a>
+                                <button class="open-nav-bar close text-[20px] inline-block leading-[1] text-black hover:text-[#7D287F]">
+                                    X
+                                </button>
+                            </div>
+                            <ul class="level-1 max-h-[325px] lg:max-h-[unset] block">
+                                <li class="relative block group lg:inline-block item-level-1 has-menu">
+                                    <a href="#" class="link-level-1 text-black hover:text-[#7D287F] text-[16px] leading-[19px] font-[600] w-full lg:w-auto py-[10px] lg:py-[30px] lg:mr-[30px] relative flex items-center justify-between lg:inline-flex gap-[5px] capitalize active">
+                                        Tour
+                                        <svg class="fill-black" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.354 1.35378L6.35403 6.35378C6.30759 6.40027 6.25245 6.43715 6.19175 6.46231C6.13105 6.48748 6.06599 6.50043 6.00028 6.50043C5.93457 6.50043 5.86951 6.48748 5.80881 6.46231C5.74811 6.43715 5.69296 6.40027 5.64653 6.35378L0.646528 1.35378C0.552708 1.25996 0.5 1.13272 0.5 1.00003C0.5 0.867352 0.552708 0.740104 0.646528 0.646284C0.740348 0.552463 0.867596 0.499756 1.00028 0.499756C1.13296 0.499756 1.26021 0.552463 1.35403 0.646284L6.00028 5.29316L10.6465 0.646284C10.693 0.599829 10.7481 0.562978 10.8088 0.537837C10.8695 0.512696 10.9346 0.499756 11.0003 0.499756C11.066 0.499756 11.131 0.512696 11.1917 0.537837C11.2524 0.562978 11.3076 0.599829 11.354 0.646284C11.4005 0.692739 11.4373 0.747889 11.4625 0.808586C11.4876 0.869282 11.5006 0.934336 11.5006 1.00003C11.5006 1.06573 11.4876 1.13079 11.4625 1.19148C11.4373 1.25218 11.4005 1.30733 11.354 1.35378Z" />
+                                        </svg>
+                                    </a>
+                                    <ul class="level-2 hidden rounded lg:block lg:absolute z-10 border-[1px] border-[#EAECF0] bg-white group-hover:lg:shadow-2xl top-[100%] left-0 lg:translate-y-[20px] group-hover:lg:translate-y-[0px] lg:min-w-[270px] overflow-hidden lg:opacity-0 group-hover:lg:opacity-100 lg:invisible group-hover:lg:visible">
+                                        <li class="relative item-level-2">
+                                            <a class="link-level-2 hover:bg-[#fcf5fe] text-[#64748B] hover:text-[#7D287F] text-[18px] font-[500] leading-[21px] relative block capitalize py-[18px] px-[20px] border-b-[1px] border-[#EAECF0]" href="about.html">about</a>
+                                        </li>
+                                        <li class="relative item-level-2">
+                                            <a class="link-level-2 hover:bg-[#fcf5fe] text-[#64748B] hover:text-[#7D287F] text-[18px] font-[500] leading-[21px] relative block capitalize py-[18px] px-[20px] border-b-[1px] border-[#EAECF0]" href="divisions.html">divisions</a>
+                                        </li>
+                                        <li class="relative item-level-2">
+                                            <a class="link-level-2 hover:bg-[#fcf5fe] text-[#64748B] hover:text-[#7D287F] text-[18px] font-[500] leading-[21px] relative block capitalize py-[18px] px-[20px] border-b-[1px] border-[#EAECF0]" href="guidelines.html">guidelines</a>
+                                        </li>
+                                        <li class="relative item-level-2">
+                                            <a class="link-level-2 hover:bg-[#fcf5fe] text-[#64748B] hover:text-[#7D287F] text-[18px] font-[500] leading-[21px] relative block capitalize py-[18px] px-[20px] border-b-[1px] border-[#EAECF0]" href="events.html">events</a>
+                                        </li>
+                                        <li class="relative item-level-2">
+                                            <a class="link-level-2 hover:bg-[#fcf5fe] text-[#64748B] hover:text-[#7D287F] text-[18px] font-[500] leading-[21px] relative block capitalize py-[18px] px-[20px] border-b-[1px] border-[#EAECF0]" href="ranks.html">ranks</a>
+                                        </li>
+                                        <li class="relative item-level-2">
+                                            <a class="link-level-2 hover:bg-[#fcf5fe] text-[#64748B] hover:text-[#7D287F] text-[18px] font-[500] leading-[21px] relative block capitalize py-[18px] px-[20px] border-b-[1px] border-[#EAECF0]" href="gallery.html">gallery</a>
+                                        </li>
+                                        <li class="relative item-level-2">
+                                            <a class="link-level-2 hover:bg-[#fcf5fe] text-[#64748B] hover:text-[#7D287F] text-[18px] font-[500] leading-[21px] relative block capitalize py-[18px] px-[20px] border-b-[1px] border-[#EAECF0]" href="results.html">results</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="relative block group lg:inline-block item-level-1">
+                                    <a href="players.html" class="link-level-1 text-black hover:text-[#7D287F] text-[16px] leading-[19px] font-[600] w-full lg:w-auto py-[10px] lg:py-[30px] lg:mr-[30px] relative flex items-center justify-between lg:inline-flex gap-[5px] capitalize">Players</a>
+                                </li>
+                                <li class="relative block group lg:inline-block item-level-1">
+                                    <a href="news.html" class="link-level-1 text-black hover:text-[#7D287F] text-[16px] leading-[19px] font-[600] w-full lg:w-auto py-[10px] lg:py-[30px] lg:mr-[30px] relative flex items-center justify-between lg:inline-flex gap-[5px] capitalize">News</a>
+                                </li>
+                                <li class="relative block group lg:inline-block item-level-1">
+                                    <a href="partners.html" class="link-level-1 text-black hover:text-[#7D287F] text-[16px] leading-[19px] font-[600] w-full lg:w-auto py-[10px] lg:py-[30px] lg:mr-[30px] relative flex items-center justify-between lg:inline-flex gap-[5px] capitalize">Partners</a>
+                                </li>
+                                <li class="relative block group lg:inline-block item-level-1">
+                                    <a href="contact.html" class="link-level-1 text-black hover:text-[#7D287F] text-[16px] leading-[19px] font-[600] w-full lg:w-auto py-[10px] lg:py-[30px] lg:mr-[30px] relative flex items-center justify-between lg:inline-flex gap-[5px] capitalize">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="copyright-menu mt-[40px] lg:hidden">
+                                <a href="#" class="text-black hover:text-[#7D287F] text-[16px] leading-[19px] font-[600] flex items-center mb-[40px] gap-[10px]">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"></path>
+                                        <path d="M3 12H21" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M12 20.7566C14.0711 20.7566 15.75 16.8363 15.75 12.0004C15.75 7.16445 14.0711 3.24414 12 3.24414C9.92893 3.24414 8.25 7.16445 8.25 12.0004C8.25 16.8363 9.92893 20.7566 12 20.7566Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"></path>
+                                    </svg>
+                                    عربي
+                                </a>
+                                <ul class="flex items-center gap-[15px] flex-wrap">
+                                    <li class="inline-flex mx-[5px]">
+                                        <a href="#" aria-label="facebook" class="group flex items-center justify-center text-center bg-[#fcf5fe] hover:bg-[#7D287F] w-[45px] h-[45px] rounded-full">
+                                            <svg class="fill-[#7D287F] group-hover:fill-white" width="10" height="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 18">
+                                                <path d="M6.464 18V9.79h2.894l.434-3.2H6.464V4.546c0-.927.27-1.558 1.665-1.558l1.78-.001V.126A25.003 25.003 0 0 0 7.316 0C4.75 0 2.993 1.491 2.993 4.23v2.36H.09v3.2h2.902V18h3.47z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="inline-flex mx-[5px]">
+                                        <a href="#" aria-label="x" class="group flex items-center justify-center text-center bg-[#fcf5fe] hover:bg-[#7D287F] w-[45px] h-[45px] rounded-full">
+                                            <svg class="fill-[#7D287F] group-hover:fill-white" viewBox="0 0 24 24" width="18" height="18">
+                                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="inline-flex mx-[5px]">
+                                        <a href="#" aria-label="youtube" class="group flex items-center justify-center text-center bg-[#fcf5fe] hover:bg-[#7D287F] w-[45px] h-[45px] rounded-full">
+                                            <svg class="fill-[#7D287F] group-hover:fill-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 14">
+                                                <path d="m10.439 13.98-4.063-.076c-1.315-.027-2.633.026-3.923-.248-1.961-.41-2.1-2.417-2.246-4.101-.2-2.368-.123-4.779.256-7.127C.676 1.11 1.516.324 2.815.238c4.386-.31 8.8-.273 13.176-.128.462.013.927.086 1.383.168 2.25.403 2.304 2.679 2.45 4.594.145 1.935.084 3.88-.194 5.803-.223 1.59-.65 2.925-2.45 3.054-2.256.169-4.46.304-6.722.261 0-.01-.013-.01-.02-.01zM8.05 9.95l5.058-2.969c-1.703-.997-3.367-1.978-5.058-2.969v5.938z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="inline-flex mx-[5px]">
+                                        <a href="#" aria-label="linkedin" class="group flex items-center justify-center text-center bg-[#fcf5fe] hover:bg-[#7D287F] w-[45px] h-[45px] rounded-full">
+                                            <svg class="fill-[#7D287F] group-hover:fill-white" width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13.3895 9.31525C13.3034 9.27387 13.2159 9.23405 13.1272 9.19592C12.9729 6.34569 11.4186 4.71393 8.80878 4.69723C8.79695 4.69716 8.78519 4.69716 8.77337 4.69716C7.21237 4.69716 5.91411 5.36482 5.11504 6.57976L6.55035 7.56635C7.14729 6.65884 8.08412 6.46537 8.77406 6.46537C8.78203 6.46537 8.79003 6.46537 8.79791 6.46544C9.65723 6.47093 10.3057 6.72128 10.7254 7.2095C11.0308 7.56494 11.235 8.05611 11.3362 8.67599C10.5743 8.54623 9.75035 8.50634 8.86952 8.55694C6.38824 8.70016 4.79307 10.1502 4.9002 12.1651C4.95457 13.1872 5.46271 14.0665 6.33098 14.6409C7.06508 15.1264 8.01056 15.3639 8.99319 15.3101C10.2909 15.2389 11.3089 14.7427 12.0191 13.8356C12.5585 13.1467 12.8996 12.254 13.0502 11.1291C13.6687 11.5031 14.127 11.9952 14.3801 12.5868C14.8106 13.5925 14.8357 15.2451 13.4899 16.5924C12.3109 17.7727 10.8936 18.2833 8.75165 18.2991C6.37568 18.2815 4.57877 17.5179 3.41046 16.0297C2.31644 14.6362 1.75105 12.6234 1.72995 10.0471C1.75105 7.47084 2.31644 5.458 3.41046 4.06447C4.57877 2.57627 6.37565 1.81276 8.75162 1.79507C11.1448 1.81289 12.9731 2.58008 14.1861 4.07546C14.7809 4.80877 15.2293 5.73097 15.5249 6.80622L17.2069 6.35655C16.8486 5.03304 16.2847 3.89256 15.5174 2.94672C13.9623 1.02958 11.688 0.0472246 8.75749 0.0268555H8.74576C5.82125 0.0471538 3.57234 1.03324 2.06153 2.95771C0.717109 4.67024 0.0236191 7.05311 0.000317057 10.0401L0.000244141 10.0471L0.000317057 10.0542C0.0236191 13.0411 0.717109 15.424 2.06153 17.1365C3.57234 19.061 5.82125 20.0471 8.74576 20.0674H8.75749C11.3575 20.0493 13.1902 19.3672 14.7 17.8557C16.6754 15.8783 16.6159 13.3996 15.9648 11.878C15.4977 10.7868 14.6072 9.90059 13.3895 9.31525ZM8.9003 13.5445C7.8128 13.6059 6.683 13.1168 6.62729 12.0691C6.586 11.2923 7.17898 10.4256 8.96704 10.3223C9.17181 10.3105 9.37275 10.3047 9.57014 10.3047C10.2196 10.3047 10.8272 10.3679 11.3796 10.4889C11.1736 13.0673 9.96504 13.4859 8.9003 13.5445Z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="copyright capitalize text-[13px] font-[600] mt-[30px]">2024 SPT All rights reserved.</div>
+                            </div>
+                        </div>
+                        <div class="open-nav-bar close-bg "></div>
+                    </div>
+
+                    <ul class="nav-bar-options hidden lg:flex items-center gap-[30px]">
+                        <li>
+                            <button onclick="togglePopup('loginPopupContainer')" class="btn-1 btn-3 sec-btn min-w-[auto]" style="min-width: auto !important;padding: 0 18px;">login</button>
+                        </li>
+                        <li>
+                            <button onclick="togglePopup('signupPopupContainer')" class="btn-1 sec-btn min-w-[auto]" style="min-width: auto !important;padding: 0 18px;background-color: #68BC45;">Sign
+                                Up</button>
+                        </li>
+                        <li class="relative">
+                            <a class="block" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"></path>
+                                    <path d="M3 12H21" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M12 20.7566C14.0711 20.7566 15.75 16.8363 15.75 12.0004C15.75 7.16445 14.0711 3.24414 12 3.24414C9.92893 3.24414 8.25 7.16445 8.25 12.0004C8.25 16.8363 9.92893 20.7566 12 20.7566Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- :: Login Popup Container -->
+        <div id="loginPopupContainer" class="popup-container hidden fixed inset-0 bg-black/75 z-[9999] items-center justify-center" onclick="closePopup('loginPopupContainer')">
+            <div class="popup relative mx-[15px] w-full max-w-[600px] text-center py-[60px] px-[40px] md:px-[100px] rounded-[8px] bg-white" onclick="event.stopPropagation()">
+                <div class="mb-[60px]">
+                    <div class="text-[24px] font-[500] leading-[28px] mb-[20px]">Login with email</div>
+                    <p class="max-w-[230px] mx-auto leading-[19px]">Great to see you again, please enter your password.</p>
+                </div>
+                <form>
+                    <div class="mb-[20px]">
+                        <label class="leading-[19px] mb-[12px] block text-left">Your Email</label>
+                        <input type="email" name="email" placeholder="Ex: youremail@email.com" class="h-[50px] font-[400] w-[100%] leading-[50px] border-[1px] border-[#EAECF0] hover:border-[#7D287F] focus:border-[#7D287F] text-[16px] rounded-[8px] px-[20px]">
+                    </div>
+                    <div class="mb-[20px]">
+                        <label class="leading-[19px] mb-[12px] block text-left">Your Password</label>
+                        <div class="relative">
+                            <div class="absolute inset-y-0 right-0 flex items-center cursor-pointer group">
+                                <input class="hidden js-password-toggle" id="toggle1" type="checkbox">
+                                <label for="toggle1" class="js-password-label px-[20px] cursor-pointer">
+                                    <svg class="cursor-pointer" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.5 3.75L19.5 20.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M14.522 14.7746C13.8338 15.405 12.9334 15.7532 12.0001 15.7496C11.2432 15.7495 10.5041 15.5204 9.87984 15.0924C9.25561 14.6644 8.77551 14.0575 8.50265 13.3515C8.22979 12.6455 8.17695 11.8735 8.35107 11.1369C8.52519 10.4003 8.91812 9.73369 9.47821 9.22461" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M6.9375 6.43164C3.1125 8.36289 1.5 12.0004 1.5 12.0004C1.5 12.0004 4.5 18.7504 12 18.7504C13.7574 18.7647 15.4929 18.3598 17.0625 17.5691" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M19.5564 15.8531C21.6002 14.025 22.5002 12 22.5002 12C22.5002 12 19.5002 5.25002 12.0002 5.25002C11.35 5.24874 10.7008 5.30205 10.0596 5.4094" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M12.7031 8.31592C13.5006 8.46702 14.2273 8.87342 14.7735 9.47377C15.3198 10.0741 15.6559 10.8359 15.7313 11.644" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </label>
+                            </div>
+                            <input class="js-password h-[50px] font-[400] w-[100%] leading-[50px] border-[1px] border-[#EAECF0] hover:border-[#7D287F] focus:border-[#7D287F] text-[16px] rounded-[8px] px-[20px]" id="password1" type="password" autocomplete="off" aria-autocomplete="list" placeholder="Enter your password">
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <span onclick="togglePopup('forgetPasswordPopupContainer')" class="text-[14px] leading-[16px] text-[#7D287F] cursor-pointer">Forgot password?</span>
+                    </div>
+                    <div class="my-[30px]">
+                        <button class="btn-1 sec-btn min-w-[100%]" style="min-width: 100%; background-color: #68BC45;">Login</button>
+                    </div>
+                    <div>
+                        <div class="text-center text-black leading-[19px]">
+                            <span class="">No account? </span>
+                            <span onclick="togglePopup('signupPopupContainer')" class="text-[#7D287F] cursor-pointer">Create a new account</span>
+                        </div>
+                    </div>
+                </form>
+                <span class="absolute top-[30px] right-[30px]" onclick="closePopup('loginPopupContainer')">
+                    <svg class="fill-[#000] hover:fill-[#7D287F] cursor-pointer" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.2806 14.2193C15.3502 14.289 15.4055 14.3717 15.4432 14.4628C15.4809 14.5538 15.5003 14.6514 15.5003 14.7499C15.5003 14.8485 15.4809 14.9461 15.4432 15.0371C15.4055 15.1281 15.3502 15.2109 15.2806 15.2806C15.2109 15.3502 15.1281 15.4055 15.0371 15.4432C14.9461 15.4809 14.8485 15.5003 14.7499 15.5003C14.6514 15.5003 14.5538 15.4809 14.4628 15.4432C14.3717 15.4055 14.289 15.3502 14.2193 15.2806L7.99993 9.06024L1.78055 15.2806C1.63982 15.4213 1.44895 15.5003 1.24993 15.5003C1.05091 15.5003 0.860034 15.4213 0.719304 15.2806C0.578573 15.1398 0.499512 14.949 0.499512 14.7499C0.499512 14.5509 0.578573 14.36 0.719304 14.2193L6.93962 7.99993L0.719304 1.78055C0.578573 1.63982 0.499512 1.44895 0.499512 1.24993C0.499512 1.05091 0.578573 0.860034 0.719304 0.719304C0.860034 0.578573 1.05091 0.499512 1.24993 0.499512C1.44895 0.499512 1.63982 0.578573 1.78055 0.719304L7.99993 6.93962L14.2193 0.719304C14.36 0.578573 14.5509 0.499512 14.7499 0.499512C14.949 0.499512 15.1398 0.578573 15.2806 0.719304C15.4213 0.860034 15.5003 1.05091 15.5003 1.24993C15.5003 1.44895 15.4213 1.63982 15.2806 1.78055L9.06024 7.99993L15.2806 14.2193Z" />
+                    </svg>
+                </span>
+            </div>
+        </div>
+
+        <!-- :: Signup Popup Container -->
+        <div id="signupPopupContainer" class="popup-container hidden fixed inset-0 bg-black/75 z-[9999] items-center justify-center" onclick="closePopup('signupPopupContainer')">
+            <div class="popup relative mx-[15px] w-full max-w-[600px] text-center py-[60px] px-[40px] md:px-[100px] rounded-[8px] bg-white" onclick="event.stopPropagation()">
+                <div class="mb-[60px]">
+                    <div class="text-[24px] font-[500] leading-[28px] mb-[20px]">Sign up with email</div>
+                    <p class="max-w-[230px] mx-auto leading-[19px]">Great to see you again, please enter your password.</p>
+                </div>
+                <form>
+                    <div class="mb-[20px]">
+                        <label class="leading-[19px] mb-[12px] block text-left">Your Email</label>
+                        <input type="email" name="email" placeholder="Ex: youremail@email.com" class="h-[50px] font-[400] w-[100%] leading-[50px] border-[1px] border-[#EAECF0] hover:border-[#7D287F] focus:border-[#7D287F] text-[16px] rounded-[8px] px-[20px]">
+                    </div>
+                    <div class="mb-[20px]">
+                        <label class="leading-[19px] mb-[12px] block text-left">Your phone number</label>
+                        <div class="flex items-center">
+                            <select class="cursor-pointer h-[50px] rounded-r-none rounded-[8px] p-[14px] border-[1px] border-[#EAECF0] hover:border-[#7D287F] focus:border-[#7D287F]">
+                                <option value="+02">+02</option>
+                                <option value="+02">+02</option>
+                                <option value="+02">+02</option>
+                                <option value="+02">+02</option>
+                            </select>
+                            <input type="text" name="phone" placeholder="Enter your phone number" class="h-[50px] font-[400] w-[100%] leading-[50px] border-[1px] border-[#EAECF0] hover:border-[#7D287F] focus:border-[#7D287F] text-[16px] rounded-[8px] rounded-l-none px-[20px]">
+                        </div>
+                    </div>
+                    <div class="mb-[20px]">
+                        <label class="leading-[19px] mb-[12px] block text-left">Your Password</label>
+                        <div class="relative">
+                            <div class="absolute inset-y-0 right-0 flex items-center cursor-pointer group">
+                                <input class="hidden js-password-toggle" id="toggle2" type="checkbox">
+                                <label for="toggle2" class="js-password-label px-[20px] cursor-pointer">
+                                    <svg class="cursor-pointer" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.5 3.75L19.5 20.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M14.522 14.7746C13.8338 15.405 12.9334 15.7532 12.0001 15.7496C11.2432 15.7495 10.5041 15.5204 9.87984 15.0924C9.25561 14.6644 8.77551 14.0575 8.50265 13.3515C8.22979 12.6455 8.17695 11.8735 8.35107 11.1369C8.52519 10.4003 8.91812 9.73369 9.47821 9.22461" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M6.9375 6.43164C3.1125 8.36289 1.5 12.0004 1.5 12.0004C1.5 12.0004 4.5 18.7504 12 18.7504C13.7574 18.7647 15.4929 18.3598 17.0625 17.5691" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M19.5564 15.8531C21.6002 14.025 22.5002 12 22.5002 12C22.5002 12 19.5002 5.25002 12.0002 5.25002C11.35 5.24874 10.7008 5.30205 10.0596 5.4094" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M12.7031 8.31592C13.5006 8.46702 14.2273 8.87342 14.7735 9.47377C15.3198 10.0741 15.6559 10.8359 15.7313 11.644" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </label>
+                            </div>
+                            <input class="js-password h-[50px] font-[400] w-[100%] leading-[50px] border-[1px] border-[#EAECF0] hover:border-[#7D287F] focus:border-[#7D287F] text-[16px] rounded-[8px] px-[20px]" id="password2" type="password" autocomplete="off" aria-autocomplete="list" placeholder="Enter your password">
+                        </div>
+                    </div>
+                    <div class="mb-[20px]">
+                        <label class="leading-[19px] mb-[12px] block text-left">Confirm your Password</label>
+                        <div class="relative">
+                            <div class="absolute inset-y-0 right-0 flex items-center cursor-pointer group">
+                                <input class="hidden js-password-toggle" id="toggle3" type="checkbox">
+                                <label for="toggle3" class="js-password-label px-[20px] cursor-pointer">
+                                    <svg class="cursor-pointer" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.5 3.75L19.5 20.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M14.522 14.7746C13.8338 15.405 12.9334 15.7532 12.0001 15.7496C11.2432 15.7495 10.5041 15.5204 9.87984 15.0924C9.25561 14.6644 8.77551 14.0575 8.50265 13.3515C8.22979 12.6455 8.17695 11.8735 8.35107 11.1369C8.52519 10.4003 8.91812 9.73369 9.47821 9.22461" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M6.9375 6.43164C3.1125 8.36289 1.5 12.0004 1.5 12.0004C1.5 12.0004 4.5 18.7504 12 18.7504C13.7574 18.7647 15.4929 18.3598 17.0625 17.5691" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M19.5564 15.8531C21.6002 14.025 22.5002 12 22.5002 12C22.5002 12 19.5002 5.25002 12.0002 5.25002C11.35 5.24874 10.7008 5.30205 10.0596 5.4094" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M12.7031 8.31592C13.5006 8.46702 14.2273 8.87342 14.7735 9.47377C15.3198 10.0741 15.6559 10.8359 15.7313 11.644" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </label>
+                            </div>
+                            <input class="js-password h-[50px] font-[400] w-[100%] leading-[50px] border-[1px] border-[#EAECF0] hover:border-[#7D287F] focus:border-[#7D287F] text-[16px] rounded-[8px] px-[20px]" id="password3" type="password" autocomplete="off" aria-autocomplete="list" placeholder="Re-enter your password">
+                        </div>
+                    </div>
+                    <div class="my-[30px]">
+                        <button class="btn-1 sec-btn min-w-[100%]" style="min-width: 100%; background-color: #68BC45;">Sign up</button>
+                    </div>
+                    <div>
+                        <div class="text-center text-black leading-[19px]">
+                            <span class="">Already have an account? </span>
+                            <span onclick="togglePopup('loginPopupContainer')" class="text-[#7D287F] cursor-pointer">Login</span>
+                        </div>
+                    </div>
+                </form>
+                <span class="absolute top-[30px] right-[30px]" onclick="closePopup('signupPopupContainer')">
+                    <svg class="fill-[#000] hover:fill-[#7D287F] cursor-pointer" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.2806 14.2193C15.3502 14.289 15.4055 14.3717 15.4432 14.4628C15.4809 14.5538 15.5003 14.6514 15.5003 14.7499C15.5003 14.8485 15.4809 14.9461 15.4432 15.0371C15.4055 15.1281 15.3502 15.2109 15.2806 15.2806C15.2109 15.3502 15.1281 15.4055 15.0371 15.4432C14.9461 15.4809 14.8485 15.5003 14.7499 15.5003C14.6514 15.5003 14.5538 15.4809 14.4628 15.4432C14.3717 15.4055 14.289 15.3502 14.2193 15.2806L7.99993 9.06024L1.78055 15.2806C1.63982 15.4213 1.44895 15.5003 1.24993 15.5003C1.05091 15.5003 0.860034 15.4213 0.719304 15.2806C0.578573 15.1398 0.499512 14.949 0.499512 14.7499C0.499512 14.5509 0.578573 14.36 0.719304 14.2193L6.93962 7.99993L0.719304 1.78055C0.578573 1.63982 0.499512 1.44895 0.499512 1.24993C0.499512 1.05091 0.578573 0.860034 0.719304 0.719304C0.860034 0.578573 1.05091 0.499512 1.24993 0.499512C1.44895 0.499512 1.63982 0.578573 1.78055 0.719304L7.99993 6.93962L14.2193 0.719304C14.36 0.578573 14.5509 0.499512 14.7499 0.499512C14.949 0.499512 15.1398 0.578573 15.2806 0.719304C15.4213 0.860034 15.5003 1.05091 15.5003 1.24993C15.5003 1.44895 15.4213 1.63982 15.2806 1.78055L9.06024 7.99993L15.2806 14.2193Z" />
+                    </svg>
+                </span>
+            </div>
+        </div>
+
+        <!-- :: Login Popup Container -->
+        <div id="forgetPasswordPopupContainer" class="popup-container hidden fixed inset-0 bg-black/75 z-[9999] items-center justify-center" onclick="closePopup('forgetPasswordPopupContainer')">
+            <div class="popup relative mx-[15px] w-full max-w-[600px] text-center py-[60px] px-[40px] md:px-[100px] rounded-[8px] bg-white" onclick="event.stopPropagation()">
+                <div class="mb-[60px]">
+                    <div class="text-[24px] font-[500] leading-[28px] mb-[20px]">Forgot password?</div>
+                    <p class="max-w-[285px] mx-auto leading-[19px]">Enter your registered email to receive a reset link in your inbox email.</p>
+                </div>
+                <form>
+                    <div class="mb-[20px]">
+                        <label class="leading-[19px] mb-[12px] block text-left">Your Email</label>
+                        <input type="email" name="email" placeholder="Ex: youremail@email.com" class="h-[50px] font-[400] w-[100%] leading-[50px] border-[1px] border-[#EAECF0] hover:border-[#7D287F] focus:border-[#7D287F] text-[16px] rounded-[8px] px-[20px]">
+                    </div>
+                    <div class="mt-[60px]">
+                        <button class="btn-1 sec-btn min-w-[100%]" style="min-width: 100%; background-color: #68BC45;">Send</button>
+                    </div>
+                </form>
+                <span class="absolute top-[30px] right-[30px]" onclick="closePopup('forgetPasswordPopupContainer')">
+                    <svg class="fill-[#000] hover:fill-[#7D287F] cursor-pointer" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.2806 14.2193C15.3502 14.289 15.4055 14.3717 15.4432 14.4628C15.4809 14.5538 15.5003 14.6514 15.5003 14.7499C15.5003 14.8485 15.4809 14.9461 15.4432 15.0371C15.4055 15.1281 15.3502 15.2109 15.2806 15.2806C15.2109 15.3502 15.1281 15.4055 15.0371 15.4432C14.9461 15.4809 14.8485 15.5003 14.7499 15.5003C14.6514 15.5003 14.5538 15.4809 14.4628 15.4432C14.3717 15.4055 14.289 15.3502 14.2193 15.2806L7.99993 9.06024L1.78055 15.2806C1.63982 15.4213 1.44895 15.5003 1.24993 15.5003C1.05091 15.5003 0.860034 15.4213 0.719304 15.2806C0.578573 15.1398 0.499512 14.949 0.499512 14.7499C0.499512 14.5509 0.578573 14.36 0.719304 14.2193L6.93962 7.99993L0.719304 1.78055C0.578573 1.63982 0.499512 1.44895 0.499512 1.24993C0.499512 1.05091 0.578573 0.860034 0.719304 0.719304C0.860034 0.578573 1.05091 0.499512 1.24993 0.499512C1.44895 0.499512 1.63982 0.578573 1.78055 0.719304L7.99993 6.93962L14.2193 0.719304C14.36 0.578573 14.5509 0.499512 14.7499 0.499512C14.949 0.499512 15.1398 0.578573 15.2806 0.719304C15.4213 0.860034 15.5003 1.05091 15.5003 1.24993C15.5003 1.44895 15.4213 1.63982 15.2806 1.78055L9.06024 7.99993L15.2806 14.2193Z" />
+                    </svg>
+                </span>
+            </div>
+        </div>
+
+        <!-- :: Complete your information -->
+        <section class="min-h-[100vh]">
+            <div class="grid h-full grid-cols-1 lg:grid-cols-2">
+                <div class="p-[40px] sm:p-[50px] md:p-[60px] md:py-[120px] lg:p-[120px] lg:py-[120px] xl:p-[180px] xl:py-[120px]">
+                    <form class="text-center">
+                        <div class="mb-[60px]">
+                            <div class="text-[24px] font-[500] leading-[28px] mb-[20px]">Complete your information</div>
+                            <p class="max-w-[230px] mx-auto leading-[19px]">Great to see you again, please enter your password.</p>
+                            <div class="flex justify-center mt-[30px]">
+                                <ul class="flex items-center">
+                                    <li class="inline-flex items-center justify-center w-[35px] h-[35px] rounded-full bg-[#68BC45]">
+                                        <svg class="fill-[#FFF]" width="15" height="11" viewBox="0 0 15 11" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.1478 1.46029L5.14779 10.4603C5.09555 10.5126 5.03351 10.5541 4.96523 10.5824C4.89694 10.6107 4.82375 10.6253 4.74982 10.6253C4.6759 10.6253 4.60271 10.6107 4.53442 10.5824C4.46613 10.5541 4.4041 10.5126 4.35185 10.4603L0.414356 6.52279C0.308808 6.41725 0.249512 6.27409 0.249512 6.12482C0.249512 5.97556 0.308808 5.8324 0.414356 5.72686C0.519904 5.62131 0.663057 5.56201 0.812324 5.56201C0.961592 5.56201 1.10475 5.62131 1.21029 5.72686L4.74982 9.26709L13.3519 0.664355C13.4574 0.558808 13.6006 0.499512 13.7498 0.499512C13.8991 0.499512 14.0422 0.558808 14.1478 0.664355C14.2533 0.769903 14.3126 0.913057 14.3126 1.06232C14.3126 1.21159 14.2533 1.35475 14.1478 1.46029Z" />
+                                        </svg>
+                                    </li>
+                                    <li class="h-[1px] w-[30px] bg-[#7D287F]"></li>
+                                    <li class="inline-flex items-center justify-center w-[35px] h-[35px] rounded-full bg-[#7D287F] text-white">
+                                        <span class="inline-block text-[14px] leading-[16px] font-[600]">2</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="mb-[20px]">
+                                <label class="leading-[19px] mb-[12px] block text-left">Gender</label>
+                                <div class="flex gap-[20px] flex-wrap items-center">
+                                    <span class="rounded-[8px] border-[1px] border-[#EAECF0] cursor-pointer inline-flex items-center w-[calc(50%-10px)]">
+                                        <input id="Male" class="cursor-pointer peer/Male m-[12px] accent-[#7D287F]" type="radio" name="status" checked />
+                                        <label for="Male" class="peer-checked/Male:text-[#7D287F] cursor-pointer text-left w-full py-[12px] text-[14px] leading-[16px] font-[400]">Male</label>
+                                    </span>
+                                    <span class="rounded-[8px] border-[1px] border-[#EAECF0] cursor-pointer inline-flex items-center w-[calc(50%-10px)]">
+                                        <input id="Female" class="cursor-pointer peer/Female m-[12px] accent-[#7D287F]" type="radio" name="status" />
+                                        <label for="Female" class="peer-checked/Female:text-[#7D287F] cursor-pointer text-left w-full py-[12px] text-[14px] leading-[16px] font-[400]">Female</label>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="mb-[20px]">
+                                <label class="leading-[19px] mb-[12px] block text-left">Height</label>
+                                <div class="relative">
+                                    <input type="text" placeholder="Enter your height" class="h-[50px] font-[400] w-[100%] leading-[50px] border-[1px] border-[#EAECF0] hover:border-[#7D287F] focus:border-[#7D287F] text-[16px] rounded-[8px] px-[20px]" required>
+                                    <span class="absolute right-[14px] top-[50%] translate-y-[-50%] font-[400] text-[14px] leading-[16px]">CM</span>
+                                </div>
+                            </div>
+                            <div class="mb-[20px]">
+                                <label class="leading-[19px] mb-[12px] block text-left">Date of birth</label>
+                                <div class="flex gap-[12px] flex-wrap items-center">
+                                    <div class="inline-flex items-center sm:w-[calc(33.3%-8px)]">
+                                        <select class="h-[50px] text-[#64748B] font-[400] w-[100%] leading-[50px] border-[1px] border-[#EAECF0] hover:border-[#7D287F] focus:border-[#7D287F] text-[16px] rounded-[8px] px-[20px]">
+                                            <option>Day</option>
+                                            <option value="Day">Day</option>
+                                            <option value="Day">Day</option>
+                                            <option value="Day">Day</option>
+                                            <option value="Day">Day</option>
+                                            <option value="Day">Day</option>
+                                            <option value="Day">Day</option>
+                                        </select>
+                                    </div>
+                                    <div class="inline-flex items-center sm:w-[calc(33.3%-8px)]">
+                                        <select class="h-[50px] text-[#64748B] font-[400] w-[100%] leading-[50px] border-[1px] border-[#EAECF0] hover:border-[#7D287F] focus:border-[#7D287F] text-[16px] rounded-[8px] px-[20px]">
+                                            <option>Month</option>
+                                            <option value="Month">Month</option>
+                                            <option value="Month">Month</option>
+                                            <option value="Month">Month</option>
+                                            <option value="Month">Month</option>
+                                            <option value="Month">Month</option>
+                                            <option value="Month">Month</option>
+                                        </select>
+                                    </div>
+                                    <div class="inline-flex items-center sm:w-[calc(33.3%-8px)]">
+                                        <select class="h-[50px] text-[#64748B] font-[400] w-[100%] leading-[50px] border-[1px] border-[#EAECF0] hover:border-[#7D287F] focus:border-[#7D287F] text-[16px] rounded-[8px] px-[20px]">
+                                            <option>Year</option>
+                                            <option value="Year">Year</option>
+                                            <option value="Year">Year</option>
+                                            <option value="Year">Year</option>
+                                            <option value="Year">Year</option>
+                                            <option value="Year">Year</option>
+                                            <option value="Year">Year</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-[20px]">
+                                <label class="leading-[19px] mb-[12px] block text-left">Nationality</label>
+                                <select class="h-[50px] text-[#111] font-[400] w-[100%] leading-[50px] border-[1px] border-[#EAECF0] hover:border-[#7D287F] focus:border-[#7D287F] text-[16px] rounded-[8px] px-[20px]">
+                                    <option>Select your nationality</option>
+                                    <option value="nationality">nationality</option>
+                                    <option value="nationality">nationality</option>
+                                    <option value="nationality">nationality</option>
+                                    <option value="nationality">nationality</option>
+                                    <option value="nationality">nationality</option>
+                                    <option value="nationality">nationality</option>
+                                </select>
+                            </div>
+                            <div class="mb-[20px]">
+                                <label class="leading-[19px] mb-[12px] block text-left">National ID / Passport Number</label>
+                                <input type="text" placeholder="National ID / Passport Number" class="h-[50px] font-[400] w-[100%] leading-[50px] border-[1px] border-[#EAECF0] hover:border-[#7D287F] focus:border-[#7D287F] text-[16px] rounded-[8px] px-[20px]" required>
+                            </div>
+                            <div class="mb-[20px]">
+                                <label class="leading-[19px] mb-[12px] block text-left">Country of residence</label>
+                                <select class="h-[50px] text-[#64748B] font-[400] w-[100%] leading-[50px] border-[1px] border-[#EAECF0] hover:border-[#7D287F] focus:border-[#7D287F] text-[16px] rounded-[8px] px-[20px]">
+                                    <option>Country of residence</option>
+                                    <option value="Country">Country</option>
+                                    <option value="Country">Country</option>
+                                    <option value="Country">Country</option>
+                                    <option value="Country">Country</option>
+                                    <option value="Country">Country</option>
+                                    <option value="Country">Country</option>
+                                </select>
+                            </div>
+                            <div class="mt-[60px]">
+                                <div class="flex gap-[20px] flex-wrap items-center">
+                                    <div class="w-full sm:w-[calc(50%-10px)]">
+                                        <button class="w-full btn-1 btn-3 sec-btn min-w-[auto]" style="min-width: auto;background-color: #EAECF0;">Back</button>
+                                    </div>
+                                    <div class="w-full sm:w-[calc(50%-10px)]">
+                                        <button class="w-full btn-1 sec-btn" style="min-width: auto;background-color: #68BC45;">Confirm</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="flex items-center">
+                    <div class="w-[100%] h-[100%]">
+                        <div class="min-h-[500px] h-[100%] bg-cover bg-center relative" style="background-image: url(assets/images/complete-your-information/complete-your-information-2.png)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- :: Footer -->
+        <footer class="py-[60px] bg-black text-white relative">
+            <div class="container px-[15px] mx-auto relative z-10">
+                <div class="gap-[50px] mb-[30px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                    <div>
+                        <img loading="lazy" class="mb-[30px]" src="assets/images/logo/02_logo.png" alt="01 Logo">
+                        <p class="leading-[19px] text-white">SPT is a series of tournaments aiming to provide a professional
+                            competitive experience for Padel players.</p>
+                    </div>
+                    <div>
+                        <ul class="flex flex-col gap-[20px]">
+                            <li>
+                                <a class="block transition-all duration-200 text-white hover:text-[#7D287F] hover:pl-[5px] leading-[19px]" href="#">Tour</a>
+                            </li>
+                            <li>
+                                <a class="block transition-all duration-200 text-white hover:text-[#7D287F] hover:pl-[5px] leading-[19px]" href="#">Players</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="flex flex-col gap-[20px]">
+                            <li>
+                                <a class="block transition-all duration-200 text-white hover:text-[#7D287F] hover:pl-[5px] leading-[19px]" href="#">Upcoming Events</a>
+                            </li>
+                            <li>
+                                <a class="block transition-all duration-200 text-white hover:text-[#7D287F] hover:pl-[5px] leading-[19px]" href="#">Terms & Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="flex flex-col gap-[20px]">
+                            <li>
+                                <a class="block transition-all duration-200 text-white hover:text-[#7D287F] hover:pl-[5px] leading-[19px]" href="#">Partners</a>
+                            </li>
+                            <li>
+                                <a class="block transition-all duration-200 text-white hover:text-[#7D287F] hover:pl-[5px] leading-[19px]" href="#">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]">
+                    <div>
+                        <ul class="flex items-center gap-[8px] flex-wrap">
+                            <li class="inline-flex mx-[5px]">
+                                <a href="#" aria-label="facebook" class="group flex items-center justify-center text-center bg-[#FFF] hover:bg-[#7D287F] w-[45px] h-[45px] rounded-full">
+                                    <svg class="fill-[#000] group-hover:fill-white" width="10" height="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 18">
+                                        <path d="M6.464 18V9.79h2.894l.434-3.2H6.464V4.546c0-.927.27-1.558 1.665-1.558l1.78-.001V.126A25.003 25.003 0 0 0 7.316 0C4.75 0 2.993 1.491 2.993 4.23v2.36H.09v3.2h2.902V18h3.47z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="inline-flex mx-[5px]">
+                                <a href="#" aria-label="x" class="group flex items-center justify-center text-center bg-[#FFF] hover:bg-[#7D287F] w-[45px] h-[45px] rounded-full">
+                                    <svg class="fill-[#000] group-hover:fill-white" viewBox="0 0 24 24" width="18" height="18">
+                                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="inline-flex mx-[5px]">
+                                <a href="#" aria-label="youtube" class="group flex items-center justify-center text-center bg-[#FFF] hover:bg-[#7D287F] w-[45px] h-[45px] rounded-full">
+                                    <svg class="fill-[#000] group-hover:fill-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 14">
+                                        <path d="m10.439 13.98-4.063-.076c-1.315-.027-2.633.026-3.923-.248-1.961-.41-2.1-2.417-2.246-4.101-.2-2.368-.123-4.779.256-7.127C.676 1.11 1.516.324 2.815.238c4.386-.31 8.8-.273 13.176-.128.462.013.927.086 1.383.168 2.25.403 2.304 2.679 2.45 4.594.145 1.935.084 3.88-.194 5.803-.223 1.59-.65 2.925-2.45 3.054-2.256.169-4.46.304-6.722.261 0-.01-.013-.01-.02-.01zM8.05 9.95l5.058-2.969c-1.703-.997-3.367-1.978-5.058-2.969v5.938z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="inline-flex mx-[5px]">
+                                <a href="#" aria-label="linkedin" class="group flex items-center justify-center text-center bg-[#FFF] hover:bg-[#7D287F] w-[45px] h-[45px] rounded-full">
+                                    <svg class="fill-[#000] group-hover:fill-white" width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.3895 9.31525C13.3034 9.27387 13.2159 9.23405 13.1272 9.19592C12.9729 6.34569 11.4186 4.71393 8.80878 4.69723C8.79695 4.69716 8.78519 4.69716 8.77337 4.69716C7.21237 4.69716 5.91411 5.36482 5.11504 6.57976L6.55035 7.56635C7.14729 6.65884 8.08412 6.46537 8.77406 6.46537C8.78203 6.46537 8.79003 6.46537 8.79791 6.46544C9.65723 6.47093 10.3057 6.72128 10.7254 7.2095C11.0308 7.56494 11.235 8.05611 11.3362 8.67599C10.5743 8.54623 9.75035 8.50634 8.86952 8.55694C6.38824 8.70016 4.79307 10.1502 4.9002 12.1651C4.95457 13.1872 5.46271 14.0665 6.33098 14.6409C7.06508 15.1264 8.01056 15.3639 8.99319 15.3101C10.2909 15.2389 11.3089 14.7427 12.0191 13.8356C12.5585 13.1467 12.8996 12.254 13.0502 11.1291C13.6687 11.5031 14.127 11.9952 14.3801 12.5868C14.8106 13.5925 14.8357 15.2451 13.4899 16.5924C12.3109 17.7727 10.8936 18.2833 8.75165 18.2991C6.37568 18.2815 4.57877 17.5179 3.41046 16.0297C2.31644 14.6362 1.75105 12.6234 1.72995 10.0471C1.75105 7.47084 2.31644 5.458 3.41046 4.06447C4.57877 2.57627 6.37565 1.81276 8.75162 1.79507C11.1448 1.81289 12.9731 2.58008 14.1861 4.07546C14.7809 4.80877 15.2293 5.73097 15.5249 6.80622L17.2069 6.35655C16.8486 5.03304 16.2847 3.89256 15.5174 2.94672C13.9623 1.02958 11.688 0.0472246 8.75749 0.0268555H8.74576C5.82125 0.0471538 3.57234 1.03324 2.06153 2.95771C0.717109 4.67024 0.0236191 7.05311 0.000317057 10.0401L0.000244141 10.0471L0.000317057 10.0542C0.0236191 13.0411 0.717109 15.424 2.06153 17.1365C3.57234 19.061 5.82125 20.0471 8.74576 20.0674H8.75749C11.3575 20.0493 13.1902 19.3672 14.7 17.8557C16.6754 15.8783 16.6159 13.3996 15.9648 11.878C15.4977 10.7868 14.6072 9.90059 13.3895 9.31525ZM8.9003 13.5445C7.8128 13.6059 6.683 13.1168 6.62729 12.0691C6.586 11.2923 7.17898 10.4256 8.96704 10.3223C9.17181 10.3105 9.37275 10.3047 9.57014 10.3047C10.2196 10.3047 10.8272 10.3679 11.3796 10.4889C11.1736 13.0673 9.96504 13.4859 8.9003 13.5445Z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex items-center justify-center col-span-1 text-center md:col-span-2 lg:col-span-1">
+                        <div>2024 SPT All rights reserved.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute inset-0 z-[2]">
+                <img class="absolute top-0 right-0 h-full opacity-50 sm:opacity-100" loading="lazy" src="assets/images/footer/footer-svg.svg" alt="SVG">
+                <img class="absolute bottom-0 right-0 max-w-[100%]" loading="lazy" src="assets/images/footer/wave-color-svg.svg" alt="SVG">
+                <img class="absolute bottom-0 right-0 max-w-[100%]" loading="lazy" src="assets/images/footer/wave-white-svg.svg" alt="SVG">
+            </div>
+        </footer>
+
+        <!-- :: Main JS -->
+        <script src="assets/js/main.js"></script>
+    </body>
+
+</html>
