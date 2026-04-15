@@ -9,7 +9,7 @@
 */
 
 /* :: Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Heebo:wght@400;500;600;700&display=swap");
 
 /* :: TailwindCss */
 @import "tailwindcss";
@@ -33,34 +33,34 @@
   --max-width-2xl: 1400px;
 
   /* :: Font Families */
-  --font-montserrat: "Montserrat", serif;
-  --font-poppins: "Poppins", sans-serif;
+  --font-barlow: "Barlow", serif;
+  --font-heebo: "Heebo", sans-serif;
 
   /* :: Colors */
-  --color-mainColor: #f39c12;
-  --color-mainSecColor: #b2510b;
-  --color-primaryColor: #333333;
+  --color-mainColor: #00c881;
+  --color-mainSecColor: #00835b;
+  --color-primaryColor: #0b2653;
   --color-primarySecColor: #a3a3a3;
-  --color-bodyColor: #727272;
+  --color-bodyColor: #51668a;
   --color-lightColor: #f9f9f9;
   --color-borderColor: #dddddd;
   --color-fireColor: #e74c3c;
   --color-fireSecColor: #fce6e4;
   --color-blueColor: #3498db;
-  --color-copyrightColor: #434343;
+  --color-copyrightColor: #061b49;
 
   /* :: Colors RGB */
-  --color-mainColorRgb: 243 156 18;
-  --color-mainSecColorRgb: 178 81 11;
-  --color-primaryColorRgb: 51 51 51;
+  --color-mainColorRgb: 0 200 129;
+  --color-mainSecColorRgb: 0 131 91;
+  --color-primaryColorRgb: 11 38 83;
   --color-primarySecColorRgb: 163 163 163;
-  --color-bodyColorRgb: 114 114 114;
+  --color-bodyColorRgb: 81 102 138;
   --color-lightColorRgb: 249 249 249;
   --color-borderColorRgb: 221 221 221;
   --color-fireColorRgb: 231 76 60;
   --color-fireSecColorRgb: 252 230 228;
   --color-blueColorRgb: 52 152 219;
-  --color-copyrightColorRgb: 67 67 67;
+  --color-copyrightColorRgb: 6 27 73;
 
   /* :: Box Shadows */
   --shadow-nav: 0 5px 40px rgb(var(--color-primaryColorRgb) / 30%);
@@ -70,6 +70,7 @@
   --shadow-menuModal: 0px 0px 30px rgb(var(--color-primaryColorRgb) / 20%);
   --shadow-filter: 0 1px 73px 0 rgb(var(--color-primaryColorRgb) / 10%);
   --shadow-aboutBox: 0 8px 80px rgb(var(--color-primaryColorRgb) / 20%);
+  --shadow-main: 0px 0px 15px rgb(var(--color-primaryColorRgb) / 15%);
 
   /* :: Background Linear Gradient */
   --bg-overlay:
@@ -176,7 +177,7 @@
 
   /* :: Body */
   body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Heebo", sans-serif;
     font-size: 14px;
     line-height: 25px;
     color: var(--color-primaryColor);
@@ -186,7 +187,7 @@
     color: var(--color-bodyColor);
     font-size: 14px;
     font-weight: 400;
-    font-family: "Poppins", sans-serif;
+    font-family: "Heebo", sans-serif;
     line-height: 25px;
   }
 
@@ -196,7 +197,7 @@
   h4,
   h5,
   h6 {
-    font-family: "Montserrat", serif;
+    font-family: "Barlow", serif;
   }
 
   .btn-1 {
@@ -209,7 +210,7 @@
     min-width: 180px;
     height: 60px;
     padding: 0 15px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     border-radius: 3px;
     overflow: hidden;
     -webkit-transition: all 0.4s ease-in-out;
@@ -430,7 +431,7 @@ select.ar-nice-select.hidden-select {
   text-align: start;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.25;
+  line-height: 1.2;
   color: var(--color-bodyColor);
   padding: 12px 25px;
   border-bottom: 1px solid var(--color-borderColor);
@@ -464,7 +465,7 @@ select.ar-nice-select.hidden-select {
   height: 4px !important;
   border: none !important;
   box-shadow: none !important;
-  background: var(--color-lightColor) !important;
+  background: var(--color-borderColor) !important;
 }
 
 .noUi-connect {
